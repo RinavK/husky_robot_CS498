@@ -1,0 +1,43 @@
+[0.029s] Invoking command in '/home/rinav/ros2_ws/build/rviz_assimp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder /usr/bin/cmake /home/rinav/ros2_ws/src/rviz/rviz_assimp_vendor -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/rviz_assimp_vendor
+[0.250s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.250s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.251s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.302s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.303s] -- Detecting CXX compile features - done
+[0.306s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.426s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.510s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.554s] -- Added test 'lint_cmake' to check CMake code style
+[0.555s] -- Added test 'xmllint' to check XML markup files
+[0.562s] -- Configuring done
+[0.567s] -- Generating done
+[0.569s] -- Build files have been written to: /home/rinav/ros2_ws/build/rviz_assimp_vendor
+[0.573s] Invoked command in '/home/rinav/ros2_ws/build/rviz_assimp_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder /usr/bin/cmake /home/rinav/ros2_ws/src/rviz/rviz_assimp_vendor -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/rviz_assimp_vendor
+[0.574s] Invoking command in '/home/rinav/ros2_ws/build/rviz_assimp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_assimp_vendor -- -j8 -l8
+[0.614s] Invoked command in '/home/rinav/ros2_ws/build/rviz_assimp_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_assimp_vendor -- -j8 -l8
+[0.621s] Invoking command in '/home/rinav/ros2_ws/build/rviz_assimp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_assimp_vendor
+[0.625s] -- Install configuration: ""
+[0.625s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/ament_index/resource_index/package_run_dependencies/rviz_assimp_vendor
+[0.625s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/ament_index/resource_index/parent_prefix_path/rviz_assimp_vendor
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/environment/ament_prefix_path.sh
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/environment/ament_prefix_path.dsv
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/environment/path.sh
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/environment/path.dsv
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/local_setup.bash
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/local_setup.sh
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/local_setup.zsh
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/local_setup.dsv
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/package.dsv
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/ament_index/resource_index/packages/rviz_assimp_vendor
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/rviz_assimp_vendor-extras.cmake
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/rviz_assimp_vendorConfig.cmake
+[0.626s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/rviz_assimp_vendorConfig-version.cmake
+[0.627s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/package.xml
+[0.633s] Invoked command in '/home/rinav/ros2_ws/build/rviz_assimp_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_assimp_vendor

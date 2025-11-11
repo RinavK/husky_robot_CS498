@@ -1,0 +1,284 @@
+[0.010s] Invoking command in '/home/rinav/ros2_ws/build/rviz_rendering': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/rinav/ros2_ws/install/moveit_ros_control_interface:/home/rinav/ros2_ws/install/moveit_plugins:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/moveit_simple_controller_manager:/home/rinav/ros2_ws/install/moveit_ros_planning:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rinav/ros2_ws/install/moveit_planners_chomp:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/rinav/ros2_ws/install/chomp_motion_planner:/home/rinav/ros2_ws/install/moveit_core:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_marker_tools:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs:/home/rinav/ros2_ws/install/moveit_resources_prbt_support:/home/rinav/ros2_ws/install/moveit_resources:/home/rinav/ros2_ws/install/moveit_resources_pr2_description:/home/rinav/ros2_ws/install/moveit_resources_panda_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_panda_description:/home/rinav/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_fanuc_description:/home/rinav/ros2_ws/install/moveit_common:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/moveit_configs_utils:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/rviz/rviz_rendering -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/rviz_rendering
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.196s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.265s] -- Enabling tests requiring a display
+[0.269s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.403s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.488s] -- Found rviz_ogre_vendor: 11.2.18 (/home/rinav/ros2_ws/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake)
+[0.488s] -- Setting OGRE_DIR to: '/home/rinav/ros2_ws/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.489s] -- Found OGRE
+[0.489s] --   static     : OFF
+[0.489s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.489s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+[0.489s] --   media      : /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.489s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.489s] -- OGRE_LIBRARY_DIRS: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib
+[0.489s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+[0.489s] -- OGRE_PLUGIN_DIR: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/OGRE
+[0.489s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.489s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.489s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.489s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.500s] -- Could not find freeimage library
+[0.525s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[0.532s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[0.632s] -- Found X11: /usr/include   
+[0.632s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[0.694s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[0.694s] -- Looking for gethostbyname
+[0.760s] -- Looking for gethostbyname - found
+[0.760s] -- Looking for connect
+[0.825s] -- Looking for connect - found
+[0.825s] -- Looking for remove
+[0.882s] -- Looking for remove - found
+[0.882s] -- Looking for shmat
+[0.944s] -- Looking for shmat - found
+[0.944s] -- Looking for IceConnectionNumber in ICE
+[1.004s] -- Looking for IceConnectionNumber in ICE - found
+[1.006s] -- Found rviz_assimp_vendor: 11.2.18 (/home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake)
+[1.006s] -- Setting assimp_DIR to: '/home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.025s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.028s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.036s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.039s] -- Found resource_retriever: 3.1.3 (/opt/ros/humble/share/resource_retriever/cmake)
+[1.113s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[1.120s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.206s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.209s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.218s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.219s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rinav/ros2_ws/src/rviz/rviz_rendering/include>
+[1.219s] -- Configured cppcheck exclude dirs and/or files: 
+[1.223s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.223s] -- Configured cpplint exclude dirs and/or files: 
+[1.225s] -- Added test 'lint_cmake' to check CMake code style
+[1.229s] -- Added test 'uncrustify' to check C / C++ code style
+[1.229s] -- Configured uncrustify additional arguments: 
+[1.231s] -- Added test 'xmllint' to check XML markup files
+[1.234s] -- Configuring done
+[1.279s] -- Generating done
+[1.287s] -- Build files have been written to: /home/rinav/ros2_ws/build/rviz_rendering
+[1.294s] Invoked command in '/home/rinav/ros2_ws/build/rviz_rendering' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/rinav/ros2_ws/install/moveit_ros_control_interface:/home/rinav/ros2_ws/install/moveit_plugins:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/moveit_simple_controller_manager:/home/rinav/ros2_ws/install/moveit_ros_planning:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rinav/ros2_ws/install/moveit_planners_chomp:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/rinav/ros2_ws/install/chomp_motion_planner:/home/rinav/ros2_ws/install/moveit_core:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_marker_tools:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs:/home/rinav/ros2_ws/install/moveit_resources_prbt_support:/home/rinav/ros2_ws/install/moveit_resources:/home/rinav/ros2_ws/install/moveit_resources_pr2_description:/home/rinav/ros2_ws/install/moveit_resources_panda_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_panda_description:/home/rinav/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_fanuc_description:/home/rinav/ros2_ws/install/moveit_common:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/moveit_configs_utils:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/rviz/rviz_rendering -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/rviz_rendering
+[1.294s] Invoking command in '/home/rinav/ros2_ws/build/rviz_rendering': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/rinav/ros2_ws/install/moveit_ros_control_interface:/home/rinav/ros2_ws/install/moveit_plugins:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/moveit_simple_controller_manager:/home/rinav/ros2_ws/install/moveit_ros_planning:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rinav/ros2_ws/install/moveit_planners_chomp:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/rinav/ros2_ws/install/chomp_motion_planner:/home/rinav/ros2_ws/install/moveit_core:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_marker_tools:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs:/home/rinav/ros2_ws/install/moveit_resources_prbt_support:/home/rinav/ros2_ws/install/moveit_resources:/home/rinav/ros2_ws/install/moveit_resources_pr2_description:/home/rinav/ros2_ws/install/moveit_resources_panda_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_panda_description:/home/rinav/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_fanuc_description:/home/rinav/ros2_ws/install/moveit_common:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/moveit_configs_utils:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_rendering -- -j8 -l8
+[1.326s] [  1%] [34m[1mGenerating include/rviz_rendering/moc_render_window.cpp[0m
+[1.335s] [  3%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.337s] [  4%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.343s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.343s] [  8%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/include/rviz_rendering/moc_render_window.cpp.o[0m
+[1.344s] [  9%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/geometry.cpp.o[0m
+[1.344s] [ 11%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/apply_visibility_bits.cpp.o[0m
+[1.944s] [ 12%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/viewport_projection_finder.cpp.o[0m
+[1.946s] [ 14%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/logging.cpp.o[0m
+[2.031s] [ 16%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.098s] [ 16%] Built target gmock_main
+[2.158s] [ 17%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/mesh_loader.cpp.o[0m
+[2.323s] [ 19%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/ogre_logging.cpp.o[0m
+[2.391s] [ 20%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/ogre_render_window_impl.cpp.o[0m
+[2.739s] [ 22%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/render_system.cpp.o[0m
+[2.775s] [ 24%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/render_window.cpp.o[0m
+[3.269s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/orthographic.cpp.o[0m
+[3.469s] [ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[3.543s] [ 27%] Built target gmock
+[3.831s] [ 29%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/mesh_loader_helpers/stl_loader.cpp.o[0m
+[3.845s] [ 30%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/resource_config.cpp.o[0m
+[3.871s] [ 32%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/mesh_loader_helpers/assimp_loader.cpp.o[0m
+[4.070s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/string_helper.cpp.o[0m
+[4.248s] [ 35%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/arrow.cpp.o[0m
+[4.343s] [ 37%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/axes.cpp.o[0m
+[4.564s] [ 38%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/billboard_line.cpp.o[0m
+[4.773s] [ 40%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/material_manager.cpp.o[0m
+[4.779s] [ 41%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/covariance_visual.cpp.o[0m
+[4.784s] [ 43%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/effort_visual.cpp.o[0m
+[5.504s] [ 45%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/grid.cpp.o[0m
+[5.512s] [ 46%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/line.cpp.o[0m
+[5.527s] [ 48%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/movable_text.cpp.o[0m
+[5.664s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/object.cpp.o[0m
+[6.016s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/point_cloud.cpp.o[0m
+[6.021s] [ 53%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/point_cloud_renderable.cpp.o[0m
+[6.026s] [ 54%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/screw_visual.cpp.o[0m
+[6.647s] [ 56%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/shape.cpp.o[0m
+[11.162s] [ 58%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/objects/wrench_visual.cpp.o[0m
+[12.072s] [ 59%] [32m[1mLinking CXX shared library librviz_rendering.so[0m
+[12.486s] [ 59%] Built target rviz_rendering
+[12.504s] [ 61%] [32mBuilding CXX object CMakeFiles/rviz_rendering_test_utils.dir/test/rviz_rendering/ogre_testing_environment.cpp.o[0m
+[13.705s] [ 62%] [32mBuilding CXX object CMakeFiles/rviz_rendering_test_utils.dir/test/rviz_rendering/scene_graph_introspection.cpp.o[0m
+[14.930s] [ 64%] [32m[1mLinking CXX static library librviz_rendering_test_utils.a[0m
+[14.953s] [ 64%] Built target rviz_rendering_test_utils
+[14.979s] [ 66%] [32mBuilding CXX object CMakeFiles/string_helper_test.dir/test/rviz_rendering/string_helper_test.cpp.o[0m
+[15.561s] [ 67%] [32m[1mLinking CXX executable string_helper_test[0m
+[15.726s] [ 67%] Built target string_helper_test
+[15.742s] [ 69%] [32mBuilding CXX object CMakeFiles/movable_text_test_target.dir/test/rviz_rendering/objects/movable_text_test.cpp.o[0m
+[16.988s] [ 70%] [32m[1mLinking CXX executable movable_text_test_target[0m
+[17.314s] [ 70%] Built target movable_text_test_target
+[17.326s] [ 72%] [32mBuilding CXX object CMakeFiles/line_test_target.dir/test/rviz_rendering/objects/line_test.cpp.o[0m
+[19.128s] [ 74%] [32m[1mLinking CXX executable line_test_target[0m
+[19.448s] [ 74%] Built target line_test_target
+[19.462s] [ 75%] [32mBuilding CXX object CMakeFiles/screw_visual_test_target.dir/test/rviz_rendering/objects/screw_visual_test.cpp.o[0m
+[20.968s] [ 77%] [32m[1mLinking CXX executable screw_visual_test_target[0m
+[21.317s] [ 77%] Built target screw_visual_test_target
+[21.336s] [ 79%] [32mBuilding CXX object CMakeFiles/wrench_visual_test_target.dir/test/rviz_rendering/objects/wrench_visual_test.cpp.o[0m
+[22.820s] [ 80%] [32m[1mLinking CXX executable wrench_visual_test_target[0m
+[23.195s] [ 80%] Built target wrench_visual_test_target
+[23.214s] [ 82%] [32mBuilding CXX object CMakeFiles/grid_test_target.dir/test/rviz_rendering/objects/grid_test.cpp.o[0m
+[24.559s] [ 83%] [32m[1mLinking CXX executable grid_test_target[0m
+[24.899s] [ 83%] Built target grid_test_target
+[24.917s] [ 85%] [32mBuilding CXX object CMakeFiles/effort_visual_test_target.dir/test/rviz_rendering/objects/effort_visual_test.cpp.o[0m
+[26.497s] [ 87%] [32m[1mLinking CXX executable effort_visual_test_target[0m
+[26.827s] [ 87%] Built target effort_visual_test_target
+[26.851s] [ 88%] [32mBuilding CXX object CMakeFiles/billboard_line_test_target.dir/test/rviz_rendering/objects/billboard_line_test.cpp.o[0m
+[26.853s] [ 90%] [32mBuilding CXX object CMakeFiles/covariance_visual_test_target.dir/test/rviz_rendering/objects/covariance_visual_test.cpp.o[0m
+[28.393s] [ 91%] [32m[1mLinking CXX executable billboard_line_test_target[0m
+[28.706s] [ 91%] Built target billboard_line_test_target
+[28.741s] [ 93%] [32mBuilding CXX object CMakeFiles/point_cloud_renderable_test_target.dir/test/rviz_rendering/objects/point_cloud_renderable_test.cpp.o[0m
+[29.502s] [ 95%] [32m[1mLinking CXX executable covariance_visual_test_target[0m
+[29.829s] [ 95%] Built target covariance_visual_test_target
+[29.842s] [ 96%] [32mBuilding CXX object CMakeFiles/point_cloud_test_target.dir/test/rviz_rendering/objects/point_cloud_test.cpp.o[0m
+[30.205s] [ 98%] [32m[1mLinking CXX executable point_cloud_renderable_test_target[0m
+[30.549s] [ 98%] Built target point_cloud_renderable_test_target
+[32.912s] [100%] [32m[1mLinking CXX executable point_cloud_test_target[0m
+[33.296s] [100%] Built target point_cloud_test_target
+[33.304s] Invoked command in '/home/rinav/ros2_ws/build/rviz_rendering' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/rinav/ros2_ws/install/moveit_ros_control_interface:/home/rinav/ros2_ws/install/moveit_plugins:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/moveit_simple_controller_manager:/home/rinav/ros2_ws/install/moveit_ros_planning:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rinav/ros2_ws/install/moveit_planners_chomp:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/rinav/ros2_ws/install/chomp_motion_planner:/home/rinav/ros2_ws/install/moveit_core:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_marker_tools:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs:/home/rinav/ros2_ws/install/moveit_resources_prbt_support:/home/rinav/ros2_ws/install/moveit_resources:/home/rinav/ros2_ws/install/moveit_resources_pr2_description:/home/rinav/ros2_ws/install/moveit_resources_panda_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_panda_description:/home/rinav/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_fanuc_description:/home/rinav/ros2_ws/install/moveit_common:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/moveit_configs_utils:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_rendering -- -j8 -l8
+[33.305s] Invoking command in '/home/rinav/ros2_ws/build/rviz_rendering': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/rinav/ros2_ws/install/moveit_ros_control_interface:/home/rinav/ros2_ws/install/moveit_plugins:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/moveit_simple_controller_manager:/home/rinav/ros2_ws/install/moveit_ros_planning:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rinav/ros2_ws/install/moveit_planners_chomp:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/rinav/ros2_ws/install/chomp_motion_planner:/home/rinav/ros2_ws/install/moveit_core:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_marker_tools:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs:/home/rinav/ros2_ws/install/moveit_resources_prbt_support:/home/rinav/ros2_ws/install/moveit_resources:/home/rinav/ros2_ws/install/moveit_resources_pr2_description:/home/rinav/ros2_ws/install/moveit_resources_panda_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_panda_description:/home/rinav/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_fanuc_description:/home/rinav/ros2_ws/install/moveit_common:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/moveit_configs_utils:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_rendering
+[33.309s] -- Install configuration: ""
+[33.309s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/library_path.sh
+[33.309s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/library_path.dsv
+[33.309s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/lib/librviz_rendering.so
+[33.312s] -- Set runtime path of "/home/rinav/ros2_ws/install/rviz_rendering/lib/librviz_rendering.so" to ""
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/logging.hpp
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/resource_config.hpp
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/apply_visibility_bits.hpp
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/render_window.hpp
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/orthographic.hpp
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/rviz_rendering.hpp
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/custom_parameter_indices.hpp
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/mesh_loader.hpp
+[33.313s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/movable_text.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/line.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/point_cloud.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/covariance_visual.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/axes.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/grid.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/object.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/point_cloud_renderable.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/arrow.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/wrench_visual.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/screw_visual.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/shape.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/effort_visual.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/billboard_line.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/material_manager.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/geometry.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/ogre_logging.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/logging_handler.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/visibility_control.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/viewport_projection_finder.hpp
+[33.314s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/render_system.hpp
+[33.315s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake
+[33.315s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/register_rviz_ogre_media_exports.cmake
+[33.315s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/register_rviz_ogre_media_exports_hook-extras.cmake
+[33.315s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/register_rviz_ogre_media_exports_hook.cmake
+[33.315s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media
+[33.315s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials
+[33.315s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl150
+[33.315s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl150/billboard.geom
+[33.315s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl150/pass_pos_color.vert
+[33.315s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl150/box.geom
+[33.316s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl150/glsl150.program
+[33.316s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts
+[33.316s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts/point_cloud_tile.material
+[33.316s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts/default_pick_and_depth.material
+[33.316s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts/point_cloud_point.material
+[33.317s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts/indexed_8bit_image.material
+[33.317s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120
+[33.317s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/pickcolor_circle.frag
+[33.317s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/indexed_8bit_image.frag
+[33.317s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/include
+[33.317s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/include/circle_impl.frag
+[33.318s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/include/pack_depth.frag
+[33.318s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/include/pass_depth.vert
+[33.318s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/shaded_circle.frag
+[33.318s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/point.vert
+[33.318s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/pass_color.frag
+[33.318s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/test_glsl.sh
+[33.318s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/depth_circle.frag
+[33.318s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/pickcolor.frag
+[33.319s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/flat_color_circle.frag
+[33.319s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/glsl120.program
+[33.319s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/pass_color_circle.frag
+[33.319s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/indexed_8bit_image.vert
+[33.319s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/depth.frag
+[33.319s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/flat_color.frag
+[33.319s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/smooth_square.frag
+[33.319s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp/billboard_tile.vert
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp/box.vert
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp/nogp.program
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp/billboard.vert
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp/box.frag
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/depth.vert
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/black.frag
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts150
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts150/point_cloud_square.material
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts150/point_cloud_flat_square.material
+[33.320s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts150/point_cloud_sphere.material
+[33.321s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts150/point_cloud_box.material
+[33.321s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts120
+[33.321s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts120/point_cloud_square.material
+[33.321s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts120/point_cloud_flat_square.material
+[33.321s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts120/point_cloud_sphere.material
+[33.321s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts120/point_cloud_box.material
+[33.321s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts
+[33.321s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation_sans.fontdef
+[33.321s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/README.md
+[33.321s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans
+[33.322s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans/LiberationSans-BoldItalic.ttf
+[33.323s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans/LiberationSans-Italic.ttf
+[33.323s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans/LiberationSans-Regular.ttf
+[33.325s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans/SIL Open Font License.txt
+[33.325s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans/LiberationSans-Bold.ttf
+[33.338s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/models
+[33.339s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/models/rviz_cylinder.mesh
+[33.339s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/models/rviz_cube.mesh
+[33.339s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/models/rviz_cone.mesh
+[33.339s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/models/rviz_sphere.mesh
+[33.340s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/textures
+[33.340s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/textures/test_20x20.png
+[33.340s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/textures/no_image.png
+[33.340s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/plugins.cfg
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/ament_index/resource_index/package_run_dependencies/rviz_rendering
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/ament_index/resource_index/parent_prefix_path/rviz_rendering
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/ament_prefix_path.sh
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/ament_prefix_path.dsv
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/path.sh
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/path.dsv
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/local_setup.bash
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/local_setup.sh
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/local_setup.zsh
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/local_setup.dsv
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/package.dsv
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/ament_index/resource_index/packages/rviz_rendering
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/rviz_renderingExport.cmake
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/rviz_renderingExport-noconfig.cmake
+[33.342s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/rviz_rendering-extras.cmake
+[33.343s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/register_rviz_ogre_media_exports_hook-extras.cmake
+[33.343s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/register_rviz_ogre_media_exports.cmake
+[33.343s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.343s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.343s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/ament_cmake_export_libraries-extras.cmake
+[33.343s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/ament_cmake_export_targets-extras.cmake
+[33.343s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/rviz_renderingConfig.cmake
+[33.343s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/rviz_renderingConfig-version.cmake
+[33.343s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/package.xml
+[33.344s] Invoked command in '/home/rinav/ros2_ws/build/rviz_rendering' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/rinav/ros2_ws/install/moveit_ros_control_interface:/home/rinav/ros2_ws/install/moveit_plugins:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/moveit_simple_controller_manager:/home/rinav/ros2_ws/install/moveit_ros_planning:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rinav/ros2_ws/install/moveit_planners_chomp:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/rinav/ros2_ws/install/chomp_motion_planner:/home/rinav/ros2_ws/install/moveit_core:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_marker_tools:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs:/home/rinav/ros2_ws/install/moveit_resources_prbt_support:/home/rinav/ros2_ws/install/moveit_resources:/home/rinav/ros2_ws/install/moveit_resources_pr2_description:/home/rinav/ros2_ws/install/moveit_resources_panda_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_panda_description:/home/rinav/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/rinav/ros2_ws/install/moveit_resources_fanuc_description:/home/rinav/ros2_ws/install/moveit_common:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/moveit_configs_utils:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_rendering

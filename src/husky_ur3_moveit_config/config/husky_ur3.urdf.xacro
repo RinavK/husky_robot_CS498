@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="husky_ur3">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import husky_ur3 urdf file -->
+    <xacro:include filename="$(find husky_description)/urdf/husky_ur3.urdf.xacro" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="husky_ur3.ros2_control.xacro" />
+
+
+    <xacro:husky_ur3_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

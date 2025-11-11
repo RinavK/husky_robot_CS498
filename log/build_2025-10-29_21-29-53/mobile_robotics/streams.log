@@ -1,0 +1,23 @@
+[0.722s] Invoking command in '/home/rinav/ros2_ws/src/mobile_robotics': PYTHONPATH=/home/rinav/ros2_ws/build/mobile_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robotics build --build-base /home/rinav/ros2_ws/build/mobile_robotics/build install --record /home/rinav/ros2_ws/build/mobile_robotics/install.log --single-version-externally-managed install_data
+[0.879s] running egg_info
+[0.879s] writing ../../build/mobile_robotics/mobile_robotics.egg-info/PKG-INFO
+[0.880s] writing dependency_links to ../../build/mobile_robotics/mobile_robotics.egg-info/dependency_links.txt
+[0.880s] writing entry points to ../../build/mobile_robotics/mobile_robotics.egg-info/entry_points.txt
+[0.880s] writing requirements to ../../build/mobile_robotics/mobile_robotics.egg-info/requires.txt
+[0.880s] writing top-level names to ../../build/mobile_robotics/mobile_robotics.egg-info/top_level.txt
+[0.881s] reading manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[0.882s] writing manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[0.882s] running build
+[0.882s] running build_py
+[0.882s] running install
+[0.882s] running install_lib
+[0.883s] running install_data
+[0.883s] running install_egg_info
+[0.884s] removing '/home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics-0.0.0-py3.10.egg-info' (and everything under it)
+[0.884s] Copying ../../build/mobile_robotics/mobile_robotics.egg-info to /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics-0.0.0-py3.10.egg-info
+[0.885s] running install_scripts
+[0.897s] Installing ex2 script to /home/rinav/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[0.897s] Installing part1 script to /home/rinav/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[0.897s] Installing part2 script to /home/rinav/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[0.897s] writing list of installed files to '/home/rinav/ros2_ws/build/mobile_robotics/install.log'
+[0.982s] Invoked command in '/home/rinav/ros2_ws/src/mobile_robotics' returned '0': PYTHONPATH=/home/rinav/ros2_ws/build/mobile_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robotics build --build-base /home/rinav/ros2_ws/build/mobile_robotics/build install --record /home/rinav/ros2_ws/build/mobile_robotics/install.log --single-version-externally-managed install_data

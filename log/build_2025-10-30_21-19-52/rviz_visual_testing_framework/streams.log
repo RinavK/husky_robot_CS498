@@ -1,0 +1,143 @@
+[0.017s] Invoking command in '/home/rinav/ros2_ws/build/rviz_visual_testing_framework': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/rinav/ros2_ws/src/rviz/rviz_visual_testing_framework -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/rviz_visual_testing_framework
+[0.086s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.273s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.281s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.289s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.432s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.537s] -- Found rcutils: 5.1.7 (/opt/ros/humble/share/rcutils/cmake)
+[0.549s] -- Found rviz_common: 11.2.18 (/home/rinav/ros2_ws/install/rviz_common/share/rviz_common/cmake)
+[0.563s] -- Setting assimp_DIR to: '/home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.573s] -- Setting OGRE_DIR to: '/home/rinav/ros2_ws/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.574s] -- Found OGRE
+[0.574s] --   static     : OFF
+[0.574s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.574s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+[0.574s] --   media      : /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.575s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.575s] -- OGRE_LIBRARY_DIRS: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib
+[0.575s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+[0.575s] -- OGRE_PLUGIN_DIR: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/OGRE
+[0.575s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.575s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.575s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.575s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.580s] -- Could not find freeimage library
+[0.608s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[0.614s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[0.702s] -- Found X11: /usr/include   
+[0.702s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[0.756s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[0.756s] -- Looking for gethostbyname
+[0.806s] -- Looking for gethostbyname - found
+[0.806s] -- Looking for connect
+[0.855s] -- Looking for connect - found
+[0.856s] -- Looking for remove
+[0.906s] -- Looking for remove - found
+[0.906s] -- Looking for shmat
+[0.954s] -- Looking for shmat - found
+[0.954s] -- Looking for IceConnectionNumber in ICE
+[1.004s] -- Looking for IceConnectionNumber in ICE - found
+[1.093s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[1.143s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.152s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.164s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.336s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.341s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.375s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.413s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.416s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.427s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.430s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.438s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.449s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.463s] -- Looking for pthread.h
+[1.519s] -- Looking for pthread.h - found
+[1.519s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.570s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.571s] -- Found Threads: TRUE  
+[1.659s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.659s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.798s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.803s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.809s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.885s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.885s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rinav/ros2_ws/src/rviz/rviz_visual_testing_framework/include>
+[1.885s] -- Configured cppcheck exclude dirs and/or files: 
+[1.887s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.887s] -- Configured cpplint exclude dirs and/or files: 
+[1.888s] -- Added test 'lint_cmake' to check CMake code style
+[1.890s] -- Added test 'uncrustify' to check C / C++ code style
+[1.890s] -- Configured uncrustify additional arguments: 
+[1.891s] -- Added test 'xmllint' to check XML markup files
+[1.893s] -- Configuring done
+[1.911s] -- Generating done
+[1.916s] -- Build files have been written to: /home/rinav/ros2_ws/build/rviz_visual_testing_framework
+[1.926s] Invoked command in '/home/rinav/ros2_ws/build/rviz_visual_testing_framework' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/rinav/ros2_ws/src/rviz/rviz_visual_testing_framework -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/rviz_visual_testing_framework
+[1.927s] Invoking command in '/home/rinav/ros2_ws/build/rviz_visual_testing_framework': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_visual_testing_framework -- -j8 -l8
+[1.964s] [  9%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/page_objects/base_page_object.cpp.o[0m
+[1.964s] [ 18%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/rviz_scene_test.cpp.o[0m
+[1.964s] [ 36%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/page_objects/page_object_with_window.cpp.o[0m
+[1.964s] [ 36%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/display_handler.cpp.o[0m
+[1.965s] [ 45%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/image_tester.cpp.o[0m
+[1.965s] [ 54%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/test_helpers.cpp.o[0m
+[2.974s] [ 72%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/transform_message_creator.cpp.o[0m
+[2.974s] [ 72%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/executor.cpp.o[0m
+[3.384s] [ 81%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/visual_test.cpp.o[0m
+[3.550s] [ 90%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/visual_test_fixture.cpp.o[0m
+[9.965s] [100%] [32m[1mLinking CXX static library librviz_visual_testing_framework.a[0m
+[9.996s] [100%] Built target rviz_visual_testing_framework
+[10.004s] Invoked command in '/home/rinav/ros2_ws/build/rviz_visual_testing_framework' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_visual_testing_framework -- -j8 -l8
+[10.005s] Invoking command in '/home/rinav/ros2_ws/build/rviz_visual_testing_framework': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_visual_testing_framework
+[10.010s] -- Install configuration: ""
+[10.010s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/lib/librviz_visual_testing_framework.a
+[10.011s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework
+[10.011s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework
+[10.011s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/internal
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/internal/visual_test.hpp
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/internal/transform_message_creator.hpp
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/internal/display_handler.hpp
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/internal/image_tester.hpp
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/internal/rviz_scene_test.hpp
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/internal/executor.hpp
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/visual_test_fixture.hpp
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/page_objects
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/page_objects/page_object_with_window.hpp
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/page_objects/base_page_object.hpp
+[10.012s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/visual_test_publisher.hpp
+[10.013s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/transform_publisher.hpp
+[10.013s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/rviz_visual_testing_framework/test_helpers.hpp
+[10.013s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/config
+[10.013s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/config/visual_tests_default_config.rviz
+[10.013s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/config/visual_tests_test_image_config.rviz
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/ament_index/resource_index/package_run_dependencies/rviz_visual_testing_framework
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/ament_index/resource_index/parent_prefix_path/rviz_visual_testing_framework
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/environment/ament_prefix_path.sh
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/environment/ament_prefix_path.dsv
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/environment/path.sh
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/environment/path.dsv
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/local_setup.bash
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/local_setup.sh
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/local_setup.zsh
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/local_setup.dsv
+[10.014s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/package.dsv
+[10.015s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/ament_index/resource_index/packages/rviz_visual_testing_framework
+[10.015s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/rviz_visual_testing_frameworkExport.cmake
+[10.015s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/rviz_visual_testing_frameworkExport-noconfig.cmake
+[10.015s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.015s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.015s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/ament_cmake_export_targets-extras.cmake
+[10.015s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/rviz_visual_testing_frameworkConfig.cmake
+[10.016s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/rviz_visual_testing_frameworkConfig-version.cmake
+[10.016s] -- Installing: /home/rinav/ros2_ws/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/package.xml
+[10.017s] Invoked command in '/home/rinav/ros2_ws/build/rviz_visual_testing_framework' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_visual_testing_framework

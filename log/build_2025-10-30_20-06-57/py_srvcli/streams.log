@@ -1,0 +1,20 @@
+[1.274s] Invoking command in '/home/rinav/ros2_ws/src/py_srvcli': PYTHONPATH=/home/rinav/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rinav/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/rinav/ros2_ws/build/py_srvcli/build install --record /home/rinav/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[1.517s] running egg_info
+[1.517s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.518s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.519s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.519s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.519s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.522s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.522s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.522s] running build
+[1.522s] running build_py
+[1.522s] running install
+[1.522s] running install_lib
+[1.523s] running install_data
+[1.523s] running install_egg_info
+[1.525s] removing '/home/rinav/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.525s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/rinav/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.527s] running install_scripts
+[1.565s] writing list of installed files to '/home/rinav/ros2_ws/build/py_srvcli/install.log'
+[1.639s] Invoked command in '/home/rinav/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/rinav/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rinav/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/rinav/ros2_ws/build/py_srvcli/build install --record /home/rinav/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

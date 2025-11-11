@@ -1,0 +1,151 @@
+[0.033s] Invoking command in '/home/rinav/ros2_ws/build/rviz_rendering': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_rendering -- -j8 -l8
+[0.369s] [ 51%] Built target rviz_rendering
+[0.455s] [ 56%] Built target gmock
+[0.552s] [ 61%] Built target rviz_rendering_test_utils
+[0.662s] [ 64%] Built target gmock_main
+[0.687s] [ 67%] Built target string_helper_test
+[0.763s] [ 70%] Built target movable_text_test_target
+[0.860s] [ 74%] Built target line_test_target
+[0.924s] [ 77%] Built target screw_visual_test_target
+[1.007s] [ 80%] Built target wrench_visual_test_target
+[1.063s] [ 83%] Built target grid_test_target
+[1.071s] [ 87%] Built target effort_visual_test_target
+[1.143s] [ 90%] Built target covariance_visual_test_target
+[1.218s] [ 93%] Built target billboard_line_test_target
+[1.287s] [ 96%] Built target point_cloud_renderable_test_target
+[1.356s] [100%] Built target point_cloud_test_target
+[1.379s] Invoked command in '/home/rinav/ros2_ws/build/rviz_rendering' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_rendering -- -j8 -l8
+[1.379s] Invoking command in '/home/rinav/ros2_ws/build/rviz_rendering': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_rendering
+[1.396s] -- Install configuration: ""
+[1.396s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/library_path.sh
+[1.396s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/library_path.dsv
+[1.396s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/lib/librviz_rendering.so
+[1.396s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering
+[1.397s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering
+[1.397s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/logging.hpp
+[1.397s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/resource_config.hpp
+[1.397s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/apply_visibility_bits.hpp
+[1.397s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/render_window.hpp
+[1.397s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/orthographic.hpp
+[1.397s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/rviz_rendering.hpp
+[1.397s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/custom_parameter_indices.hpp
+[1.397s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/mesh_loader.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/movable_text.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/line.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/point_cloud.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/covariance_visual.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/axes.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/grid.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/object.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/point_cloud_renderable.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/arrow.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/wrench_visual.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/screw_visual.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/shape.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/effort_visual.hpp
+[1.398s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/objects/billboard_line.hpp
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/material_manager.hpp
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/geometry.hpp
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/ogre_logging.hpp
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/logging_handler.hpp
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/visibility_control.hpp
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/viewport_projection_finder.hpp
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/include/rviz_rendering/rviz_rendering/render_system.hpp
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/register_rviz_ogre_media_exports.cmake
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/register_rviz_ogre_media_exports_hook-extras.cmake
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/register_rviz_ogre_media_exports_hook.cmake
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl150
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl150/billboard.geom
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl150/pass_pos_color.vert
+[1.399s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl150/box.geom
+[1.400s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl150/glsl150.program
+[1.400s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts
+[1.400s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts/point_cloud_tile.material
+[1.401s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts/default_pick_and_depth.material
+[1.401s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts/point_cloud_point.material
+[1.401s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts/indexed_8bit_image.material
+[1.401s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120
+[1.401s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/pickcolor_circle.frag
+[1.401s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/indexed_8bit_image.frag
+[1.401s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/include
+[1.401s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/include/circle_impl.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/include/pack_depth.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/include/pass_depth.vert
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/shaded_circle.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/point.vert
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/pass_color.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/test_glsl.sh
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/depth_circle.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/pickcolor.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/flat_color_circle.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/glsl120.program
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/pass_color_circle.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/indexed_8bit_image.vert
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/depth.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/flat_color.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/smooth_square.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp/billboard_tile.vert
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp/box.vert
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp/nogp.program
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp/billboard.vert
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/nogp/box.frag
+[1.402s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/depth.vert
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/glsl120/black.frag
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts150
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts150/point_cloud_square.material
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts150/point_cloud_flat_square.material
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts150/point_cloud_sphere.material
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts150/point_cloud_box.material
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts120
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts120/point_cloud_square.material
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts120/point_cloud_flat_square.material
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts120/point_cloud_sphere.material
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/materials/scripts120/point_cloud_box.material
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation_sans.fontdef
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/README.md
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans/LiberationSans-BoldItalic.ttf
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans/LiberationSans-Italic.ttf
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans/LiberationSans-Regular.ttf
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans/SIL Open Font License.txt
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/fonts/liberation-sans/LiberationSans-Bold.ttf
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/models
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/models/rviz_cylinder.mesh
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/models/rviz_cube.mesh
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/models/rviz_cone.mesh
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/models/rviz_sphere.mesh
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/textures
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/textures/test_20x20.png
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/textures/no_image.png
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/ogre_media/plugins.cfg
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/ament_index/resource_index/package_run_dependencies/rviz_rendering
+[1.403s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/ament_index/resource_index/parent_prefix_path/rviz_rendering
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/ament_prefix_path.sh
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/ament_prefix_path.dsv
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/path.sh
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/environment/path.dsv
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/local_setup.bash
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/local_setup.sh
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/local_setup.zsh
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/local_setup.dsv
+[1.404s] -- Installing: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/package.dsv
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/ament_index/resource_index/packages/rviz_rendering
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/rviz_renderingExport.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/rviz_renderingExport-noconfig.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/rviz_rendering-extras.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/register_rviz_ogre_media_exports_hook-extras.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/register_rviz_ogre_media_exports.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/ament_cmake_export_libraries-extras.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/ament_cmake_export_targets-extras.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/rviz_renderingConfig.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/cmake/rviz_renderingConfig-version.cmake
+[1.404s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_rendering/share/rviz_rendering/package.xml
+[1.407s] Invoked command in '/home/rinav/ros2_ws/build/rviz_rendering' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_rendering

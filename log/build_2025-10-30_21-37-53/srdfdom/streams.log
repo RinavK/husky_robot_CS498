@@ -1,0 +1,105 @@
+[0.034s] Invoking command in '/home/rinav/ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/srdfdom
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.260s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.260s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.260s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.390s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.520s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.586s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.670s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.678s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.047s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.089s] -- The C compiler identification is GNU 11.4.0
+[1.098s] -- Detecting C compiler ABI info
+[1.190s] -- Detecting C compiler ABI info - done
+[1.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.194s] -- Detecting C compile features
+[1.200s] -- Detecting C compile features - done
+[1.200s] -- Looking for C++ include pthread.h
+[1.296s] -- Looking for C++ include pthread.h - found
+[1.296s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.377s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.378s] -- Found Threads: TRUE  
+[1.380s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.401s] -- Configuring done
+[1.410s] -- Generating done
+[1.415s] -- Build files have been written to: /home/rinav/ros2_ws/build/srdfdom
+[1.424s] Invoked command in '/home/rinav/ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/srdfdom
+[1.432s] Invoking command in '/home/rinav/ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/srdfdom -- -j8 -l8
+[1.488s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.488s] [ 18%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[1.488s] [ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[1.491s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.496s] [ 36%] Built target ament_cmake_python_copy_srdfdom
+[1.884s] running egg_info
+[1.890s] creating srdfdom.egg-info
+[1.891s] writing srdfdom.egg-info/PKG-INFO
+[1.891s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[1.904s] writing top-level names to srdfdom.egg-info/top_level.txt
+[1.904s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[1.905s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[1.905s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[1.958s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[2.971s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.035s] [ 45%] Built target gtest_main
+[3.710s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[3.872s] [ 54%] Built target srdfdom
+[4.626s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.666s] [ 63%] Built target gtest
+[4.682s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[4.686s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[6.133s] [ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[6.153s] [100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[6.266s] [100%] Built target test_cpp_nl_NL.UTF-8
+[6.325s] [100%] Built target test_cpp_C
+[6.334s] Invoked command in '/home/rinav/ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/srdfdom -- -j8 -l8
+[6.339s] Invoking command in '/home/rinav/ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/srdfdom
+[6.347s] -- Install configuration: ""
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.8
+[6.347s] -- Set runtime path of "/home/rinav/ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.8" to ""
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/lib/libsrdfdom.so
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/include/srdfdom
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/include/srdfdom/srdfdom
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/include/srdfdom/srdfdom/model.h
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/include/srdfdom/srdfdom/srdf_writer.h
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/include/srdfdom/srdfdom/visibility_control.h
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/lib/srdfdom/display_srdf
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/dependency_links.txt
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/PKG-INFO
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/top_level.txt
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/SOURCES.txt
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[6.347s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[6.375s] Listing '/home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[6.375s] Compiling '/home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[6.375s] Compiling '/home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[6.380s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.sh
+[6.380s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[6.380s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[6.380s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[6.380s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[6.380s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[6.380s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/environment/path.sh
+[6.380s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/environment/path.dsv
+[6.380s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/local_setup.bash
+[6.381s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/local_setup.sh
+[6.381s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/local_setup.zsh
+[6.381s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/local_setup.dsv
+[6.381s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/package.dsv
+[6.381s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[6.381s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[6.381s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[6.381s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[6.381s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.381s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[6.382s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[6.382s] -- Installing: /home/rinav/ros2_ws/install/srdfdom/share/srdfdom/package.xml
+[6.384s] Invoked command in '/home/rinav/ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/srdfdom

@@ -1,0 +1,4 @@
+Invoking command in '/home/rinav/ros2_ws/build/husky_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_msgs -- -j8 -l8
+Invoked command in '/home/rinav/ros2_ws/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_msgs -- -j8 -l8
+Invoking command in '/home/rinav/ros2_ws/build/husky_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_msgs
+Invoked command in '/home/rinav/ros2_ws/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_msgs

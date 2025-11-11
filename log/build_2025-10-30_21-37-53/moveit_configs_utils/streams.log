@@ -1,0 +1,55 @@
+[0.815s] Invoking command in '/home/rinav/ros2_ws/src/moveit2/moveit_configs_utils': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/srdfdom:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/rinav/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/rinav/ros2_ws/build/moveit_configs_utils/build install --record /home/rinav/ros2_ws/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[1.268s] running egg_info
+[1.268s] creating ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info
+[1.269s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[1.269s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[1.269s] writing entry points to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/entry_points.txt
+[1.269s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[1.269s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[1.269s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[1.271s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[1.271s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[1.273s] running build
+[1.273s] running build_py
+[1.273s] creating /home/rinav/ros2_ws/build/moveit_configs_utils/build
+[1.273s] creating /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib
+[1.273s] creating /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[1.273s] copying moveit_configs_utils/moveit_configs_builder.py -> /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[1.273s] copying moveit_configs_utils/launches.py -> /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[1.273s] copying moveit_configs_utils/launch_utils.py -> /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[1.273s] copying moveit_configs_utils/__init__.py -> /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[1.273s] creating /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[1.274s] copying moveit_configs_utils/substitutions/xacro.py -> /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[1.274s] copying moveit_configs_utils/substitutions/__init__.py -> /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[1.274s] running install
+[1.279s] running install_lib
+[1.280s] creating /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[1.280s] copying /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[1.280s] creating /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[1.280s] copying /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/xacro.py -> /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[1.280s] copying /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/__init__.py -> /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[1.280s] copying /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[1.280s] copying /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[1.281s] copying /home/rinav/ros2_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[1.281s] byte-compiling /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-310.pyc
+[1.283s] byte-compiling /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/xacro.py to xacro.cpython-310.pyc
+[1.284s] byte-compiling /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/__init__.py to __init__.cpython-310.pyc
+[1.287s] byte-compiling /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launches.py to launches.cpython-310.pyc
+[1.288s] byte-compiling /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-310.pyc
+[1.288s] byte-compiling /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-310.pyc
+[1.288s] running install_data
+[1.288s] creating /home/rinav/ros2_ws/install/moveit_configs_utils/share/ament_index
+[1.288s] creating /home/rinav/ros2_ws/install/moveit_configs_utils/share/ament_index/resource_index
+[1.288s] creating /home/rinav/ros2_ws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[1.289s] copying resource/moveit_configs_utils -> /home/rinav/ros2_ws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[1.289s] copying package.xml -> /home/rinav/ros2_ws/install/moveit_configs_utils/share/moveit_configs_utils
+[1.289s] creating /home/rinav/ros2_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.289s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/rinav/ros2_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.289s] copying default_configs/ompl_planning.yaml -> /home/rinav/ros2_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.289s] copying default_configs/ompl_defaults.yaml -> /home/rinav/ros2_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.289s] copying default_configs/chomp_planning.yaml -> /home/rinav/ros2_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[1.289s] running install_egg_info
+[1.291s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.5.9-py3.10.egg-info
+[1.296s] running install_scripts
+[1.341s] writing list of installed files to '/home/rinav/ros2_ws/build/moveit_configs_utils/install.log'
+[1.394s] Invoked command in '/home/rinav/ros2_ws/src/moveit2/moveit_configs_utils' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/srdfdom:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rinav/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rinav/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/rinav/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/rinav/ros2_ws/build/moveit_configs_utils/build install --record /home/rinav/ros2_ws/build/moveit_configs_utils/install.log --single-version-externally-managed install_data

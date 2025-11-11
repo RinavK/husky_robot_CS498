@@ -1,0 +1,217 @@
+[0.010s] Invoking command in '/home/rinav/ros2_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_desktop:/home/rinav/ros2_ws/src/husky/install/husky_viz:/home/rinav/ros2_ws/src/husky/install/husky_simulator:/home/rinav/ros2_ws/src/husky/install/husky_robot:/home/rinav/ros2_ws/src/husky/install/husky_bringup:/home/rinav/ros2_ws/src/husky/install/husky_base:/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/src/husky/install/husky_base/lib:/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/ur_robot_driver
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.192s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.266s] -- Detecting CXX compile features
+[0.266s] -- Detecting CXX compile features - done
+[0.267s] [0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.270s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.389s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.497s] -- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.581s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.590s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.598s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.844s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.849s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.876s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.918s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.921s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.933s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.935s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.942s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.962s] -- Looking for pthread.h
+[1.036s] -- Looking for pthread.h - found
+[1.036s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.117s] -- Found Threads: TRUE  
+[1.193s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.195s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.205s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.222s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.224s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.224s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.279s] -- Found ur_dashboard_msgs: 2.10.0 (/home/rinav/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.293s] -- Found ur_msgs: 2.3.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.505s] -- Found ur_controllers: 2.10.0 (/home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake)
+[1.599s] -- Found ur_description: 2.8.0 (/home/rinav/ros2_ws/install/ur_description/share/ur_description/cmake)
+[1.601s] -- Found launch_testing_ament_cmake: 1.0.10 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.604s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.634s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.639s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.639s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.639s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.639s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.665s] -- Found PythonExtra: .so  
+[1.665s] -- Configuring done
+[1.715s] -- Generating done
+[1.746s] -- Build files have been written to: /home/rinav/ros2_ws/build/ur_robot_driver
+[1.756s] Invoked command in '/home/rinav/ros2_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_desktop:/home/rinav/ros2_ws/src/husky/install/husky_viz:/home/rinav/ros2_ws/src/husky/install/husky_simulator:/home/rinav/ros2_ws/src/husky/install/husky_robot:/home/rinav/ros2_ws/src/husky/install/husky_bringup:/home/rinav/ros2_ws/src/husky/install/husky_base:/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/src/husky/install/husky_base/lib:/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/ur_robot_driver
+[1.758s] Invoking command in '/home/rinav/ros2_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_desktop:/home/rinav/ros2_ws/src/husky/install/husky_viz:/home/rinav/ros2_ws/src/husky/install/husky_simulator:/home/rinav/ros2_ws/src/husky/install/husky_robot:/home/rinav/ros2_ws/src/husky/install/husky_bringup:/home/rinav/ros2_ws/src/husky/install/husky_base:/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/src/husky/install/husky_base/lib:/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rinav/ros2_ws/build/ur_robot_driver -- -j8 -l8
+[1.802s] [  4%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[1.802s] [  9%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[1.802s] [ 13%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[1.804s] [ 18%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[5.543s] [ 22%] [32m[1mLinking CXX executable ur_ros2_control_node[0m
+[5.696s] [ 22%] Built target ur_ros2_control_node
+[5.719s] [ 22%] Built target ament_cmake_python_copy_ur_robot_driver
+[5.721s] [ 27%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[5.731s] [ 31%] [32mBuilding CXX object CMakeFiles/trajectory_until_node.dir/src/trajectory_until_node.cpp.o[0m
+[5.734s] [ 36%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[5.755s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o[0m
+[5.766s] [ 45%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[6.490s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o[0m
+[14.261s] [ 54%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[14.609s] [ 59%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/urcl_log_handler.cpp.o[0m
+[16.119s] running egg_info
+[16.120s] creating ur_robot_driver.egg-info
+[16.120s] writing ur_robot_driver.egg-info/PKG-INFO
+[16.120s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[16.120s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[16.120s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[16.122s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[16.122s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[16.162s] [ 59%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[16.177s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[22.859s] [ 68%] [32m[1mLinking CXX executable trajectory_until_node[0m
+[23.242s] [ 68%] Built target trajectory_until_node
+[24.362s] [ 72%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[24.767s] [ 72%] Built target controller_stopper_node
+[25.774s] [ 77%] [32m[1mLinking CXX executable urscript_interface[0m
+[26.153s] [ 77%] Built target urscript_interface
+[29.053s] [ 81%] [32m[1mLinking CXX executable dashboard_client[0m
+[29.477s] [ 81%] Built target dashboard_client
+[30.830s] [ 86%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o[0m
+[37.869s] [ 90%] [32m[1mLinking CXX executable robot_state_helper[0m
+[38.293s] [ 90%] Built target robot_state_helper
+[52.468s] [ 95%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[53.056s] [100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[53.702s] [100%] Built target ur_robot_driver_plugin
+[53.710s] Invoked command in '/home/rinav/ros2_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_desktop:/home/rinav/ros2_ws/src/husky/install/husky_viz:/home/rinav/ros2_ws/src/husky/install/husky_simulator:/home/rinav/ros2_ws/src/husky/install/husky_robot:/home/rinav/ros2_ws/src/husky/install/husky_bringup:/home/rinav/ros2_ws/src/husky/install/husky_base:/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/src/husky/install/husky_base/lib:/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rinav/ros2_ws/build/ur_robot_driver -- -j8 -l8
+[53.713s] Invoking command in '/home/rinav/ros2_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_desktop:/home/rinav/ros2_ws/src/husky/install/husky_viz:/home/rinav/ros2_ws/src/husky/install/husky_simulator:/home/rinav/ros2_ws/src/husky/install/husky_robot:/home/rinav/ros2_ws/src/husky/install/husky_bringup:/home/rinav/ros2_ws/src/husky/install/husky_base:/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/src/husky/install/husky_base/lib:/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rinav/ros2_ws/build/ur_robot_driver
+[53.718s] -- Install configuration: "RelWithDebInfo"
+[53.718s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+[53.718s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[53.733s] -- Set runtime path of "/home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node" to ""
+[53.733s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[53.755s] -- Set runtime path of "/home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client" to ""
+[53.755s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper
+[53.785s] -- Set runtime path of "/home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper" to ""
+[53.785s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/trajectory_until_node
+[53.791s] -- Set runtime path of "/home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/trajectory_until_node" to ""
+[53.791s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[53.792s] -- Set runtime path of "/home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node" to ""
+[53.793s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[53.806s] -- Set runtime path of "/home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface" to ""
+[53.806s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[53.842s] -- Set runtime path of "/home/rinav/ros2_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so" to ""
+[53.842s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/include
+[53.842s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver
+[53.842s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[53.842s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[53.842s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[53.842s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[53.842s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[53.842s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/trajectory_until_node.hpp
+[53.845s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[53.845s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[53.845s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources
+[53.845s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[53.847s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[53.847s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[53.847s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[53.847s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[53.847s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_robot_driver/include
+[53.847s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver
+[53.847s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[53.847s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[53.847s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[53.848s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[53.848s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[53.848s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/trajectory_until_node.hpp
+[53.848s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[53.848s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[53.848s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.10.0-py3.10.egg-info
+[53.848s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.10.0-py3.10.egg-info/dependency_links.txt
+[53.848s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.10.0-py3.10.egg-info/PKG-INFO
+[53.848s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.10.0-py3.10.egg-info/top_level.txt
+[53.848s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.10.0-py3.10.egg-info/SOURCES.txt
+[53.848s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver
+[53.848s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[53.885s] Listing '/home/rinav/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[53.886s] Compiling '/home/rinav/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py'...
+[53.889s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[53.889s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+[53.889s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[53.889s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+[53.890s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+[53.890s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/move_until_example.py
+[53.890s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[53.890s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[53.890s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config
+[53.890s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[53.890s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[53.890s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[53.890s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[53.890s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[53.890s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur8long_update_rate.yaml
+[53.891s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[53.891s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur12e_update_rate.yaml
+[53.891s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[53.891s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[53.891s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur18_update_rate.yaml
+[53.891s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur7e_update_rate.yaml
+[53.891s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[53.891s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[53.891s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[53.891s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur15_update_rate.yaml
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur7e.launch.py
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur15.launch.py
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur18.launch.py
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[53.892s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[53.893s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[53.893s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[53.893s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[53.893s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[53.893s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[53.893s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[53.893s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[53.893s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[53.893s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur8long.launch.py
+[53.893s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur12e.launch.py
+[53.894s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[53.894s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[53.894s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[53.894s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[53.894s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[53.894s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[53.894s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[53.894s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[53.894s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[53.895s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[53.895s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[53.895s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[53.895s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[53.895s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.895s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[53.897s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.897s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[53.897s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[53.897s] -- Installing: /home/rinav/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[53.900s] Invoked command in '/home/rinav/ros2_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_desktop:/home/rinav/ros2_ws/src/husky/install/husky_viz:/home/rinav/ros2_ws/src/husky/install/husky_simulator:/home/rinav/ros2_ws/src/husky/install/husky_robot:/home/rinav/ros2_ws/src/husky/install/husky_bringup:/home/rinav/ros2_ws/src/husky/install/husky_base:/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/src/husky/install/husky_base/lib:/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rinav/ros2_ws/build/ur_robot_driver

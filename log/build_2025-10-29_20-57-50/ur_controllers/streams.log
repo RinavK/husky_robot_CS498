@@ -1,0 +1,213 @@
+[0.013s] Invoking command in '/home/rinav/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/ur_controllers
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.146s] -- Detecting C compiler ABI info - done
+[0.150s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.150s] -- Detecting C compile features
+[0.151s] -- Detecting C compile features - done
+[0.153s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.214s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.214s] -- Detecting CXX compile features
+[0.214s] -- Detecting CXX compile features - done
+[0.214s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.318s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.393s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.397s] -- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.448s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.454s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.465s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.477s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.679s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.682s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.710s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.744s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.747s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.759s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.762s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.767s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.775s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.783s] -- Looking for pthread.h
+[0.826s] -- Looking for pthread.h - found
+[0.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.870s] -- Found Threads: TRUE  
+[0.912s] -- Found joint_trajectory_controller: 2.50.1 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[0.995s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.005s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.017s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.018s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.018s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.070s] -- Found ur_dashboard_msgs: 2.10.0 (/home/rinav/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.084s] -- Found ur_msgs: 2.3.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.117s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.119s] -- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.139s] -- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.143s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.149s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.151s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.197s] -- Configuring done
+[1.228s] -- Generating done
+[1.240s] -- Build files have been written to: /home/rinav/ros2_ws/build/ur_controllers
+[1.250s] Invoked command in '/home/rinav/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/ur_controllers
+[1.251s] Invoking command in '/home/rinav/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rinav/ros2_ws/build/ur_controllers -- -j8 -l8
+[1.283s] [  2%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/rinav/ros2_ws/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[1.286s] [  5%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/rinav/ros2_ws/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller_parameters.yaml `[0m
+[1.287s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/rinav/ros2_ws/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[1.290s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/rinav/ros2_ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[1.310s] [ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/rinav/ros2_ws/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[1.313s] [ 17%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/rinav/ros2_ws/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[1.317s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/rinav/ros2_ws/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[1.326s] [ 23%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/rinav/ros2_ws/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/rinav/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[1.386s] [ 26%] [34m[1mCreating deprecated header file /home/rinav/ros2_ws/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[1.395s] [ 26%] Built target gpio_controller_parameters
+[1.405s] [ 29%] [34m[1mCreating deprecated header file /home/rinav/ros2_ws/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[1.409s] [ 32%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.417s] [ 35%] [34m[1mCreating deprecated header file /home/rinav/ros2_ws/build/ur_controllers/include/tool_contact_controller_parameters.hpp[0m
+[1.426s] [ 35%] Built target force_mode_controller_parameters
+[1.462s] [ 35%] Built target tool_contact_controller_parameters
+[1.470s] [ 38%] [34m[1mCreating deprecated header file /home/rinav/ros2_ws/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[1.479s] [ 41%] [34m[1mCreating deprecated header file /home/rinav/ros2_ws/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[1.481s] [ 44%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.483s] [ 47%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.483s] [ 50%] [34m[1mCreating deprecated header file /home/rinav/ros2_ws/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[1.487s] [ 50%] Built target passthrough_trajectory_controller_parameters
+[1.490s] [ 52%] [34m[1mCreating deprecated header file /home/rinav/ros2_ws/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[1.496s] [ 52%] Built target freedrive_mode_controller_parameters
+[1.505s] [ 52%] Built target ur_configuration_controller_parameters
+[1.506s] [ 55%] [34m[1mCreating deprecated header file /home/rinav/ros2_ws/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[1.515s] [ 55%] Built target speed_scaling_state_broadcaster_parameters
+[1.525s] [ 55%] Built target scaled_joint_trajectory_controller_parameters
+[1.547s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[1.549s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o[0m
+[1.551s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[1.554s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[1.559s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[2.819s] [ 73%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.912s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[2.931s] [ 76%] Built target gmock_main
+[2.957s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[4.374s] [ 82%] [32m[1mLinking CXX static library libgmock.a[0m
+[4.495s] [ 82%] Built target gmock
+[4.533s] [ 85%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[9.529s] [ 88%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[10.625s] [ 88%] Built target ur_controllers
+[10.636s] [ 91%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[10.636s] [ 94%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[13.601s] [ 97%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[13.603s] [100%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[13.810s] [100%] Built target test_load_freedrive_mode_controller
+[13.811s] [100%] Built target test_load_force_mode_controller
+[13.818s] Invoked command in '/home/rinav/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rinav/ros2_ws/build/ur_controllers -- -j8 -l8
+[13.819s] Invoking command in '/home/rinav/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rinav/ros2_ws/build/ur_controllers
+[13.824s] -- Install configuration: ""
+[13.824s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[13.824s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[13.824s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[13.824s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[13.824s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[13.824s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[13.825s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[13.825s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[13.825s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[13.825s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[13.826s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[13.827s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[13.828s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[13.828s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[13.828s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[13.828s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[13.828s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[13.828s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[13.828s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/lib/libur_controllers.so
+[13.838s] -- Set runtime path of "/home/rinav/ros2_ws/install/ur_controllers/lib/libur_controllers.so" to ""
+[13.838s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include
+[13.838s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[13.838s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[13.838s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[13.838s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[13.838s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[13.838s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[13.838s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[13.838s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[13.838s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[13.838s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[13.838s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[13.839s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[13.839s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[13.839s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[13.839s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[13.839s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[13.839s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[13.839s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[13.839s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[13.839s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[13.839s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[13.840s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[13.840s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[13.840s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[13.840s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[13.840s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.840s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.840s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[13.840s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[13.840s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[13.840s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/package.xml
+[13.842s] Invoked command in '/home/rinav/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rinav/ros2_ws/build/ur_controllers

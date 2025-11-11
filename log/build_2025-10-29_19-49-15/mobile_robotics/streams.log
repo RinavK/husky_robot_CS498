@@ -1,0 +1,48 @@
+[0.451s] Invoking command in '/home/rinav/ros2_ws/src/mobile_robotics': PYTHONPATH=/home/rinav/ros2_ws/build/mobile_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robotics build --build-base /home/rinav/ros2_ws/build/mobile_robotics/build install --record /home/rinav/ros2_ws/build/mobile_robotics/install.log --single-version-externally-managed install_data
+[0.581s] running egg_info
+[0.581s] creating ../../build/mobile_robotics/mobile_robotics.egg-info
+[0.581s] writing ../../build/mobile_robotics/mobile_robotics.egg-info/PKG-INFO
+[0.581s] writing dependency_links to ../../build/mobile_robotics/mobile_robotics.egg-info/dependency_links.txt
+[0.581s] writing entry points to ../../build/mobile_robotics/mobile_robotics.egg-info/entry_points.txt
+[0.581s] writing requirements to ../../build/mobile_robotics/mobile_robotics.egg-info/requires.txt
+[0.581s] writing top-level names to ../../build/mobile_robotics/mobile_robotics.egg-info/top_level.txt
+[0.582s] writing manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[0.583s] reading manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[0.583s] writing manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[0.583s] running build
+[0.583s] running build_py
+[0.583s] creating /home/rinav/ros2_ws/build/mobile_robotics/build
+[0.583s] creating /home/rinav/ros2_ws/build/mobile_robotics/build/lib
+[0.583s] creating /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics
+[0.583s] copying mobile_robotics/coding_ex2.py -> /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics
+[0.584s] copying mobile_robotics/coding_ex1_part1.py -> /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics
+[0.584s] copying mobile_robotics/__init__.py -> /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics
+[0.584s] copying mobile_robotics/utils.py -> /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics
+[0.584s] copying mobile_robotics/coding_ex1_part2.py -> /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics
+[0.584s] running install
+[0.584s] running install_lib
+[0.585s] creating /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[0.585s] copying /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/coding_ex2.py -> /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[0.585s] copying /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/coding_ex1_part1.py -> /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[0.585s] copying /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/__init__.py -> /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[0.585s] copying /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/utils.py -> /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[0.585s] copying /home/rinav/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/coding_ex1_part2.py -> /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[0.585s] byte-compiling /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/coding_ex2.py to coding_ex2.cpython-310.pyc
+[0.588s] byte-compiling /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/coding_ex1_part1.py to coding_ex1_part1.cpython-310.pyc
+[0.588s] byte-compiling /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/__init__.py to __init__.cpython-310.pyc
+[0.588s] byte-compiling /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/utils.py to utils.cpython-310.pyc
+[0.589s] byte-compiling /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/coding_ex1_part2.py to coding_ex1_part2.cpython-310.pyc
+[0.589s] running install_data
+[0.590s] creating /home/rinav/ros2_ws/install/mobile_robotics/share/ament_index
+[0.590s] creating /home/rinav/ros2_ws/install/mobile_robotics/share/ament_index/resource_index
+[0.590s] creating /home/rinav/ros2_ws/install/mobile_robotics/share/ament_index/resource_index/packages
+[0.590s] copying resource/mobile_robotics -> /home/rinav/ros2_ws/install/mobile_robotics/share/ament_index/resource_index/packages
+[0.590s] copying package.xml -> /home/rinav/ros2_ws/install/mobile_robotics/share/mobile_robotics
+[0.590s] running install_egg_info
+[0.591s] Copying ../../build/mobile_robotics/mobile_robotics.egg-info to /home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics-0.0.0-py3.10.egg-info
+[0.591s] running install_scripts
+[0.602s] Installing ex2 script to /home/rinav/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[0.602s] Installing part1 script to /home/rinav/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[0.602s] Installing part2 script to /home/rinav/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[0.602s] writing list of installed files to '/home/rinav/ros2_ws/build/mobile_robotics/install.log'
+[0.615s] Invoked command in '/home/rinav/ros2_ws/src/mobile_robotics' returned '0': PYTHONPATH=/home/rinav/ros2_ws/build/mobile_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rinav/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robotics build --build-base /home/rinav/ros2_ws/build/mobile_robotics/build install --record /home/rinav/ros2_ws/build/mobile_robotics/install.log --single-version-externally-managed install_data

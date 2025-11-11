@@ -1,0 +1,227 @@
+[0.034s] Invoking command in '/home/rinav/ros2_ws/build/husky_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/husky/husky_msgs -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/husky_msgs
+[0.583s] -- The C compiler identification is GNU 11.4.0
+[0.583s] -- The CXX compiler identification is GNU 11.4.0
+[0.583s] -- Detecting C compiler ABI info
+[0.583s] -- Detecting C compiler ABI info - done
+[0.584s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.588s] -- Detecting C compile features
+[0.588s] -- Detecting C compile features - done
+[0.588s] -- Detecting CXX compiler ABI info
+[0.588s] -- Detecting CXX compiler ABI info - done
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.589s] -- Detecting CXX compile features
+[0.589s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.589s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.592s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.652s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.658s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.667s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.727s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.025s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.621s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.623s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.653s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.653s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.653s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.653s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.683s] -- Found PythonExtra: .so  
+[1.748s] -- Configuring done
+[1.786s] -- Generating done
+[1.794s] -- Build files have been written to: /home/rinav/ros2_ws/build/husky_msgs
+[1.855s] Invoked command in '/home/rinav/ros2_ws/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/husky/husky_msgs -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/husky_msgs
+[1.856s] Invoking command in '/home/rinav/ros2_ws/build/husky_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_msgs -- -j8 -l8
+[1.890s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.904s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.942s] [  6%] Built target ament_cmake_python_copy_husky_msgs
+[2.213s] running egg_info
+[2.214s] creating husky_msgs.egg-info
+[2.214s] writing husky_msgs.egg-info/PKG-INFO
+[2.214s] writing dependency_links to husky_msgs.egg-info/dependency_links.txt
+[2.214s] writing top-level names to husky_msgs.egg-info/top_level.txt
+[2.214s] writing manifest file 'husky_msgs.egg-info/SOURCES.txt'
+[2.216s] reading manifest file 'husky_msgs.egg-info/SOURCES.txt'
+[2.216s] writing manifest file 'husky_msgs.egg-info/SOURCES.txt'
+[2.277s] [  6%] Built target ament_cmake_python_build_husky_msgs_egg
+[2.300s] [  9%] [32mBuilding C object CMakeFiles/husky_msgs__rosidl_generator_c.dir/rosidl_generator_c/husky_msgs/msg/detail/husky_status__functions.c.o[0m
+[2.307s] [  9%] Built target husky_msgs__cpp
+[2.332s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.337s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.351s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.368s] [ 22%] [32m[1mLinking C shared library libhusky_msgs__rosidl_generator_c.so[0m
+[2.415s] [ 22%] Built target husky_msgs__rosidl_generator_c
+[2.435s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.446s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.478s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.811s] [ 35%] [32mBuilding CXX object CMakeFiles/husky_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husky_msgs/msg/detail/husky_status__type_support.cpp.o[0m
+[2.842s] [ 38%] [32mBuilding CXX object CMakeFiles/husky_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husky_msgs/msg/detail/dds_fastrtps/husky_status__type_support.cpp.o[0m
+[2.876s] [ 41%] [32mBuilding CXX object CMakeFiles/husky_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husky_msgs/msg/husky_status__type_support.cpp.o[0m
+[2.921s] [ 45%] [32mBuilding CXX object CMakeFiles/husky_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husky_msgs/msg/detail/husky_status__type_support_c.cpp.o[0m
+[2.970s] [ 48%] [32mBuilding CXX object CMakeFiles/husky_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husky_msgs/msg/husky_status__type_support.cpp.o[0m
+[3.057s] [ 51%] [32m[1mLinking CXX shared library libhusky_msgs__rosidl_typesupport_c.so[0m
+[3.063s] [ 54%] [32mBuilding C object CMakeFiles/husky_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husky_msgs/msg/detail/husky_status__type_support.c.o[0m
+[3.176s] [ 54%] Built target husky_msgs__rosidl_typesupport_c
+[3.278s] [ 58%] [32m[1mLinking C shared library libhusky_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.397s] [ 58%] Built target husky_msgs__rosidl_typesupport_introspection_c
+[3.426s] [ 61%] [32m[1mLinking CXX shared library libhusky_msgs__rosidl_typesupport_cpp.so[0m
+[3.482s] [ 64%] [32m[1mLinking CXX shared library libhusky_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.513s] [ 64%] Built target husky_msgs__rosidl_typesupport_cpp
+[3.618s] [ 67%] [32m[1mLinking CXX shared library libhusky_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.653s] [ 67%] Built target husky_msgs__rosidl_typesupport_introspection_cpp
+[3.879s] [ 67%] Built target husky_msgs__rosidl_typesupport_fastrtps_c
+[3.914s] [ 70%] [32m[1mLinking CXX shared library libhusky_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.133s] [ 70%] Built target husky_msgs__rosidl_typesupport_fastrtps_cpp
+[4.206s] [ 70%] Built target husky_msgs
+[4.314s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.960s] [ 74%] Built target husky_msgs__py
+[5.005s] [ 77%] [32mBuilding C object CMakeFiles/husky_msgs__rosidl_generator_py.dir/rosidl_generator_py/husky_msgs/msg/_husky_status_s.c.o[0m
+[5.226s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/husky_msgs/libhusky_msgs__rosidl_generator_py.so[0m
+[5.316s] [ 80%] Built target husky_msgs__rosidl_generator_py
+[5.357s] [ 83%] [32mBuilding C object CMakeFiles/husky_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/husky_msgs/_husky_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.365s] [ 87%] [32mBuilding C object CMakeFiles/husky_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/husky_msgs/_husky_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.374s] [ 90%] [32mBuilding C object CMakeFiles/husky_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/husky_msgs/_husky_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.498s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/husky_msgs/husky_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[5.565s] [ 93%] Built target husky_msgs__rosidl_typesupport_c__pyext
+[5.591s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/husky_msgs/husky_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[5.598s] [100%] [32m[1mLinking C shared library rosidl_generator_py/husky_msgs/husky_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[5.683s] [100%] Built target husky_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.687s] [100%] Built target husky_msgs__rosidl_typesupport_introspection_c__pyext
+[5.700s] Invoked command in '/home/rinav/ros2_ws/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_msgs -- -j8 -l8
+[5.704s] Invoking command in '/home/rinav/ros2_ws/build/husky_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_msgs
+[5.711s] -- Install configuration: ""
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/ament_index/resource_index/rosidl_interfaces/husky_msgs
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__struct.h
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__functions.h
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__functions.c
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__type_support.h
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/husky_status.h
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/environment/library_path.sh
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/environment/library_path.dsv
+[5.711s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_generator_c.so
+[5.712s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_generator_c.so" to ""
+[5.712s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs
+[5.712s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg
+[5.712s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail
+[5.712s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__rosidl_typesupport_fastrtps_c.h
+[5.712s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.712s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_fastrtps_c.so
+[5.712s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.712s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs
+[5.712s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg
+[5.712s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail
+[5.712s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__struct.hpp
+[5.712s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__builder.hpp
+[5.712s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__traits.hpp
+[5.712s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__type_support.hpp
+[5.712s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/husky_status.hpp
+[5.713s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.713s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs
+[5.713s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg
+[5.713s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail
+[5.713s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.717s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/dds_fastrtps
+[5.717s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.717s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.717s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.717s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs
+[5.717s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg
+[5.717s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail
+[5.717s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__type_support.c
+[5.717s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__rosidl_typesupport_introspection_c.h
+[5.717s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.718s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_introspection_c.so
+[5.718s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.718s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_c.so
+[5.718s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_c.so" to ""
+[5.718s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs
+[5.718s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg
+[5.718s] -- Up-to-date: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail
+[5.719s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__rosidl_typesupport_introspection_cpp.hpp
+[5.719s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__type_support.cpp
+[5.719s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_introspection_cpp.so
+[5.719s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.719s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_cpp.so
+[5.719s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_cpp.so" to ""
+[5.719s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/environment/pythonpath.sh
+[5.723s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/environment/pythonpath.dsv
+[5.723s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs-1.0.8-py3.10.egg-info
+[5.723s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs-1.0.8-py3.10.egg-info/dependency_links.txt
+[5.723s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs-1.0.8-py3.10.egg-info/PKG-INFO
+[5.723s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs-1.0.8-py3.10.egg-info/top_level.txt
+[5.723s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs-1.0.8-py3.10.egg-info/SOURCES.txt
+[5.723s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs
+[5.723s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/_husky_msgs_s.ep.rosidl_typesupport_c.c
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/_husky_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg/_husky_status_s.c
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg/_husky_status.py
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg/__init__.py
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/libhusky_msgs__rosidl_generator_py.so
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/__init__.py
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/_husky_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.724s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.787s] Listing '/home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs'...
+[5.787s] Compiling '/home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/__init__.py'...
+[5.787s] Listing '/home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg'...
+[5.787s] Compiling '/home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg/__init__.py'...
+[5.787s] Compiling '/home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg/_husky_status.py'...
+[5.797s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.797s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.798s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.798s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.798s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.798s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.798s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_generator_py.so
+[5.798s] -- Set runtime path of "/home/rinav/ros2_ws/install/husky_msgs/lib/libhusky_msgs__rosidl_generator_py.so" to ""
+[5.798s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/msg/HuskyStatus.idl
+[5.798s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/msg/HuskyStatus.msg
+[5.798s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/ament_index/resource_index/package_run_dependencies/husky_msgs
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/ament_index/resource_index/parent_prefix_path/husky_msgs
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/environment/ament_prefix_path.sh
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/environment/ament_prefix_path.dsv
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/environment/path.sh
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/environment/path.dsv
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/local_setup.bash
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/local_setup.sh
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/local_setup.zsh
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/local_setup.dsv
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/package.dsv
+[5.799s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/ament_index/resource_index/packages/husky_msgs
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_generator_cExport.cmake
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_generator_cppExport.cmake
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cExport.cmake
+[5.800s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.801s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.801s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.801s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cppExport.cmake
+[5.801s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.801s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_generator_pyExport.cmake
+[5.801s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.801s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/rosidl_cmake-extras.cmake
+[5.801s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.801s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.802s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.802s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.802s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.802s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.802s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/husky_msgsConfig.cmake
+[5.802s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/cmake/husky_msgsConfig-version.cmake
+[5.802s] -- Installing: /home/rinav/ros2_ws/install/husky_msgs/share/husky_msgs/package.xml
+[5.804s] Invoked command in '/home/rinav/ros2_ws/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_msgs

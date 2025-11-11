@@ -1,0 +1,124 @@
+[0.418s] Invoking command in '/home/rinav/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/rinav/ros2_ws/install/moveit_ros_control_interface/lib:/home/rinav/ros2_ws/install/moveit_simple_controller_manager/lib:/home/rinav/ros2_ws/install/moveit_ros_planning/lib:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rinav/ros2_ws/install/moveit_planners_chomp/lib:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/rinav/ros2_ws/install/chomp_motion_planner/lib:/home/rinav/ros2_ws/install/moveit_core/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rviz_marker_tools/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rinav/ros2_ws/build/ur_controllers -- -j8 -l8
+[0.543s] [  5%] Built target gpio_controller_parameters
+[0.560s] [ 11%] Built target tool_contact_controller_parameters
+[0.579s] [ 17%] Built target force_mode_controller_parameters
+[0.586s] [ 23%] Built target speed_scaling_state_broadcaster_parameters
+[0.619s] [ 29%] Built target freedrive_mode_controller_parameters
+[0.628s] [ 35%] Built target scaled_joint_trajectory_controller_parameters
+[0.676s] [ 41%] Built target passthrough_trajectory_controller_parameters
+[0.684s] [ 47%] Built target ur_configuration_controller_parameters
+[0.711s] [ 52%] Built target gmock_main
+[0.728s] [ 61%] Built target gmock
+[0.755s] [ 88%] Built target ur_controllers
+[0.789s] [ 94%] Built target test_load_freedrive_mode_controller
+[0.802s] [100%] Built target test_load_force_mode_controller
+[1.007s] Invoked command in '/home/rinav/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/rinav/ros2_ws/install/moveit_ros_control_interface/lib:/home/rinav/ros2_ws/install/moveit_simple_controller_manager/lib:/home/rinav/ros2_ws/install/moveit_ros_planning/lib:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rinav/ros2_ws/install/moveit_planners_chomp/lib:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/rinav/ros2_ws/install/chomp_motion_planner/lib:/home/rinav/ros2_ws/install/moveit_core/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rviz_marker_tools/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rinav/ros2_ws/build/ur_controllers -- -j8 -l8
+[1.011s] Invoking command in '/home/rinav/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/rinav/ros2_ws/install/moveit_ros_control_interface/lib:/home/rinav/ros2_ws/install/moveit_simple_controller_manager/lib:/home/rinav/ros2_ws/install/moveit_ros_planning/lib:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rinav/ros2_ws/install/moveit_planners_chomp/lib:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/rinav/ros2_ws/install/chomp_motion_planner/lib:/home/rinav/ros2_ws/install/moveit_core/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rviz_marker_tools/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rinav/ros2_ws/build/ur_controllers
+[1.031s] -- Install configuration: ""
+[1.031s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[1.031s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[1.031s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[1.031s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[1.031s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[1.031s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[1.031s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[1.031s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[1.031s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[1.031s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[1.032s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[1.032s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[1.032s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[1.032s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[1.032s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[1.032s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[1.032s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[1.033s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[1.033s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[1.033s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[1.033s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[1.033s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[1.033s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[1.033s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[1.033s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[1.034s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[1.035s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[1.049s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[1.050s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[1.051s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[1.051s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[1.051s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[1.051s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[1.052s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[1.052s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[1.052s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[1.052s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[1.052s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[1.053s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[1.053s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[1.053s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[1.053s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/lib/libur_controllers.so
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers
+[1.055s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[1.056s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[1.057s] -- Installing: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[1.057s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.058s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.058s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[1.058s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[1.058s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[1.058s] -- Up-to-date: /home/rinav/ros2_ws/install/ur_controllers/share/ur_controllers/package.xml
+[1.081s] Invoked command in '/home/rinav/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/rinav/ros2_ws/install/moveit_ros_control_interface/lib:/home/rinav/ros2_ws/install/moveit_simple_controller_manager/lib:/home/rinav/ros2_ws/install/moveit_ros_planning/lib:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rinav/ros2_ws/install/moveit_planners_chomp/lib:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/rinav/ros2_ws/install/chomp_motion_planner/lib:/home/rinav/ros2_ws/install/moveit_core/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rviz_marker_tools/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rinav/ros2_ws/build/ur_controllers

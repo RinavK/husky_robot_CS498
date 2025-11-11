@@ -1,0 +1,21 @@
+[0.105s] Invoking command in '/home/rinav/ros2_ws/build/rviz_assimp_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_assimp_vendor -- -j8 -l8
+[1.164s] Invoked command in '/home/rinav/ros2_ws/build/rviz_assimp_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_assimp_vendor -- -j8 -l8
+[1.170s] Invoking command in '/home/rinav/ros2_ws/build/rviz_assimp_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_assimp_vendor
+[1.182s] -- Install configuration: ""
+[1.182s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/ament_index/resource_index/package_run_dependencies/rviz_assimp_vendor
+[1.183s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/ament_index/resource_index/parent_prefix_path/rviz_assimp_vendor
+[1.183s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/environment/ament_prefix_path.sh
+[1.184s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/environment/ament_prefix_path.dsv
+[1.184s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/environment/path.sh
+[1.184s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/environment/path.dsv
+[1.184s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/local_setup.bash
+[1.184s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/local_setup.sh
+[1.184s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/local_setup.zsh
+[1.184s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/local_setup.dsv
+[1.184s] -- Installing: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/package.dsv
+[1.184s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/ament_index/resource_index/packages/rviz_assimp_vendor
+[1.185s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/rviz_assimp_vendor-extras.cmake
+[1.185s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/rviz_assimp_vendorConfig.cmake
+[1.185s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/rviz_assimp_vendorConfig-version.cmake
+[1.185s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/package.xml
+[1.263s] Invoked command in '/home/rinav/ros2_ws/build/rviz_assimp_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_assimp_vendor

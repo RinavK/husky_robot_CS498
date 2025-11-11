@@ -1,0 +1,36 @@
+[0.005s] Invoking command in '/home/rinav/ros2_ws/build/husky_control': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_control -- -j8 -l8
+[0.022s] Invoked command in '/home/rinav/ros2_ws/build/husky_control' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_control -- -j8 -l8
+[0.023s] Invoking command in '/home/rinav/ros2_ws/build/husky_control': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_control
+[0.026s] -- Install configuration: ""
+[0.026s] -- Execute custom install script
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/config/control.yaml
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/config/empty.yaml
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/config/gazebo_interface.yaml
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/config/imu_filter.yaml
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/config/localization.yaml
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/config/public_interface.yaml
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/config/teleop_interactive_markers.yaml
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/config/teleop_logitech.yaml
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/config/teleop_ps4.yaml
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/config/twist_mux.yaml
+[0.027s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/launch/control.launch
+[0.028s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/launch/control.launch.py
+[0.028s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/launch/teleop.launch
+[0.028s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/launch/teleop_base.launch.py
+[0.028s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/launch/teleop_joy.launch.py
+[0.028s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/ament_index/resource_index/package_run_dependencies/husky_control
+[0.028s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/ament_index/resource_index/parent_prefix_path/husky_control
+[0.028s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/environment/ament_prefix_path.sh
+[0.028s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/environment/ament_prefix_path.dsv
+[0.028s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/environment/path.sh
+[0.028s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/environment/path.dsv
+[0.029s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/local_setup.bash
+[0.029s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/local_setup.sh
+[0.029s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/local_setup.zsh
+[0.029s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/local_setup.dsv
+[0.029s] -- Symlinking: /home/rinav/ros2_ws/install/husky_control/share/husky_control/package.dsv
+[0.033s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/ament_index/resource_index/packages/husky_control
+[0.034s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/cmake/husky_controlConfig.cmake
+[0.034s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/cmake/husky_controlConfig-version.cmake
+[0.034s] -- Up-to-date symlink: /home/rinav/ros2_ws/install/husky_control/share/husky_control/package.xml
+[0.035s] Invoked command in '/home/rinav/ros2_ws/build/husky_control' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_control

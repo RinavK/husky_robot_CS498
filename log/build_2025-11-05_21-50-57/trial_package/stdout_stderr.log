@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/trial_package/trial_package.egg-info
+writing ../../build/trial_package/trial_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/trial_package/trial_package.egg-info/dependency_links.txt
+writing entry points to ../../build/trial_package/trial_package.egg-info/entry_points.txt
+writing requirements to ../../build/trial_package/trial_package.egg-info/requires.txt
+writing top-level names to ../../build/trial_package/trial_package.egg-info/top_level.txt
+writing manifest file '../../build/trial_package/trial_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/trial_package/trial_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/trial_package/trial_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rinav/ros2_ws/build/trial_package/build
+creating /home/rinav/ros2_ws/build/trial_package/build/lib
+creating /home/rinav/ros2_ws/build/trial_package/build/lib/trial_package
+copying trial_package/__init__.py -> /home/rinav/ros2_ws/build/trial_package/build/lib/trial_package
+running install
+running install_lib
+creating /home/rinav/ros2_ws/install/trial_package/lib/python3.10/site-packages/trial_package
+copying /home/rinav/ros2_ws/build/trial_package/build/lib/trial_package/__init__.py -> /home/rinav/ros2_ws/install/trial_package/lib/python3.10/site-packages/trial_package
+byte-compiling /home/rinav/ros2_ws/install/trial_package/lib/python3.10/site-packages/trial_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rinav/ros2_ws/install/trial_package/share/ament_index
+creating /home/rinav/ros2_ws/install/trial_package/share/ament_index/resource_index
+creating /home/rinav/ros2_ws/install/trial_package/share/ament_index/resource_index/packages
+copying resource/trial_package -> /home/rinav/ros2_ws/install/trial_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/rinav/ros2_ws/install/trial_package/share/trial_package
+running install_egg_info
+Copying ../../build/trial_package/trial_package.egg-info to /home/rinav/ros2_ws/install/trial_package/lib/python3.10/site-packages/trial_package-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rinav/ros2_ws/build/trial_package/install.log'

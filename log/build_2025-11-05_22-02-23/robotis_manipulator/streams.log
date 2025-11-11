@@ -1,0 +1,35 @@
+[0.073s] Invoking command in '/home/rinav/ros2_ws/build/robotis_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder /usr/bin/cmake --build /home/rinav/ros2_ws/build/robotis_manipulator -- -j8 -l8
+[0.136s] [100%] Built target robotis_manipulator
+[0.190s] Invoked command in '/home/rinav/ros2_ws/build/robotis_manipulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder /usr/bin/cmake --build /home/rinav/ros2_ws/build/robotis_manipulator -- -j8 -l8
+[0.192s] Invoking command in '/home/rinav/ros2_ws/build/robotis_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder /usr/bin/cmake --install /home/rinav/ros2_ws/build/robotis_manipulator
+[0.207s] -- Install configuration: ""
+[0.207s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/lib/librobotis_manipulator.so
+[0.207s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/include/
+[0.207s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/include//robotis_manipulator
+[0.207s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_log.h
+[0.207s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_manager.h
+[0.207s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator.h
+[0.207s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_trajectory_generator.h
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_math.h
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_common.h
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.sh
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.dsv
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/ament_index/resource_index/package_run_dependencies/robotis_manipulator
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/ament_index/resource_index/parent_prefix_path/robotis_manipulator
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.sh
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.dsv
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/environment/path.sh
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/environment/path.dsv
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.bash
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.sh
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.zsh
+[0.208s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.dsv
+[0.209s] -- Installing: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/package.dsv
+[0.209s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/ament_index/resource_index/packages/robotis_manipulator
+[0.210s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.210s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.210s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_libraries-extras.cmake
+[0.211s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig.cmake
+[0.211s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig-version.cmake
+[0.211s] -- Up-to-date: /home/rinav/ros2_ws/install/robotis_manipulator/share/robotis_manipulator/package.xml
+[0.233s] Invoked command in '/home/rinav/ros2_ws/build/robotis_manipulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder /usr/bin/cmake --install /home/rinav/ros2_ws/build/robotis_manipulator

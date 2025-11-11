@@ -1,0 +1,20 @@
+[1.110s] Invoking command in '/home/rinav/ros2_ws/src/trial_package': PYTHONPATH=/home/rinav/ros2_ws/build/trial_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rinav/ros2_ws/install/trial_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trial_package build --build-base /home/rinav/ros2_ws/build/trial_package/build install --record /home/rinav/ros2_ws/build/trial_package/install.log --single-version-externally-managed install_data
+[1.597s] running egg_info
+[1.597s] writing ../../build/trial_package/trial_package.egg-info/PKG-INFO
+[1.598s] writing dependency_links to ../../build/trial_package/trial_package.egg-info/dependency_links.txt
+[1.598s] writing entry points to ../../build/trial_package/trial_package.egg-info/entry_points.txt
+[1.598s] writing requirements to ../../build/trial_package/trial_package.egg-info/requires.txt
+[1.598s] writing top-level names to ../../build/trial_package/trial_package.egg-info/top_level.txt
+[1.602s] reading manifest file '../../build/trial_package/trial_package.egg-info/SOURCES.txt'
+[1.608s] writing manifest file '../../build/trial_package/trial_package.egg-info/SOURCES.txt'
+[1.608s] running build
+[1.608s] running build_py
+[1.608s] running install
+[1.613s] running install_lib
+[1.613s] running install_data
+[1.613s] running install_egg_info
+[1.615s] removing '/home/rinav/ros2_ws/install/trial_package/lib/python3.10/site-packages/trial_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.615s] Copying ../../build/trial_package/trial_package.egg-info to /home/rinav/ros2_ws/install/trial_package/lib/python3.10/site-packages/trial_package-0.0.0-py3.10.egg-info
+[1.616s] running install_scripts
+[1.672s] writing list of installed files to '/home/rinav/ros2_ws/build/trial_package/install.log'
+[1.728s] Invoked command in '/home/rinav/ros2_ws/src/trial_package' returned '0': PYTHONPATH=/home/rinav/ros2_ws/build/trial_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rinav/ros2_ws/install/trial_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trial_package build --build-base /home/rinav/ros2_ws/build/trial_package/build install --record /home/rinav/ros2_ws/build/trial_package/install.log --single-version-externally-managed install_data

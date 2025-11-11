@@ -1,0 +1,777 @@
+[0.013s] Invoking command in '/home/rinav/ros2_ws/build/rviz_default_plugins': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/rinav/ros2_ws/install/moveit_ros_control_interface/lib:/home/rinav/ros2_ws/install/moveit_simple_controller_manager/lib:/home/rinav/ros2_ws/install/moveit_ros_planning/lib:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rinav/ros2_ws/install/moveit_planners_chomp/lib:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/rinav/ros2_ws/install/chomp_motion_planner/lib:/home/rinav/ros2_ws/install/moveit_core/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rviz_marker_tools/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/rinav/ros2_ws/src/rviz/rviz_default_plugins -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/rviz_default_plugins
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.141s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.200s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.200s] -- Detecting CXX compile features
+[0.201s] -- Detecting CXX compile features - done
+[0.201s] -- Enabling tests requiring a display
+[0.204s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.303s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.378s] -- Found rviz_common: 11.2.18 (/home/rinav/ros2_ws/install/rviz_common/share/rviz_common/cmake)
+[0.396s] -- Setting assimp_DIR to: '/home/rinav/ros2_ws/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.402s] -- Setting OGRE_DIR to: '/home/rinav/ros2_ws/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.403s] -- Found OGRE
+[0.403s] --   static     : OFF
+[0.403s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.403s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+[0.403s] --   media      : /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.403s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.404s] -- OGRE_LIBRARY_DIRS: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib
+[0.404s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+[0.404s] -- OGRE_PLUGIN_DIR: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/OGRE
+[0.404s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.404s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.404s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.404s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.408s] -- Could not find freeimage library
+[0.430s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[0.436s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[0.513s] -- Found X11: /usr/include   
+[0.513s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[0.561s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[0.561s] -- Looking for gethostbyname
+[0.607s] -- Looking for gethostbyname - found
+[0.607s] -- Looking for connect
+[0.648s] -- Looking for connect - found
+[0.648s] -- Looking for remove
+[0.693s] -- Looking for remove - found
+[0.693s] -- Looking for shmat
+[0.735s] -- Looking for shmat - found
+[0.735s] -- Looking for IceConnectionNumber in ICE
+[0.781s] -- Looking for IceConnectionNumber in ICE - found
+[0.850s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[0.891s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.897s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.906s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.918s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.934s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.034s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.038s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.063s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.098s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.100s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.109s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.111s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.117s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.126s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.136s] -- Looking for pthread.h
+[1.181s] -- Looking for pthread.h - found
+[1.181s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.228s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.229s] -- Found Threads: TRUE  
+[1.294s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.294s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.399s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.407s] -- Searching for dependencies of ignition-math6
+[1.410s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[1.415s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[1.439s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[1.446s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[1.495s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.561s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.568s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.681s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.685s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rinav/ros2_ws/src/rviz/rviz_default_plugins/include>;/home/rinav/ros2_ws/src/rviz/rviz_default_plugins/test;/home/rinav/ros2_ws/src/rviz/rviz_default_plugins/test/page_objects
+[1.685s] -- Configured cppcheck exclude dirs and/or files: 
+[1.701s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.701s] -- Configured cpplint exclude dirs and/or files: 
+[1.705s] -- Added test 'lint_cmake' to check CMake code style
+[1.720s] -- Added test 'uncrustify' to check C / C++ code style
+[1.720s] -- Configured uncrustify additional arguments: 
+[1.722s] -- Added test 'xmllint' to check XML markup files
+[1.724s] -- Configuring done
+[2.165s] -- Generating done
+[2.284s] -- Build files have been written to: /home/rinav/ros2_ws/build/rviz_default_plugins
+[2.300s] Invoked command in '/home/rinav/ros2_ws/build/rviz_default_plugins' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/rinav/ros2_ws/install/moveit_ros_control_interface/lib:/home/rinav/ros2_ws/install/moveit_simple_controller_manager/lib:/home/rinav/ros2_ws/install/moveit_ros_planning/lib:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rinav/ros2_ws/install/moveit_planners_chomp/lib:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/rinav/ros2_ws/install/chomp_motion_planner/lib:/home/rinav/ros2_ws/install/moveit_core/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rviz_marker_tools/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/rinav/ros2_ws/src/rviz/rviz_default_plugins -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/rviz_default_plugins
+[2.300s] Invoking command in '/home/rinav/ros2_ws/build/rviz_default_plugins': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/rinav/ros2_ws/install/moveit_ros_control_interface/lib:/home/rinav/ros2_ws/install/moveit_simple_controller_manager/lib:/home/rinav/ros2_ws/install/moveit_ros_planning/lib:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rinav/ros2_ws/install/moveit_planners_chomp/lib:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/rinav/ros2_ws/install/chomp_motion_planner/lib:/home/rinav/ros2_ws/install/moveit_core/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rviz_marker_tools/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_default_plugins -- -j8 -l8
+[2.338s] [  0%] [34m[1mGenerating include/rviz_default_plugins/view_controllers/xy_orbit/moc_xy_orbit_view_controller.cpp[0m
+[2.340s] [  0%] [34m[1mGenerating include/rviz_default_plugins/displays/accel/moc_accel_display.cpp[0m
+[2.343s] [  0%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.343s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.343s] [  1%] [32mBuilding CXX object CMakeFiles/point_cloud_common_page_object.dir/test/rviz_default_plugins/page_objects/point_cloud_common_page_object.cpp.o[0m
+[2.343s] [  2%] [32mBuilding CXX object CMakeFiles/pointcloud_messages.dir/test/rviz_default_plugins/pointcloud_messages.cpp.o[0m
+[2.343s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.345s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.349s] [  2%] [34m[1mGenerating include/rviz_default_plugins/displays/axes/moc_axes_display.cpp[0m
+[2.356s] [  3%] [34m[1mGenerating include/rviz_default_plugins/displays/depth_cloud/moc_depth_cloud_display.cpp[0m
+[2.360s] [  3%] [34m[1mGenerating include/rviz_default_plugins/displays/camera/moc_camera_display.cpp[0m
+[2.366s] [  3%] [34m[1mGenerating include/rviz_default_plugins/displays/effort/moc_effort_display.cpp[0m
+[2.369s] [  3%] [34m[1mGenerating include/rviz_default_plugins/displays/fluid_pressure/moc_fluid_pressure_display.cpp[0m
+[2.373s] [  3%] [34m[1mGenerating include/rviz_default_plugins/displays/grid/moc_grid_display.cpp[0m
+[2.378s] [  4%] [34m[1mGenerating include/rviz_default_plugins/displays/grid_cells/moc_grid_cells_display.cpp[0m
+[2.381s] [  4%] [34m[1mGenerating include/rviz_default_plugins/displays/illuminance/moc_illuminance_display.cpp[0m
+[2.385s] [  4%] [34m[1mGenerating include/rviz_default_plugins/displays/image/moc_image_display.cpp[0m
+[2.390s] [  4%] [34m[1mGenerating include/rviz_default_plugins/displays/interactive_markers/moc_integer_action.cpp[0m
+[2.395s] [  4%] [34m[1mGenerating include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker.cpp[0m
+[2.398s] [  4%] [34m[1mGenerating include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker_display.cpp[0m
+[2.403s] [  5%] [34m[1mGenerating include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker_namespace_property.cpp[0m
+[2.406s] [  6%] [34m[1mGenerating include/rviz_default_plugins/displays/laser_scan/moc_laser_scan_display.cpp[0m
+[2.410s] [  6%] [34m[1mGenerating include/rviz_default_plugins/displays/map/moc_map_display.cpp[0m
+[2.413s] [  6%] [34m[1mGenerating include/rviz_default_plugins/displays/marker/moc_marker_common.cpp[0m
+[2.418s] [  6%] [34m[1mGenerating include/rviz_default_plugins/displays/odometry/moc_odometry_display.cpp[0m
+[2.420s] [  6%] [34m[1mGenerating include/rviz_default_plugins/displays/path/moc_path_display.cpp[0m
+[2.425s] [  6%] [34m[1mGenerating include/rviz_default_plugins/displays/point/moc_point_stamped_display.cpp[0m
+[2.428s] [  7%] [34m[1mGenerating include/rviz_default_plugins/displays/pointcloud/moc_point_cloud_common.cpp[0m
+[2.433s] [  7%] [34m[1mGenerating include/rviz_default_plugins/displays/pointcloud/moc_point_cloud_transformer.cpp[0m
+[2.436s] [  7%] [34m[1mGenerating include/rviz_default_plugins/displays/pointcloud/transformers/moc_axis_color_pc_transformer.cpp[0m
+[2.441s] [  7%] [34m[1mGenerating include/rviz_default_plugins/displays/pointcloud/transformers/moc_flat_color_pc_transformer.cpp[0m
+[2.444s] [  8%] [34m[1mGenerating include/rviz_default_plugins/displays/pointcloud/transformers/moc_intensity_pc_transformer.cpp[0m
+[2.449s] [  8%] [34m[1mGenerating include/rviz_default_plugins/displays/polygon/moc_polygon_display.cpp[0m
+[2.452s] [  8%] [34m[1mGenerating include/rviz_default_plugins/displays/pose/moc_pose_display.cpp[0m
+[2.457s] [  8%] [34m[1mGenerating include/rviz_default_plugins/displays/pose_array/moc_pose_array_display.cpp[0m
+[2.459s] [  9%] [34m[1mGenerating include/rviz_default_plugins/displays/pose_covariance/moc_pose_with_covariance_display.cpp[0m
+[2.466s] [  9%] [34m[1mGenerating include/rviz_default_plugins/displays/range/moc_range_display.cpp[0m
+[2.467s] [  9%] [34m[1mGenerating include/rviz_default_plugins/displays/relative_humidity/moc_relative_humidity_display.cpp[0m
+[2.474s] [ 10%] [34m[1mGenerating include/rviz_default_plugins/displays/robot_model/moc_robot_model_display.cpp[0m
+[2.476s] [ 10%] [34m[1mGenerating include/rviz_default_plugins/displays/temperature/moc_temperature_display.cpp[0m
+[2.482s] [ 10%] [34m[1mGenerating include/rviz_default_plugins/displays/tf/moc_frame_info.cpp[0m
+[2.484s] [ 10%] [34m[1mGenerating include/rviz_default_plugins/displays/tf/moc_tf_display.cpp[0m
+[2.491s] [ 11%] [34m[1mGenerating include/rviz_default_plugins/displays/twist/moc_twist_display.cpp[0m
+[2.493s] [ 11%] [34m[1mGenerating include/rviz_default_plugins/displays/wrench/moc_wrench_display.cpp[0m
+[2.500s] [ 11%] [34m[1mGenerating include/rviz_default_plugins/robot/moc_robot.cpp[0m
+[2.500s] [ 11%] [34m[1mGenerating include/rviz_default_plugins/robot/moc_robot_element_base_class.cpp[0m
+[2.508s] [ 12%] [34m[1mGenerating include/rviz_default_plugins/robot/moc_robot_link.cpp[0m
+[2.508s] [ 12%] [34m[1mGenerating include/rviz_default_plugins/robot/moc_robot_joint.cpp[0m
+[2.516s] [ 13%] [34m[1mGenerating include/rviz_default_plugins/tools/interaction/moc_interaction_tool.cpp[0m
+[2.516s] [ 13%] [34m[1mGenerating include/rviz_default_plugins/tools/goal_pose/moc_goal_tool.cpp[0m
+[2.524s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.524s] [ 13%] [34m[1mGenerating include/rviz_default_plugins/tools/measure/moc_measure_tool.cpp[0m
+[2.532s] [ 13%] [34m[1mGenerating include/rviz_default_plugins/tools/point/moc_point_tool.cpp[0m
+[2.540s] [ 13%] [34m[1mGenerating include/rviz_default_plugins/tools/pose_estimate/moc_initial_pose_tool.cpp[0m
+[2.548s] [ 14%] [34m[1mGenerating include/rviz_default_plugins/transformation/moc_transformer_guard.cpp[0m
+[2.557s] [ 15%] [34m[1mGenerating include/rviz_default_plugins/view_controllers/frame/moc_frame_view_controller.cpp[0m
+[2.566s] [ 15%] [34m[1mGenerating include/rviz_default_plugins/view_controllers/orbit/moc_orbit_view_controller.cpp[0m
+[2.574s] [ 15%] [34m[1mGenerating include/rviz_default_plugins/view_controllers/ortho/moc_fixed_orientation_ortho_view_controller.cpp[0m
+[2.600s] [ 16%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/accel/moc_accel_display.cpp.o[0m
+[2.705s] [ 17%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.731s] [ 17%] Built target gtest_main
+[2.737s] [ 17%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/axes/moc_axes_display.cpp.o[0m
+[2.841s] [ 17%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.863s] [ 17%] Built target gmock_main
+[2.870s] [ 17%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/camera/moc_camera_display.cpp.o[0m
+[2.991s] [ 17%] [32m[1mLinking CXX static library libpointcloud_messages.a[0m
+[3.043s] [ 17%] Built target pointcloud_messages
+[3.072s] [ 17%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/depth_cloud/moc_depth_cloud_display.cpp.o[0m
+[3.447s] [ 18%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/effort/moc_effort_display.cpp.o[0m
+[3.473s] [ 18%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/fluid_pressure/moc_fluid_pressure_display.cpp.o[0m
+[4.026s] [ 18%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.064s] [ 18%] Built target gtest
+[4.064s] [ 19%] [32m[1mLinking CXX static library libgmock.a[0m
+[4.082s] [ 19%] [32mBuilding CXX object CMakeFiles/accel_display_visual_test.dir/test/rviz_default_plugins/displays/accel/accel_display_visual_test.cpp.o[0m
+[4.109s] [ 19%] Built target gmock
+[4.136s] [ 19%] [32mBuilding CXX object CMakeFiles/depth_cloud_display_visual_test.dir/test/rviz_default_plugins/displays/depth_cloud/depth_cloud_display_visual_test.cpp.o[0m
+[4.748s] [ 20%] [32m[1mLinking CXX static library libpoint_cloud_common_page_object.a[0m
+[4.774s] [ 20%] Built target point_cloud_common_page_object
+[4.794s] [ 20%] [32mBuilding CXX object CMakeFiles/effort_display_visual_test.dir/test/rviz_default_plugins/displays/effort/effort_display_visual_test.cpp.o[0m
+[7.257s] [ 20%] [32mBuilding CXX object CMakeFiles/effort_display_visual_test.dir/test/rviz_default_plugins/page_objects/effort_display_page_object.cpp.o[0m
+[11.123s] [ 20%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/grid/moc_grid_display.cpp.o[0m
+[11.921s] [ 21%] [32mBuilding CXX object CMakeFiles/twist_display_visual_test.dir/test/rviz_default_plugins/displays/twist/twist_display_visual_test.cpp.o[0m
+[13.777s] [ 21%] [32mBuilding CXX object CMakeFiles/twist_display_visual_test.dir/test/rviz_default_plugins/page_objects/twist_display_page_object.cpp.o[0m
+[14.578s] [ 22%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/grid_cells/moc_grid_cells_display.cpp.o[0m
+[14.714s] [ 22%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/illuminance/moc_illuminance_display.cpp.o[0m
+[14.923s] [ 22%] [32mBuilding CXX object CMakeFiles/accel_display_visual_test.dir/test/rviz_default_plugins/page_objects/accel_display_page_object.cpp.o[0m
+[16.176s] [ 22%] [32mBuilding CXX object CMakeFiles/depth_cloud_display_visual_test.dir/test/rviz_default_plugins/page_objects/depth_cloud_page_object.cpp.o[0m
+[16.327s] [ 22%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/image/moc_image_display.cpp.o[0m
+[16.389s] [ 23%] [32m[1mLinking CXX executable effort_display_visual_test[0m
+[17.438s] [ 23%] Built target effort_display_visual_test
+[17.446s] [ 23%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/laser_scan/moc_laser_scan_display.cpp.o[0m
+[17.578s] [ 24%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/map/moc_map_display.cpp.o[0m
+[18.215s] [ 24%] [32m[1mLinking CXX executable accel_display_visual_test[0m
+[19.201s] [ 25%] [32m[1mLinking CXX executable depth_cloud_display_visual_test[0m
+[19.347s] [ 25%] Built target accel_display_visual_test
+[19.368s] [ 25%] [32mBuilding CXX object CMakeFiles/display_test_fixture.dir/test/rviz_default_plugins/displays/display_test_fixture.cpp.o[0m
+[20.249s] [ 25%] Built target depth_cloud_display_visual_test
+[20.255s] [ 25%] [32mBuilding CXX object CMakeFiles/display_test_fixture.dir/test/rviz_default_plugins/ogre_testing_environment.cpp.o[0m
+[20.960s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/marker/moc_marker_common.cpp.o[0m
+[21.561s] [ 25%] [32m[1mLinking CXX executable twist_display_visual_test[0m
+[22.188s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/odometry/moc_odometry_display.cpp.o[0m
+[22.216s] [ 26%] [32mBuilding CXX object CMakeFiles/display_test_fixture.dir/test/rviz_default_plugins/scene_graph_introspection.cpp.o[0m
+[22.508s] [ 26%] Built target twist_display_visual_test
+[22.551s] [ 26%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/transformation/moc_transformer_guard.cpp.o[0m
+[23.465s] [ 27%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/interactive_markers/moc_integer_action.cpp.o[0m
+[23.675s] [ 27%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker.cpp.o[0m
+[24.193s] [ 27%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker_display.cpp.o[0m
+[24.836s] [ 28%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker_namespace_property.cpp.o[0m
+[25.408s] [ 28%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/path/moc_path_display.cpp.o[0m
+[25.905s] [ 28%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/point/moc_point_stamped_display.cpp.o[0m
+[27.701s] [ 28%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pointcloud/moc_point_cloud_common.cpp.o[0m
+[27.772s] [ 29%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pointcloud/moc_point_cloud_transformer.cpp.o[0m
+[28.740s] [ 29%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pointcloud/transformers/moc_axis_color_pc_transformer.cpp.o[0m
+[28.822s] [ 29%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pointcloud/transformers/moc_flat_color_pc_transformer.cpp.o[0m
+[29.436s] [ 29%] [32m[1mLinking CXX static library libdisplay_test_fixture.a[0m
+[29.588s] [ 29%] Built target display_test_fixture
+[29.597s] [ 29%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pointcloud/transformers/moc_intensity_pc_transformer.cpp.o[0m
+[29.828s] [ 30%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/polygon/moc_polygon_display.cpp.o[0m
+[30.954s] [ 30%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pose/moc_pose_display.cpp.o[0m
+[31.031s] [ 30%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pose_array/moc_pose_array_display.cpp.o[0m
+[31.075s] [ 31%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pose_covariance/moc_pose_with_covariance_display.cpp.o[0m
+[31.677s] [ 31%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/range/moc_range_display.cpp.o[0m
+[31.729s] [ 31%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/relative_humidity/moc_relative_humidity_display.cpp.o[0m
+[34.631s] [ 31%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/robot_model/moc_robot_model_display.cpp.o[0m
+[35.356s] [ 32%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/temperature/moc_temperature_display.cpp.o[0m
+[39.418s] [ 32%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/tf/moc_frame_info.cpp.o[0m
+[40.511s] [ 32%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/tf/moc_tf_display.cpp.o[0m
+[40.622s] [ 32%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/twist/moc_twist_display.cpp.o[0m
+[40.836s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/wrench/moc_wrench_display.cpp.o[0m
+[41.380s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/robot/moc_robot.cpp.o[0m
+[42.635s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/robot/moc_robot_joint.cpp.o[0m
+[43.486s] [ 34%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/robot/moc_robot_link.cpp.o[0m
+[43.720s] [ 34%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/robot/moc_robot_element_base_class.cpp.o[0m
+[44.229s] [ 34%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/tools/measure/moc_measure_tool.cpp.o[0m
+[44.816s] [ 34%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/tools/goal_pose/moc_goal_tool.cpp.o[0m
+[45.014s] [ 35%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/tools/interaction/moc_interaction_tool.cpp.o[0m
+[45.172s] [ 35%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/tools/pose_estimate/moc_initial_pose_tool.cpp.o[0m
+[45.260s] [ 35%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/tools/point/moc_point_tool.cpp.o[0m
+[45.379s] [ 35%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/view_controllers/frame/moc_frame_view_controller.cpp.o[0m
+[46.049s] [ 36%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/view_controllers/orbit/moc_orbit_view_controller.cpp.o[0m
+[46.321s] [ 36%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/view_controllers/ortho/moc_fixed_orientation_ortho_view_controller.cpp.o[0m
+[46.751s] [ 36%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/view_controllers/xy_orbit/moc_xy_orbit_view_controller.cpp.o[0m
+[46.978s] [ 37%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/accel/accel_display.cpp.o[0m
+[47.039s] [ 37%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/axes/axes_display.cpp.o[0m
+[47.196s] [ 37%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/camera/camera_display.cpp.o[0m
+[47.210s] [ 37%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/depth_cloud/depth_cloud_display.cpp.o[0m
+[47.825s] [ 38%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/effort/effort_display.cpp.o[0m
+[47.919s] [ 38%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/grid/grid_display.cpp.o[0m
+[49.572s] [ 38%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/grid_cells/grid_cells_display.cpp.o[0m
+[49.696s] [ 38%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/fluid_pressure/fluid_pressure_display.cpp.o[0m
+[51.168s] [ 39%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/illuminance/illuminance_display.cpp.o[0m
+[51.898s] [ 39%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/image/get_transport_from_topic.cpp.o[0m
+[52.081s] [ 39%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/image/image_display.cpp.o[0m
+[52.685s] [ 39%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/image/ros_image_texture.cpp.o[0m
+[54.175s] [ 40%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/interactive_markers/integer_action.cpp.o[0m
+[55.391s] [ 40%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/interactive_markers/interactive_marker_control.cpp.o[0m
+[58.136s] [ 40%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/interactive_markers/interactive_marker.cpp.o[0m
+[58.866s] [ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/interactive_markers/interactive_marker_display.cpp.o[0m
+[60.904s] [ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/interactive_markers/interactive_marker_namespace_property.cpp.o[0m
+[61.703s] [ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/laser_scan/laser_scan_display.cpp.o[0m
+[62.165s] [ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/map/map_display.cpp.o[0m
+[62.417s] [ 42%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/map/palette_builder.cpp.o[0m
+[62.714s] [ 42%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/map/swatch.cpp.o[0m
+[63.659s] [ 42%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/arrow_marker.cpp.o[0m
+[64.066s] [ 42%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/line_list_marker.cpp.o[0m
+[64.153s] [ 43%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/line_marker_base.cpp.o[0m
+[64.349s] [ 43%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/line_strip_marker.cpp.o[0m
+[64.414s] [ 43%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/marker_base.cpp.o[0m
+[64.990s] [ 44%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/marker_selection_handler.cpp.o[0m
+[67.430s] [ 44%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/mesh_resource_marker.cpp.o[0m
+[67.605s] [ 44%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/text_view_facing_marker.cpp.o[0m
+[67.698s] [ 44%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/points_marker.cpp.o[0m
+[67.821s] [ 45%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/shape_marker.cpp.o[0m
+[68.727s] [ 45%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/triangle_list_marker.cpp.o[0m
+[69.348s] [ 45%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/marker_factory.cpp.o[0m
+[73.490s] [ 45%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/axis_color_pc_transformer.cpp.o[0m
+[75.183s] [ 45%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/flat_color_pc_transformer.cpp.o[0m
+[76.720s] [ 47%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/intensity_pc_transformer.cpp.o[0m
+[76.720s] [ 47%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/path/path_display.cpp.o[0m
+[76.720s] [ 47%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/point/point_stamped_display.cpp.o[0m
+[77.729s] [ 47%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/rgb8_pc_transformer.cpp.o[0m
+[77.729s] [ 47%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/odometry/odometry_display.cpp.o[0m
+[78.741s] [ 47%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker_array/marker_array_display.cpp.o[0m
+[78.744s] [ 48%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/marker_display.cpp.o[0m
+[78.795s] [ 48%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/marker_common.cpp.o[0m
+[79.806s] [ 48%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/rgbf32_pc_transformer.cpp.o[0m
+[79.829s] [ 48%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/xyz_pc_transformer.cpp.o[0m
+[82.094s] [ 49%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud_common.cpp.o[0m
+[82.329s] [ 49%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud_to_point_cloud2.cpp.o[0m
+[82.839s] [ 49%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud_transformer_factory.cpp.o[0m
+[82.863s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud_selection_handler.cpp.o[0m
+[86.365s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud_display.cpp.o[0m
+[86.504s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud2_display.cpp.o[0m
+[87.281s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/polygon/polygon_display.cpp.o[0m
+[87.918s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose/pose_display.cpp.o[0m
+[88.339s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose/pose_display_selection_handler.cpp.o[0m
+[88.389s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose_array/pose_array_display.cpp.o[0m
+[88.397s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose_array/flat_arrows_array.cpp.o[0m
+[90.600s] [ 52%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose_covariance/pose_with_covariance_display.cpp.o[0m
+[92.535s] [ 52%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose_covariance/pose_with_cov_selection_handler.cpp.o[0m
+[92.593s] [ 52%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/range/range_display.cpp.o[0m
+[97.952s] [ 52%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/relative_humidity/relative_humidity_display.cpp.o[0m
+[98.050s] [ 53%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/robot_model/robot_model_display.cpp.o[0m
+[98.659s] [ 53%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/screw/screw_display.cpp.o[0m
+[98.702s] [ 53%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/temperature/temperature_display.cpp.o[0m
+[98.925s] [ 54%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/tf/frame_info.cpp.o[0m
+[99.500s] [ 54%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/tf/frame_selection_handler.cpp.o[0m
+[102.493s] [ 54%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/tf/tf_display.cpp.o[0m
+[103.377s] [ 54%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/wrench/wrench_display.cpp.o[0m
+[103.625s] [ 55%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/twist/twist_display.cpp.o[0m
+[104.143s] [ 55%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/robot/robot.cpp.o[0m
+[108.592s] [ 55%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/robot/robot_joint.cpp.o[0m
+[108.643s] [ 55%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/robot/robot_link.cpp.o[0m
+[109.235s] [ 56%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/robot/robot_element_base_class.cpp.o[0m
+[110.030s] [ 56%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/robot/tf_link_updater.cpp.o[0m
+[110.283s] [ 56%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/interaction/interaction_tool.cpp.o[0m
+[110.372s] [ 57%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/measure/measure_tool.cpp.o[0m
+[110.700s] [ 57%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/focus/focus_tool.cpp.o[0m
+[111.128s] [ 57%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/move/move_tool.cpp.o[0m
+[112.017s] [ 57%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/goal_pose/goal_tool.cpp.o[0m
+[113.087s] [ 58%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/pose/pose_tool.cpp.o[0m
+[113.612s] [ 58%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/pose_estimate/initial_pose_tool.cpp.o[0m
+[113.736s] [ 58%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/point/point_tool.cpp.o[0m
+[113.984s] [ 58%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/select/selection_tool.cpp.o[0m
+[114.099s] [ 59%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/transformation/tf_frame_transformer.cpp.o[0m
+[114.325s] [ 59%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/transformation/tf_wrapper.cpp.o[0m
+[114.477s] [ 59%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/follower/third_person_follower_view_controller.cpp.o[0m
+[115.193s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/fps/fps_view_controller.cpp.o[0m
+[115.896s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/frame/frame_view_controller.cpp.o[0m
+[116.796s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/orbit/orbit_view_controller.cpp.o[0m
+[117.123s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/ortho/fixed_orientation_ortho_view_controller.cpp.o[0m
+[117.260s] [ 61%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/xy_orbit/xy_orbit_view_controller.cpp.o[0m
+[120.381s] [ 61%] [32m[1mLinking CXX shared library librviz_default_plugins.so[0m
+[138.848s] [ 61%] Built target rviz_default_plugins
+[138.867s] [ 61%] [32mBuilding CXX object CMakeFiles/fps_view_controller_test.dir/test/rviz_default_plugins/view_controllers/fps/fps_view_controller_test.cpp.o[0m
+[138.867s] [ 61%] [32mBuilding CXX object CMakeFiles/frame_view_controller_test.dir/test/rviz_default_plugins/view_controllers/frame/frame_view_controller_test.cpp.o[0m
+[138.867s] [ 61%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/arrow_marker_test.cpp.o[0m
+[138.868s] [ 63%] [32mBuilding CXX object CMakeFiles/grid_cells_display_test.dir/test/rviz_default_plugins/displays/grid_cells/grid_cells_display_test.cpp.o[0m
+[138.868s] [ 63%] [32mBuilding CXX object CMakeFiles/get_transport_from_topic_test.dir/test/rviz_default_plugins/displays/image/get_transport_from_topic_test.cpp.o[0m
+[138.868s] [ 63%] [32mBuilding CXX object CMakeFiles/marker_common_test.dir/test/rviz_default_plugins/displays/marker/marker_common_test.cpp.o[0m
+[138.868s] [ 63%] [32mBuilding CXX object CMakeFiles/frame_info_test.dir/test/rviz_default_plugins/displays/tf/frame_info_test.cpp.o[0m
+[138.869s] [ 63%] [32mBuilding CXX object CMakeFiles/image_display_test.dir/test/rviz_default_plugins/displays/image/image_display_test.cpp.o[0m
+[139.887s] [ 63%] [32m[1mLinking CXX executable get_transport_from_topic_test[0m
+[143.694s] [ 63%] Built target get_transport_from_topic_test
+[143.712s] [ 64%] [32mBuilding CXX object CMakeFiles/map_display_test.dir/test/rviz_default_plugins/displays/map/map_display_test.cpp.o[0m
+[147.083s] [ 64%] [32m[1mLinking CXX executable frame_view_controller_test[0m
+[147.404s] [ 65%] [32m[1mLinking CXX executable fps_view_controller_test[0m
+[147.668s] [ 65%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/line_marker_test.cpp.o[0m
+[148.025s] [ 65%] [32m[1mLinking CXX executable grid_cells_display_test[0m
+[148.509s] [ 65%] [32m[1mLinking CXX executable frame_info_test[0m
+[148.547s] [ 66%] [32mBuilding CXX object CMakeFiles/marker_common_test.dir/test/rviz_default_plugins/displays/marker/marker_messages.cpp.o[0m
+[149.646s] [ 67%] [32m[1mLinking CXX executable image_display_test[0m
+[151.290s] [ 67%] [32m[1mLinking CXX executable marker_common_test[0m
+[152.842s] [ 67%] [32m[1mLinking CXX executable map_display_test[0m
+[156.049s] [ 68%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/mesh_resource_marker_test.cpp.o[0m
+[157.463s] [ 68%] Built target frame_view_controller_test
+[157.482s] [ 68%] [32mBuilding CXX object CMakeFiles/measure_tool_test.dir/test/rviz_default_plugins/tools/measure/measure_tool_test.cpp.o[0m
+[157.862s] [ 68%] Built target fps_view_controller_test
+[157.881s] [ 68%] [32mBuilding CXX object CMakeFiles/odometry_display_test.dir/test/rviz_default_plugins/displays/odometry/odometry_display_test.cpp.o[0m
+[157.927s] [ 68%] Built target grid_cells_display_test
+[157.945s] [ 69%] [32mBuilding CXX object CMakeFiles/odometry_ogre_helper_test.dir/test/rviz_default_plugins/displays/odometry/quaternion_helper_test.cpp.o[0m
+[158.492s] [ 69%] Built target frame_info_test
+[158.510s] [ 69%] [32mBuilding CXX object CMakeFiles/orbit_view_controller_test.dir/test/rviz_default_plugins/view_controllers/orbit/orbit_view_controller_test.cpp.o[0m
+[159.113s] [ 69%] [32m[1mLinking CXX executable odometry_ogre_helper_test[0m
+[159.301s] [ 69%] Built target image_display_test
+[159.324s] [ 69%] [32mBuilding CXX object CMakeFiles/ortho_view_controller_test.dir/test/rviz_default_plugins/view_controllers/ortho/ortho_view_controller_test.cpp.o[0m
+[159.575s] [ 69%] Built target odometry_ogre_helper_test
+[159.593s] [ 69%] [32mBuilding CXX object CMakeFiles/palette_builder_test.dir/test/rviz_default_plugins/displays/map/palette_builder_test.cpp.o[0m
+[160.509s] [ 69%] Built target marker_common_test
+[160.527s] [ 69%] [32mBuilding CXX object CMakeFiles/path_display_test.dir/test/rviz_default_plugins/displays/path/path_display_test.cpp.o[0m
+[160.566s] [ 70%] [32m[1mLinking CXX executable palette_builder_test[0m
+[161.676s] [ 70%] Built target map_display_test
+[161.696s] [ 70%] [32mBuilding CXX object CMakeFiles/point_cloud2_display_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud2_display_test.cpp.o[0m
+[163.646s] [ 70%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/points_marker_test.cpp.o[0m
+[164.644s] [ 70%] Built target palette_builder_test
+[164.677s] [ 70%] [32mBuilding CXX object CMakeFiles/point_cloud_common_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_common_test.cpp.o[0m
+[164.752s] [ 70%] [32m[1mLinking CXX executable measure_tool_test[0m
+[165.909s] [ 71%] [32m[1mLinking CXX executable orbit_view_controller_test[0m
+[166.782s] [ 72%] [32m[1mLinking CXX executable odometry_display_test[0m
+[167.166s] [ 72%] [32m[1mLinking CXX executable ortho_view_controller_test[0m
+[168.480s] [ 72%] [32m[1mLinking CXX executable path_display_test[0m
+[171.343s] [ 72%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/shape_marker_test.cpp.o[0m
+[173.084s] [ 72%] [32m[1mLinking CXX executable point_cloud_common_test[0m
+[173.937s] [ 72%] [32m[1mLinking CXX executable point_cloud2_display_test[0m
+[174.874s] [ 72%] Built target measure_tool_test
+[174.893s] [ 72%] [32mBuilding CXX object CMakeFiles/point_cloud_scalar_display_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_scalar_display_test.cpp.o[0m
+[175.649s] [ 72%] Built target orbit_view_controller_test
+[175.668s] [ 72%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/axis_color_pc_transformer_test.cpp.o[0m
+[176.475s] [ 72%] Built target odometry_display_test
+[176.493s] [ 72%] [32mBuilding CXX object CMakeFiles/point_display_test.dir/test/rviz_default_plugins/displays/point/point_stamped_display_test.cpp.o[0m
+[176.838s] [ 72%] Built target ortho_view_controller_test
+[176.857s] [ 72%] [32mBuilding CXX object CMakeFiles/pose_array_display_test.dir/test/rviz_default_plugins/displays/pose_array/pose_array_display_test.cpp.o[0m
+[178.065s] [ 72%] Built target path_display_test
+[178.089s] [ 73%] [32mBuilding CXX object CMakeFiles/pose_tool_test.dir/test/rviz_default_plugins/tools/pose/pose_tool_test.cpp.o[0m
+[178.902s] [ 74%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/flat_color_pc_transformer_test.cpp.o[0m
+[179.215s] [ 74%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/text_view_facing_marker_test.cpp.o[0m
+[180.964s] [ 74%] Built target point_cloud2_display_test
+[180.981s] [ 74%] [32mBuilding CXX object CMakeFiles/range_display_test.dir/test/rviz_default_plugins/displays/range/range_display_test.cpp.o[0m
+[182.009s] [ 74%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/intensity_pc_transformer_test.cpp.o[0m
+[182.454s] [ 74%] Built target point_cloud_common_test
+[182.473s] [ 74%] [32mBuilding CXX object CMakeFiles/robot_test.dir/test/rviz_default_plugins/robot/robot_test.cpp.o[0m
+[183.874s] [ 75%] [32m[1mLinking CXX executable pose_array_display_test[0m
+[184.338s] [ 76%] [32m[1mLinking CXX executable point_display_test[0m
+[184.912s] [ 76%] [32m[1mLinking CXX executable pose_tool_test[0m
+[185.749s] [ 76%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/rgb8_pc_transformer_test.cpp.o[0m
+[186.743s] [ 77%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/triangle_list_marker_test.cpp.o[0m
+[187.710s] [ 77%] [32m[1mLinking CXX executable range_display_test[0m
+[187.884s] [ 77%] [32m[1mLinking CXX executable point_cloud_scalar_display_test[0m
+[189.237s] [ 78%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/rgbf32_pc_transformer_test.cpp.o[0m
+[192.816s] [ 78%] Built target pose_array_display_test
+[192.837s] [ 78%] [32mBuilding CXX object CMakeFiles/ros_image_texture_test.dir/test/rviz_default_plugins/displays/image/ros_image_texture_test.cpp.o[0m
+[192.962s] [ 78%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/xyz_pc_transformer_test.cpp.o[0m
+[193.346s] [ 78%] Built target point_display_test
+[193.365s] [ 78%] [32mBuilding CXX object CMakeFiles/selection_tool_test.dir/test/rviz_default_plugins/tools/select/selection_tool_test.cpp.o[0m
+[194.793s] [ 78%] [32m[1mLinking CXX executable robot_test[0m
+[195.168s] [ 78%] Built target pose_tool_test
+[195.190s] [ 78%] [32mBuilding CXX object CMakeFiles/xy_orbit_view_controller_test.dir/test/rviz_default_plugins/view_controllers/xy_orbit/xy_orbit_view_controller_test.cpp.o[0m
+[195.255s] [ 78%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/markers_test_fixture.cpp.o[0m
+[196.403s] [ 79%] [32m[1mLinking CXX executable ros_image_texture_test[0m
+[196.474s] [ 79%] [32m[1mLinking CXX executable point_cloud_transformers_test[0m
+[196.821s] [ 79%] Built target range_display_test
+[196.876s] [ 80%] [32mBuilding CXX object CMakeFiles/frame_transformer_tf_test.dir/test/rviz_default_plugins/transformation/frame_transformer_tf_test.cpp.o[0m
+[197.528s] [ 80%] Built target point_cloud_scalar_display_test
+[197.547s] [ 80%] [32mBuilding CXX object CMakeFiles/transformer_guard_test.dir/test/rviz_default_plugins/transformation/transformer_guard_test.cpp.o[0m
+[201.077s] [ 80%] [32m[1mLinking CXX executable frame_transformer_tf_test[0m
+[202.242s] [ 80%] [32m[1mLinking CXX executable selection_tool_test[0m
+[202.625s] [ 81%] [32m[1mLinking CXX executable xy_orbit_view_controller_test[0m
+[202.638s] [ 81%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/marker_messages.cpp.o[0m
+[203.649s] [ 81%] Built target ros_image_texture_test
+[203.668s] [ 82%] [32mBuilding CXX object CMakeFiles/axes_display_visual_test.dir/test/rviz_default_plugins/displays/axes/axes_display_visual_test.cpp.o[0m
+[204.392s] [ 82%] Built target robot_test
+[204.418s] [ 82%] [32mBuilding CXX object CMakeFiles/camera_display_visual_test.dir/test/rviz_default_plugins/displays/camera/camera_display_visual_test.cpp.o[0m
+[204.485s] [ 82%] Built target point_cloud_transformers_test
+[204.510s] [ 82%] [32mBuilding CXX object CMakeFiles/fluid_pressure_display_visual_test.dir/test/rviz_default_plugins/displays/fluid_pressure/fluid_pressure_display_visual_test.cpp.o[0m
+[205.485s] [ 82%] Built target frame_transformer_tf_test
+[205.504s] [ 82%] [32mBuilding CXX object CMakeFiles/grid_display_visual_test.dir/test/rviz_default_plugins/displays/grid/grid_display_visual_test.cpp.o[0m
+[205.579s] [ 83%] [32m[1mLinking CXX executable marker_test[0m
+[207.929s] [ 83%] [32m[1mLinking CXX executable transformer_guard_test[0m
+[211.174s] [ 83%] Built target selection_tool_test
+[211.193s] [ 83%] [32mBuilding CXX object CMakeFiles/grid_cells_display_visual_test.dir/test/rviz_default_plugins/displays/grid_cells/grid_cells_display_visual_test.cpp.o[0m
+[212.622s] [ 83%] [32mBuilding CXX object CMakeFiles/axes_display_visual_test.dir/test/rviz_default_plugins/page_objects/axes_display_page_object.cpp.o[0m
+[212.643s] [ 83%] Built target xy_orbit_view_controller_test
+[212.672s] [ 83%] [32mBuilding CXX object CMakeFiles/grid_display_visual_test.dir/test/rviz_default_plugins/page_objects/grid_display_page_object.cpp.o[0m
+[212.679s] [ 83%] [32mBuilding CXX object CMakeFiles/illuminance_display_visual_test.dir/test/rviz_default_plugins/displays/illuminance/illuminance_display_visual_test.cpp.o[0m
+[213.382s] [ 83%] [32m[1mLinking CXX executable fluid_pressure_display_visual_test[0m
+[214.179s] [ 83%] Built target marker_test
+[214.203s] [ 83%] [32mBuilding CXX object CMakeFiles/image_display_visual_test.dir/test/rviz_default_plugins/displays/image/image_display_visual_test.cpp.o[0m
+[214.795s] [ 84%] [32mBuilding CXX object CMakeFiles/camera_display_visual_test.dir/test/rviz_default_plugins/page_objects/camera_display_page_object.cpp.o[0m
+[215.555s] [ 84%] [32m[1mLinking CXX executable grid_display_visual_test[0m
+[216.183s] [ 84%] [32m[1mLinking CXX executable axes_display_visual_test[0m
+[216.273s] [ 84%] Built target fluid_pressure_display_visual_test
+[216.291s] [ 85%] [32mBuilding CXX object CMakeFiles/interactive_marker_namespace_property_test.dir/test/rviz_default_plugins/displays/interactive_markers/interactive_marker_namespace_property_test.cpp.o[0m
+[217.582s] [ 85%] Built target transformer_guard_test
+[217.601s] [ 85%] [32mBuilding CXX object CMakeFiles/laser_scan_display_visual_test.dir/test/rviz_default_plugins/displays/laser_scan/laser_scan_display_visual_test.cpp.o[0m
+[217.619s] [ 85%] Built target grid_display_visual_test
+[217.626s] [ 85%] [32mBuilding CXX object CMakeFiles/image_display_visual_test.dir/test/rviz_default_plugins/page_objects/image_display_page_object.cpp.o[0m
+[218.236s] [ 85%] Built target axes_display_visual_test
+[218.253s] [ 85%] [32mBuilding CXX object CMakeFiles/map_display_visual_test.dir/test/rviz_default_plugins/displays/map/map_display_visual_test.cpp.o[0m
+[218.417s] [ 85%] [32m[1mLinking CXX executable camera_display_visual_test[0m
+[219.530s] [ 85%] [32m[1mLinking CXX executable interactive_marker_namespace_property_test[0m
+[219.798s] [ 85%] [32mBuilding CXX object CMakeFiles/grid_cells_display_visual_test.dir/test/rviz_default_plugins/page_objects/grid_cells_display_page_object.cpp.o[0m
+[221.015s] [ 85%] [32mBuilding CXX object CMakeFiles/marker_array_display_visual_test.dir/test/rviz_default_plugins/displays/marker_array/marker_array_display_visual_test.cpp.o[0m
+[221.172s] [ 85%] [32m[1mLinking CXX executable illuminance_display_visual_test[0m
+[221.184s] [ 85%] Built target camera_display_visual_test
+[221.243s] [ 85%] [32mBuilding CXX object CMakeFiles/marker_display_visual_test.dir/test/rviz_default_plugins/displays/marker/marker_display_visual_test.cpp.o[0m
+[223.227s] [ 85%] [32m[1mLinking CXX executable image_display_visual_test[0m
+[223.276s] [ 86%] [32m[1mLinking CXX executable grid_cells_display_visual_test[0m
+[224.060s] [ 86%] Built target illuminance_display_visual_test
+[224.081s] [ 86%] [32mBuilding CXX object CMakeFiles/odometry_display_visual_test.dir/test/rviz_default_plugins/displays/odometry/odometry_display_visual_test.cpp.o[0m
+[225.574s] [ 86%] Built target grid_cells_display_visual_test
+[225.584s] [ 87%] [32mBuilding CXX object CMakeFiles/marker_array_display_visual_test.dir/test/rviz_default_plugins/page_objects/marker_array_display_page_object.cpp.o[0m
+[225.721s] [ 87%] Built target image_display_visual_test
+[226.181s] [ 87%] Built target interactive_marker_namespace_property_test
+[226.188s] [ 87%] [32mBuilding CXX object CMakeFiles/odometry_display_visual_test.dir/test/rviz_default_plugins/page_objects/odometry_display_page_object.cpp.o[0m
+[226.755s] [ 87%] [32m[1mLinking CXX executable laser_scan_display_visual_test[0m
+[228.388s] [ 88%] [32mBuilding CXX object CMakeFiles/map_display_visual_test.dir/test/rviz_default_plugins/page_objects/map_display_page_object.cpp.o[0m
+[229.103s] [ 88%] Built target laser_scan_display_visual_test
+[230.297s] [ 89%] [32mBuilding CXX object CMakeFiles/marker_display_visual_test.dir/test/rviz_default_plugins/page_objects/marker_display_page_object.cpp.o[0m
+[230.312s] [ 89%] [32mBuilding CXX object CMakeFiles/marker_array_display_visual_test.dir/test/rviz_default_plugins/page_objects/marker_display_page_object.cpp.o[0m
+[230.772s] [ 89%] [32mBuilding CXX object CMakeFiles/map_display_visual_test.dir/test/rviz_default_plugins/page_objects/marker_display_page_object.cpp.o[0m
+[231.948s] [ 89%] [32m[1mLinking CXX executable odometry_display_visual_test[0m
+[232.326s] [ 90%] [32mBuilding CXX object CMakeFiles/point_cloud2_display_visual_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud2_display_visual_test.cpp.o[0m
+[232.765s] [ 90%] [32m[1mLinking CXX executable marker_display_visual_test[0m
+[232.766s] [ 90%] [32m[1mLinking CXX executable marker_array_display_visual_test[0m
+[233.295s] [ 90%] [32m[1mLinking CXX executable map_display_visual_test[0m
+[233.338s] [ 90%] [32mBuilding CXX object CMakeFiles/point_cloud_display_visual_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_display_visual_test.cpp.o[0m
+[233.822s] [ 90%] Built target odometry_display_visual_test
+[233.837s] [ 90%] [32mBuilding CXX object CMakeFiles/point_display_visual_test.dir/test/rviz_default_plugins/displays/point/point_stamped_display_visual_test.cpp.o[0m
+[233.841s] [ 90%] [32mBuilding CXX object CMakeFiles/path_display_visual_test.dir/test/rviz_default_plugins/displays/path/path_display_visual_test.cpp.o[0m
+[234.858s] [ 90%] [32mBuilding CXX object CMakeFiles/pose_array_display_visual_test.dir/test/rviz_default_plugins/displays/pose_array/pose_array_display_visual_test.cpp.o[0m
+[234.934s] [ 90%] Built target marker_array_display_visual_test
+[234.955s] [ 90%] [32mBuilding CXX object CMakeFiles/pose_display_visual_test.dir/test/rviz_default_plugins/displays/pose/pose_display_visual_test.cpp.o[0m
+[235.034s] [ 90%] Built target marker_display_visual_test
+[235.051s] [ 90%] [32mBuilding CXX object CMakeFiles/pose_with_covariance_display_visual_test.dir/test/rviz_default_plugins/displays/pose_covariance/pose_with_covariance_display_visual_test.cpp.o[0m
+[235.461s] [ 90%] Built target map_display_visual_test
+[235.468s] [ 91%] [32mBuilding CXX object CMakeFiles/pose_with_covariance_display_visual_test.dir/test/rviz_default_plugins/page_objects/pose_with_covariance_display_page_object.cpp.o[0m
+[238.469s] [ 92%] [32mBuilding CXX object CMakeFiles/path_display_visual_test.dir/test/rviz_default_plugins/page_objects/path_display_page_object.cpp.o[0m
+[243.246s] [ 92%] [32m[1mLinking CXX executable point_cloud2_display_visual_test[0m
+[244.242s] [ 92%] [32mBuilding CXX object CMakeFiles/point_display_visual_test.dir/test/rviz_default_plugins/page_objects/point_display_page_object.cpp.o[0m
+[244.357s] [ 93%] [32m[1mLinking CXX executable point_cloud_display_visual_test[0m
+[244.618s] [ 93%] [32mBuilding CXX object CMakeFiles/pose_display_visual_test.dir/test/rviz_default_plugins/page_objects/pose_display_page_object.cpp.o[0m
+[245.095s] [ 93%] [32m[1mLinking CXX executable path_display_visual_test[0m
+[245.877s] [ 93%] [32mBuilding CXX object CMakeFiles/pose_array_display_visual_test.dir/test/rviz_default_plugins/page_objects/pose_array_display_page_object.cpp.o[0m
+[246.557s] [ 93%] [32m[1mLinking CXX executable pose_with_covariance_display_visual_test[0m
+[246.763s] [ 93%] Built target point_cloud2_display_visual_test
+[247.472s] [ 93%] Built target point_cloud_display_visual_test
+[247.545s] [ 93%] Built target path_display_visual_test
+[247.972s] [ 93%] [32m[1mLinking CXX executable point_display_visual_test[0m
+[248.122s] [ 93%] [32m[1mLinking CXX executable pose_display_visual_test[0m
+[248.412s] [ 93%] Built target pose_with_covariance_display_visual_test
+[248.763s] [ 93%] [32mBuilding CXX object CMakeFiles/pose_array_display_visual_test.dir/test/rviz_default_plugins/page_objects/pose_display_page_object.cpp.o[0m
+[249.726s] [ 93%] Built target point_display_visual_test
+[249.863s] [ 93%] Built target pose_display_visual_test
+[250.976s] [ 94%] [32m[1mLinking CXX executable pose_array_display_visual_test[0m
+[252.417s] [ 94%] Built target pose_array_display_visual_test
+[252.434s] [ 95%] [32mBuilding CXX object CMakeFiles/wrench_display_visual_test.dir/test/rviz_default_plugins/displays/wrench/wrench_stamped_display_visual_test.cpp.o[0m
+[252.434s] [ 95%] [32mBuilding CXX object CMakeFiles/robot_model_display_visual_test.dir/test/rviz_default_plugins/displays/robot_model/robot_model_display_visual_test.cpp.o[0m
+[252.434s] [ 95%] [32mBuilding CXX object CMakeFiles/wrench_display_visual_test.dir/test/rviz_default_plugins/page_objects/wrench_display_page_object.cpp.o[0m
+[252.434s] [ 96%] [32mBuilding CXX object CMakeFiles/tf_display_visual_test.dir/test/rviz_default_plugins/page_objects/tf_display_page_object.cpp.o[0m
+[252.434s] [ 97%] [32mBuilding CXX object CMakeFiles/temperature_display_visual_test.dir/test/rviz_default_plugins/displays/temperature/temperature_display_visual_test.cpp.o[0m
+[252.435s] [ 97%] [32mBuilding CXX object CMakeFiles/tf_display_visual_test.dir/test/rviz_default_plugins/displays/tf/tf_display_visual_test.cpp.o[0m
+[255.306s] [ 97%] [32mBuilding CXX object CMakeFiles/robot_model_display_visual_test.dir/test/rviz_default_plugins/page_objects/robot_model_display_page_object.cpp.o[0m
+[259.876s] [ 98%] [32m[1mLinking CXX executable robot_model_display_visual_test[0m
+[259.928s] [ 98%] [32m[1mLinking CXX executable tf_display_visual_test[0m
+[260.357s] [ 98%] [32m[1mLinking CXX executable wrench_display_visual_test[0m
+[260.433s] [ 98%] [32m[1mLinking CXX executable temperature_display_visual_test[0m
+[261.921s] [ 98%] Built target tf_display_visual_test
+[261.923s] [ 98%] Built target robot_model_display_visual_test
+[261.936s] [ 99%] [32mBuilding CXX object CMakeFiles/relative_humidity_display_visual_test.dir/test/rviz_default_plugins/displays/relative_humidity/relative_humidity_display_visual_test.cpp.o[0m
+[261.937s] [ 99%] [32mBuilding CXX object CMakeFiles/range_display_visual_test.dir/test/rviz_default_plugins/displays/range/range_display_visual_test.cpp.o[0m
+[261.937s] [ 99%] [32mBuilding CXX object CMakeFiles/range_display_visual_test.dir/test/rviz_default_plugins/page_objects/range_display_page_object.cpp.o[0m
+[262.448s] [ 99%] Built target wrench_display_visual_test
+[262.871s] [ 99%] Built target temperature_display_visual_test
+[268.765s] [100%] [32m[1mLinking CXX executable range_display_visual_test[0m
+[268.765s] [100%] [32m[1mLinking CXX executable relative_humidity_display_visual_test[0m
+[270.519s] [100%] Built target range_display_visual_test
+[271.062s] [100%] Built target relative_humidity_display_visual_test
+[271.075s] Invoked command in '/home/rinav/ros2_ws/build/rviz_default_plugins' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/rinav/ros2_ws/install/moveit_ros_control_interface/lib:/home/rinav/ros2_ws/install/moveit_simple_controller_manager/lib:/home/rinav/ros2_ws/install/moveit_ros_planning/lib:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rinav/ros2_ws/install/moveit_planners_chomp/lib:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/rinav/ros2_ws/install/chomp_motion_planner/lib:/home/rinav/ros2_ws/install/moveit_core/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rviz_marker_tools/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_default_plugins -- -j8 -l8
+[271.078s] Invoking command in '/home/rinav/ros2_ws/build/rviz_default_plugins': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/rinav/ros2_ws/install/moveit_ros_control_interface/lib:/home/rinav/ros2_ws/install/moveit_simple_controller_manager/lib:/home/rinav/ros2_ws/install/moveit_ros_planning/lib:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rinav/ros2_ws/install/moveit_planners_chomp/lib:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/rinav/ros2_ws/install/chomp_motion_planner/lib:/home/rinav/ros2_ws/install/moveit_core/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rviz_marker_tools/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_default_plugins
+[271.083s] -- Install configuration: ""
+[271.083s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/plugins_description.xml
+[271.084s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/library_path.sh
+[271.084s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/library_path.dsv
+[271.084s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/lib/librviz_default_plugins.so
+[271.200s] -- Set runtime path of "/home/rinav/ros2_ws/install/rviz_default_plugins/lib/librviz_default_plugins.so" to ""
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/visibility_control.hpp
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose_array
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose_array/flat_arrows_array.hpp
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose_array/pose_array_display.hpp
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/shape_marker.hpp
+[271.200s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/marker_selection_handler.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/text_view_facing_marker.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/points_marker.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/line_strip_marker.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/marker_base.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/line_marker_base.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/line_list_marker.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/marker_factory.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/arrow_marker.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/mesh_resource_marker.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/triangle_list_marker.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/marker_common.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/marker_display.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image/ros_image_texture.hpp
+[271.201s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image/image_display.hpp
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image/image_transport_display.hpp
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image/get_transport_from_topic.hpp
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image/ros_image_texture_iface.hpp
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/laser_scan
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/laser_scan/laser_scan_display.hpp
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/path
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/path/path_display.hpp
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/accel
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/accel/accel_display.hpp
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/twist
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/twist/twist_display.hpp
+[271.202s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/illuminance
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/illuminance/illuminance_display.hpp
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/wrench
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/wrench/wrench_display.hpp
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/camera
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/camera/camera_display.hpp
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/grid_cells
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/grid_cells/grid_cells_display.hpp
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/depth_cloud
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/depth_cloud/depth_cloud_display.hpp
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/fluid_pressure
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/fluid_pressure/fluid_pressure_display.hpp
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/polygon
+[271.203s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/polygon/polygon_display.hpp
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/screw
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/screw/screw_display.hpp
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose_covariance
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose_covariance/pose_with_covariance_display.hpp
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/axes
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/axes/axes_display.hpp
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/point
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/point/point_stamped_display.hpp
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/temperature
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/temperature/temperature_display.hpp
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose/pose_display.hpp
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose/pose_display_selection_handler.hpp
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/robot_model
+[271.204s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/robot_model/robot_model_display.hpp
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/tf
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/tf/frame_selection_handler.hpp
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/tf/tf_display.hpp
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/tf/frame_info.hpp
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/odometry
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/odometry/odometry_display.hpp
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/map
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/map/palette_builder.hpp
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/map/map_display.hpp
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/map/swatch.hpp
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/range
+[271.205s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/range/range_display.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/effort
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/effort/effort_display.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/grid
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/grid/grid_display.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers/interactive_marker_namespace_property.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers/interactive_marker_display.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers/integer_action.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers/interactive_marker_control.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers/interactive_marker.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker_array
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker_array/marker_array_display.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud2_display.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_to_point_cloud2.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_scalar_display.hpp
+[271.206s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_display.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_transformer_factory.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_selection_handler.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/axis_color_pc_transformer.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/flat_color_pc_transformer.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/xyz_pc_transformer.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/rgbf32_pc_transformer.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/rgb8_pc_transformer.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/intensity_pc_transformer.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_helpers.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_common.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_transformer.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/relative_humidity
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/relative_humidity/relative_humidity_display.hpp
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools
+[271.207s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/move
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/move/move_tool.hpp
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/goal_pose
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/goal_pose/goal_tool.hpp
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/measure
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/measure/measure_tool.hpp
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/point
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/point/point_tool.hpp
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/pose_estimate
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/pose_estimate/initial_pose_tool.hpp
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/pose
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/pose/pose_tool.hpp
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/select
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/select/selection_tool.hpp
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/focus
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/focus/focus_tool.hpp
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/interaction
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/interaction/interaction_tool.hpp
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers
+[271.208s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/orbit
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/orbit/orbit_view_controller.hpp
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/frame
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/frame/frame_view_controller.hpp
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/follower
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/follower/third_person_follower_view_controller.hpp
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/ortho
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/ortho/fixed_orientation_ortho_view_controller.hpp
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/xy_orbit
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/xy_orbit/xy_orbit_view_controller.hpp
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/fps
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/fps/fps_view_controller.hpp
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/robot_joint.hpp
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/link_updater.hpp
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/robot_element_base_class.hpp
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/tf_link_updater.hpp
+[271.209s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/robot_link.hpp
+[271.210s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/robot.hpp
+[271.210s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/transformation
+[271.210s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/transformation/transformer_guard.hpp
+[271.210s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/transformation/tf_frame_transformer.hpp
+[271.210s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/transformation/tf_wrapper.hpp
+[271.210s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons
+[271.210s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes
+[271.210s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PoseArray.png
+[271.211s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Temperature.png
+[271.211s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotLinkNoGeom.png
+[271.212s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotLink.png
+[271.212s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PointCloud.png
+[271.212s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Illuminance.png
+[271.213s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/LaserScan.png
+[271.213s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Wrench.png
+[271.213s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PoseWithCovariance.png
+[271.213s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Pose.png
+[271.213s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotJoint.png
+[271.213s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Odometry.png
+[271.214s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Grid.png
+[271.214s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/SetGoal.png
+[271.214s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Camera.png
+[271.215s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Select.png
+[271.215s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Map.png
+[271.215s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Path.png
+[271.215s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/AccelStamped.png
+[271.215s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/DepthCloud.png
+[271.216s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/TF.png
+[271.216s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PointStamped.png
+[271.216s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Effort.png
+[271.216s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PointCloud2.png
+[271.216s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Axes.png
+[271.217s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Interact.png
+[271.217s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Range.png
+[271.217s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/TwistStamped.png
+[271.217s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/MarkerArray.png
+[271.217s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RelativeHumidity.png
+[271.217s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/SetInitialPose.png
+[271.218s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotModel.png
+[271.218s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Image.png
+[271.218s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/FluidPressure.png
+[271.218s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/InteractiveMarkers.png
+[271.218s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Measure.svg
+[271.218s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src
+[271.219s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/RobotModel.xcf
+[271.219s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Arrow.xcf
+[271.219s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Poly.xcf
+[271.220s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/TF.xcf
+[271.220s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/MarkerArray.xcf
+[271.220s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Map.xcf
+[271.220s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Axes.xcf
+[271.220s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Polygon.xcf
+[271.221s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/PoseArray.xcf
+[271.221s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Range.xcf
+[271.221s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/InteractiveMarker.xcf
+[271.221s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/GridCells.xcf
+[271.221s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/GridCells.png
+[271.221s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/MoveCamera.png
+[271.221s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Marker.png
+[271.221s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PublishPoint.svg
+[271.222s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/FocusCamera.svg
+[271.222s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Polygon.png
+[271.222s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/visibility.svg
+[271.222s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes
+[271.222s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/pr2-base.dae
+[271.223s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/base_normals.png
+[271.225s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/base_color.png
+[271.227s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/test.urdf
+[271.227s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/pr2-base_large.dae
+[271.229s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/ament_index/resource_index/package_run_dependencies/rviz_default_plugins
+[271.229s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/ament_index/resource_index/parent_prefix_path/rviz_default_plugins
+[271.230s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/ament_prefix_path.sh
+[271.230s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/ament_prefix_path.dsv
+[271.230s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/path.sh
+[271.230s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/path.dsv
+[271.230s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.bash
+[271.230s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.sh
+[271.230s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.zsh
+[271.230s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.dsv
+[271.230s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/package.dsv
+[271.230s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/ament_index/resource_index/packages/rviz_default_plugins
+[271.231s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_default_plugins
+[271.231s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsExport.cmake
+[271.231s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsExport-noconfig.cmake
+[271.231s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_plugins-extras.cmake
+[271.231s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[271.231s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[271.231s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[271.231s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsConfig.cmake
+[271.231s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsConfig-version.cmake
+[271.232s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/package.xml
+[271.235s] Invoked command in '/home/rinav/ros2_ws/build/rviz_default_plugins' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/opt/ros/humble:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/rinav/ros2_ws/install/moveit_ros_control_interface/lib:/home/rinav/ros2_ws/install/moveit_simple_controller_manager/lib:/home/rinav/ros2_ws/install/moveit_ros_planning/lib:/home/rinav/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/rinav/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rinav/ros2_ws/install/moveit_planners_chomp/lib:/home/rinav/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/rinav/ros2_ws/install/chomp_motion_planner/lib:/home/rinav/ros2_ws/install/moveit_core/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rviz_marker_tools/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_default_plugins

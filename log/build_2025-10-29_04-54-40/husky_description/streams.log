@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/rinav/ros2_ws/build/husky_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/husky/husky_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/husky_description
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.226s] -- Detecting C compiler ABI info - done
+[0.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.231s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.234s] -- Detecting CXX compiler ABI info
+[0.277s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.375s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.414s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.442s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.526s] -- Configuring done
+[0.528s] -- Generating done
+[0.528s] -- Build files have been written to: /home/rinav/ros2_ws/build/husky_description
+[0.533s] Invoked command in '/home/rinav/ros2_ws/build/husky_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/husky/husky_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/husky_description
+[0.534s] Invoking command in '/home/rinav/ros2_ws/build/husky_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_description -- -j8 -l8
+[0.551s] Invoked command in '/home/rinav/ros2_ws/build/husky_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_description -- -j8 -l8
+[0.556s] Invoking command in '/home/rinav/ros2_ws/build/husky_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_description
+[0.559s] -- Install configuration: ""
+[0.560s] -- Execute custom install script
+[0.560s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/launch/description.launch
+[0.563s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/launch/description_launch.py
+[0.567s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/accessories/300_mm_sensor_arch.dae
+[0.571s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/accessories/300_mm_sensor_arch.stl
+[0.575s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/accessories/510_mm_sensor_arch.dae
+[0.579s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/accessories/510_mm_sensor_arch.stl
+[0.583s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/accessories/lidar_mount.stl
+[0.586s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/accessories/lms1xx_mount.dae
+[0.590s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/accessories/lms1xx_mount.stl
+[0.594s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/base_link.dae
+[0.598s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/base_link.stl
+[0.601s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/bumper.dae
+[0.606s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/bumper_extension.dae
+[0.609s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/large_top_plate.dae
+[0.613s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/large_top_plate_collision.stl
+[0.617s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/top_chassis.dae
+[0.621s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/top_chassis.stl
+[0.625s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/top_plate.dae
+[0.629s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/top_plate.stl
+[0.633s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/user_rail.dae
+[0.636s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/user_rail.stl
+[0.640s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/wheel.dae
+[0.644s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/meshes/wheel.stl
+[0.648s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/urdf/accessories/intel_realsense.urdf.xacro
+[0.652s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/urdf/accessories/sensor_arch.urdf.xacro
+[0.657s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/urdf/accessories/sick_lms1xx_mount.urdf.xacro
+[0.661s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/urdf/decorations.urdf.xacro
+[0.665s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/urdf/empty.urdf
+[0.668s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/urdf/husky.urdf.xacro
+[0.672s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/urdf/husky_macro.urdf.xacro
+[0.675s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/urdf/wheel.urdf.xacro
+[0.679s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/ament_index/resource_index/package_run_dependencies/husky_description
+[0.683s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/ament_index/resource_index/parent_prefix_path/husky_description
+[0.686s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/environment/ament_prefix_path.sh
+[0.690s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/environment/ament_prefix_path.dsv
+[0.694s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/environment/path.sh
+[0.698s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/environment/path.dsv
+[0.702s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/local_setup.bash
+[0.706s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/local_setup.sh
+[0.709s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/local_setup.zsh
+[0.713s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/local_setup.dsv
+[0.717s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/package.dsv
+[0.721s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/ament_index/resource_index/packages/husky_description
+[0.725s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.729s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/cmake/husky_descriptionConfig.cmake
+[0.733s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/cmake/husky_descriptionConfig-version.cmake
+[0.737s] -- Symlinking: /home/rinav/ros2_ws/install/husky_description/share/husky_description/package.xml
+[0.743s] Invoked command in '/home/rinav/ros2_ws/build/husky_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_description
