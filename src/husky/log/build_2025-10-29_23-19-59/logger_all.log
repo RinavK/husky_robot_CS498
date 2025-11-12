@@ -1,0 +1,237 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'husky_gazebo']
+[0.071s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['husky_gazebo'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbdada740>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbdd2b4c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbdd2b4c0>>)
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.190s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rinav/ros2_ws/src/husky'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky_base) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky_base) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky_base) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky_base) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky_base) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky_base) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky_base) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky_base) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky_base) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_base' with type 'ros.ament_cmake' and name 'husky_base'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(husky_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(husky_bringup) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(husky_bringup) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(husky_bringup) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(husky_bringup) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(husky_bringup) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(husky_bringup) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky_bringup) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky_bringup) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_bringup' with type 'ros.ament_cmake' and name 'husky_bringup'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky_control) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky_control) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky_control) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky_control) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky_control) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky_control) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky_control) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky_control) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky_control) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_control' with type 'ros.ament_cmake' and name 'husky_control'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(husky_description) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(husky_description) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(husky_description) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(husky_description) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(husky_description) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(husky_description) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(husky_description) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(husky_description) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(husky_description) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_description' with type 'ros.ament_cmake' and name 'husky_description'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_desktop) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_desktop) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_desktop) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_desktop) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_desktop) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_desktop) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_desktop) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_desktop) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_desktop' with type 'ros.ament_cmake' and name 'husky_desktop'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_gazebo) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_gazebo) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_gazebo) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_gazebo) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_gazebo) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(husky_gazebo) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_gazebo) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_gazebo) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_gazebo' with type 'ros.ament_cmake' and name 'husky_gazebo'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_msgs) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_msgs) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_msgs) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_msgs) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_msgs) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_msgs) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_msgs) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(husky_msgs) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_msgs' with type 'ros.ament_cmake' and name 'husky_msgs'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_navigation) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_navigation) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_robot) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_robot) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_robot) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_robot) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_robot) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_robot) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_robot) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_robot) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_robot' with type 'ros.ament_cmake' and name 'husky_robot'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(husky_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_simulator) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_simulator) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_simulator) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_simulator) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_simulator) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_simulator) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_simulator) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_simulator) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_simulator' with type 'ros.ament_cmake' and name 'husky_simulator'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_viz) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_viz) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_viz) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_viz) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_viz) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_viz) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_viz) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(husky_viz) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_viz' with type 'ros.ament_cmake' and name 'husky_viz'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.229s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_description' in 'husky_description'
+[0.229s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_msgs' in 'husky_msgs'
+[0.229s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_base' in 'husky_base'
+[0.229s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_control' in 'husky_control'
+[0.229s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_viz' in 'husky_viz'
+[0.229s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_bringup' in 'husky_bringup'
+[0.229s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_desktop' in 'husky_desktop'
+[0.229s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_robot' in 'husky_robot'
+[0.229s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_simulator' in 'husky_simulator'
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.231s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/rinav/ros2_ws/src/husky/install
+[0.232s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 25 installed packages in /home/rinav/ros2_ws/install
+[0.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 447 installed packages in /opt/ros/humble
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.275s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'husky_gazebo' is in: /home/rinav/ros2_ws/src/husky/install/husky_gazebo, /home/rinav/ros2_ws/install/husky_gazebo
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding husky_gazebo
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'husky_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rinav/ros2_ws/src/husky/build/husky_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rinav/ros2_ws/src/husky/install/husky_gazebo', 'merge_install': False, 'path': '/home/rinav/ros2_ws/src/husky/husky_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.276s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.277s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.277s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rinav/ros2_ws/src/husky/husky_gazebo' with build type 'ament_cmake'
+[0.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rinav/ros2_ws/src/husky/husky_gazebo'
+[0.279s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_gazebo': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/src/husky/install/husky_desktop:/home/rinav/ros2_ws/src/husky/install/husky_viz:/home/rinav/ros2_ws/src/husky/install/husky_simulator:/home/rinav/ros2_ws/src/husky/install/husky_robot:/home/rinav/ros2_ws/src/husky/install/husky_bringup:/home/rinav/ros2_ws/src/husky/install/husky_base:/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/src/husky/build/husky_gazebo -- -j8 -l8
+[0.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/src/husky/install/husky_desktop:/home/rinav/ros2_ws/src/husky/install/husky_viz:/home/rinav/ros2_ws/src/husky/install/husky_simulator:/home/rinav/ros2_ws/src/husky/install/husky_robot:/home/rinav/ros2_ws/src/husky/install/husky_bringup:/home/rinav/ros2_ws/src/husky/install/husky_base:/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/src/husky/build/husky_gazebo -- -j8 -l8
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_gazebo': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/src/husky/install/husky_desktop:/home/rinav/ros2_ws/src/husky/install/husky_viz:/home/rinav/ros2_ws/src/husky/install/husky_simulator:/home/rinav/ros2_ws/src/husky/install/husky_robot:/home/rinav/ros2_ws/src/husky/install/husky_bringup:/home/rinav/ros2_ws/src/husky/install/husky_base:/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/src/husky/build/husky_gazebo
+[0.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_gazebo)
+[0.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/src/husky/install/husky_desktop:/home/rinav/ros2_ws/src/husky/install/husky_viz:/home/rinav/ros2_ws/src/husky/install/husky_simulator:/home/rinav/ros2_ws/src/husky/install/husky_robot:/home/rinav/ros2_ws/src/husky/install/husky_bringup:/home/rinav/ros2_ws/src/husky/install/husky_base:/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/py_srvcli:/home/rinav/ros2_ws/install/py_pubsub:/home/rinav/ros2_ws/install/mobile_robotics:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/src/husky/build/husky_gazebo
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo' for CMake module files
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo' for CMake config files
+[0.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_gazebo', 'cmake_prefix_path')
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.ps1'
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.sh'
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/bin'
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/lib/pkgconfig/husky_gazebo.pc'
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/lib/python3.10/site-packages'
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/bin'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/package.ps1'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/package.dsv'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/package.sh'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/package.bash'
+[0.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/package.zsh'
+[0.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/colcon-core/packages/husky_gazebo)
+[0.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_gazebo)
+[0.337s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo' for CMake module files
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo' for CMake config files
+[0.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_gazebo', 'cmake_prefix_path')
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.ps1'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.dsv'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.sh'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/bin'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/lib/pkgconfig/husky_gazebo.pc'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/lib/python3.10/site-packages'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/bin'
+[0.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/package.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/package.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/package.sh'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/package.bash'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/husky_gazebo/package.zsh'
+[0.340s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rinav/ros2_ws/src/husky/install/husky_gazebo/share/colcon-core/packages/husky_gazebo)
+[0.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.341s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.345s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.345s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.345s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.349s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.349s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rinav/ros2_ws/src/husky/install/local_setup.ps1'
+[0.350s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rinav/ros2_ws/src/husky/install/_local_setup_util_ps1.py'
+[0.351s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rinav/ros2_ws/src/husky/install/setup.ps1'
+[0.353s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rinav/ros2_ws/src/husky/install/local_setup.sh'
+[0.353s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rinav/ros2_ws/src/husky/install/_local_setup_util_sh.py'
+[0.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rinav/ros2_ws/src/husky/install/setup.sh'
+[0.355s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rinav/ros2_ws/src/husky/install/local_setup.bash'
+[0.355s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rinav/ros2_ws/src/husky/install/setup.bash'
+[0.357s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rinav/ros2_ws/src/husky/install/local_setup.zsh'
+[0.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rinav/ros2_ws/src/husky/install/setup.zsh'

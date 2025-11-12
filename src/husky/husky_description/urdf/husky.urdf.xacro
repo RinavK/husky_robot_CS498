@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="husky">
+  <!-- robot name parameter -->
+  <xacro:arg name="prefix" default="" />
+  <xacro:arg name="gazebo_controllers" default="$(find husky_control)/config/control.yaml" />
+  <xacro:include filename="$(find husky_description)/urdf/husky_macro.urdf.xacro" />
+  
+  <!-- Load husky description -->
+  <xacro:husky prefix="$(arg prefix)" />
+  
+  <!-- Simulation-specific plugins -->
+  <xacro:if value="$(arg is_sim)">
+    <!-- Ignition Gazebo ros2_control plugin -->
+    <gazebo>
+      <plugin filename="libign_ros2_control-system.so" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+        <parameters>$(arg gazebo_controllers)</parameters>
+      </plugin>
+    </gazebo>
+    
+    <!-- IMU Sensor -->
+    <gazebo reference="$(arg prefix)imu_link">
+      <sensor name="$(arg prefix)imu_sensor" type="imu">
+        <always_on>true</always_on>
+        <update_rate>100</update_rate>
+        <visualize>true</visualize>
+        <topic>$(arg prefix)imu/data_raw</topic>
+        <plugin filename="libignition-gazebo-imu-system.so" name="ignition::gazebo::systems::Imu">
+        </plugin>
+      </sensor>
+    </gazebo>
+    
+    <!-- GPS Sensor -->
+    <gazebo reference="$(arg prefix)gps_link">
+      <sensor name="$(arg prefix)gps_sensor" type="navsat">
+        <always_on>true</always_on>
+        <update_rate>10</update_rate>
+        <topic>$(arg prefix)gps/data</topic>
+        <plugin filename="libignition-gazebo-navsat-system.so" name="ignition::gazebo::systems::NavSat">
+        </plugin>
+      </sensor>
+    </gazebo>
+  </xacro:if>
+  
+  <!-- Optional custom includes. -->
+  <xacro:include filename="$(arg urdf_extras)" />
+</robot>

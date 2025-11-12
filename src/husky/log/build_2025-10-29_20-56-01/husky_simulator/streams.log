@@ -1,0 +1,39 @@
+[0.006s] Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_simulator': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/husky/husky_simulator -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/src/husky/install/husky_simulator
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.075s] -- The CXX compiler identification is GNU 11.4.0
+[0.080s] -- Detecting C compiler ABI info
+[0.117s] -- Detecting C compiler ABI info - done
+[0.123s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.123s] -- Detecting C compile features
+[0.123s] -- Detecting C compile features - done
+[0.125s] -- Detecting CXX compiler ABI info
+[0.169s] -- Detecting CXX compiler ABI info - done
+[0.174s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.174s] -- Detecting CXX compile features
+[0.175s] -- Detecting CXX compile features - done
+[0.177s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.262s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.362s] -- Configuring done
+[0.363s] -- Generating done
+[0.365s] -- Build files have been written to: /home/rinav/ros2_ws/src/husky/build/husky_simulator
+[0.368s] Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_simulator' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/husky/husky_simulator -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/src/husky/install/husky_simulator
+[0.369s] Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_simulator': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/src/husky/build/husky_simulator -- -j8 -l8
+[0.418s] Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_simulator' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/src/husky/build/husky_simulator -- -j8 -l8
+[0.419s] Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_simulator': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/src/husky/build/husky_simulator
+[0.426s] -- Install configuration: ""
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/ament_index/resource_index/package_run_dependencies/husky_simulator
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/ament_index/resource_index/parent_prefix_path/husky_simulator
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/environment/ament_prefix_path.sh
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/environment/ament_prefix_path.dsv
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/environment/path.sh
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/environment/path.dsv
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/local_setup.bash
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/local_setup.sh
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/local_setup.zsh
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/local_setup.dsv
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/package.dsv
+[0.426s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/ament_index/resource_index/packages/husky_simulator
+[0.427s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/cmake/husky_simulatorConfig.cmake
+[0.427s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/cmake/husky_simulatorConfig-version.cmake
+[0.427s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_simulator/share/husky_simulator/package.xml
+[0.427s] Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_simulator' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_gazebo:/home/rinav/ros2_ws/src/husky/install/husky_control:/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/src/husky/build/husky_simulator

@@ -1,0 +1,96 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 10
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    husky_velocity_controller:
+      type: diff_drive_controller/DiffDriveController
+    ur_joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+husky_velocity_controller:
+  ros__parameters:
+    left_wheel_names: ["front_left_wheel_joint", "rear_left_wheel_joint"]
+    right_wheel_names: ["front_right_wheel_joint", "rear_right_wheel_joint"]
+    wheel_separation: 0.512
+    wheels_per_side: 1
+    wheel_radius: 0.1651
+    wheel_separation_multiplier: 1.0
+    left_wheel_radius_multiplier: 1.0
+    right_wheel_radius_multiplier: 1.0
+    publish_rate: 50.0
+    odom_frame_id: odom
+    base_frame_id: base_link
+    pose_covariance_diagonal: [0.001, 0.001, 0.001, 0.001, 0.001, 0.01]
+    twist_covariance_diagonal: [0.001, 0.001, 0.001, 0.001, 0.001, 0.01]
+    open_loop: false
+    enable_odom_tf: false
+    cmd_vel_timeout: 0.5
+    #publish_limited_velocity: true
+    use_stamped_vel: false
+    #velocity_rolling_window_size: 10
+    # Preserve turning radius when limiting speed/acceleration/jerk
+    preserve_turning_radius: true
+    publish_cmd: true
+    publish_wheel_data: true
+    linear.x.has_velocity_limits: true
+    linear.x.has_acceleration_limits: true
+    linear.x.has_jerk_limits: false
+    linear.x.max_velocity: 1.0
+    linear.x.min_velocity: -1.0
+    linear.x.max_acceleration: 1.0
+    linear.x.max_jerk: 0.0
+    linear.x.min_jerk: 0.0
+    angular.z.has_velocity_limits: true
+    angular.z.has_acceleration_limits: true
+    angular.z.has_jerk_limits: false
+    angular.z.max_velocity: 1.0
+    angular.z.min_velocity: -1.0
+    angular.z.max_acceleration: 1.0
+    angular.z.min_acceleration: -1.0
+    angular.z.max_jerk: 0.0
+    angular.z.min_jerk: 0.0
+
+# UR3 arm controller
+ur_joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - ur_shoulder_pan_joint
+      - ur_shoulder_lift_joint
+      - ur_elbow_joint
+      - ur_wrist_1_joint
+      - ur_wrist_2_joint
+      - ur_wrist_3_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 100.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.0
+
+# Gripper controller
+gripper_controller:
+  ros__parameters:
+    joints:
+      - rh_p12_rn
+      - rh_r2
+      - rh_l1
+      - rh_l2
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 100.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.0

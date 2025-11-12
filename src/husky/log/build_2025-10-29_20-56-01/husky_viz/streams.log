@@ -1,0 +1,48 @@
+[0.007s] Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_viz': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/husky/husky_viz -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/src/husky/install/husky_viz
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.185s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.191s] -- Detecting CXX compile features
+[0.191s] -- Detecting CXX compile features - done
+[0.193s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.286s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.382s] -- Configuring done
+[0.384s] -- Generating done
+[0.385s] -- Build files have been written to: /home/rinav/ros2_ws/src/husky/build/husky_viz
+[0.388s] Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_viz' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/husky/husky_viz -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/src/husky/install/husky_viz
+[0.388s] Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_viz': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/src/husky/build/husky_viz -- -j8 -l8
+[0.415s] Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_viz' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/src/husky/build/husky_viz -- -j8 -l8
+[0.416s] Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_viz': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/src/husky/build/husky_viz
+[0.419s] -- Install configuration: ""
+[0.419s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/launch
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/launch/view_model.launch
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/launch/view_robot_launch.py
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/launch/view_model_launch.py
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/launch/view_robot.launch
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/rviz
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/rviz/test.rviz
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/rviz/model.rviz
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/rviz/robot.rviz
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/ament_index/resource_index/package_run_dependencies/husky_viz
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/ament_index/resource_index/parent_prefix_path/husky_viz
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/environment/ament_prefix_path.sh
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/environment/ament_prefix_path.dsv
+[0.420s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/environment/path.sh
+[0.421s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/environment/path.dsv
+[0.421s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/local_setup.bash
+[0.421s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/local_setup.sh
+[0.421s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/local_setup.zsh
+[0.421s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/local_setup.dsv
+[0.421s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/package.dsv
+[0.421s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/ament_index/resource_index/packages/husky_viz
+[0.421s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/cmake/husky_vizConfig.cmake
+[0.421s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/cmake/husky_vizConfig-version.cmake
+[0.421s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_viz/share/husky_viz/package.xml
+[0.422s] Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_viz' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_description:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/src/husky/build/husky_viz

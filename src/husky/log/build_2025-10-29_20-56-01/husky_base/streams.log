@@ -1,0 +1,106 @@
+[0.006s] Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_base': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rinav/ros2_ws/src/husky/husky_base -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/src/husky/install/husky_base
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.087s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.139s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.206s] -- Detecting CXX compiler ABI info - done
+[0.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.206s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.285s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.347s] -- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.386s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.392s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.401s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.597s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.600s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.620s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.650s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.652s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.663s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.665s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.670s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.686s] -- Looking for pthread.h
+[0.726s] -- Looking for pthread.h - found
+[0.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.771s] -- Found Threads: TRUE  
+[0.808s] -- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.836s] -- Found husky_msgs: 1.0.8 (/home/rinav/ros2_ws/src/husky/install/husky_msgs/share/husky_msgs/cmake)
+[0.848s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.862s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.870s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.874s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.952s] -- Configuring done
+[0.962s] -- Generating done
+[0.966s] -- Build files have been written to: /home/rinav/ros2_ws/src/husky/build/husky_base
+[0.972s] Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_base' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rinav/ros2_ws/src/husky/husky_base -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/src/husky/install/husky_base
+[0.973s] Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_base': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rinav/ros2_ws/src/husky/build/husky_base -- -j8 -l8
+[1.000s] [ 16%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/husky_hardware.cpp.o[0m
+[1.000s] [ 16%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy_wrapper.cpp.o[0m
+[1.000s] [ 33%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Logger.cpp.o[0m
+[1.000s] [ 33%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/crc.cpp.o[0m
+[1.001s] [ 50%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message.cpp.o[0m
+[1.001s] [ 50%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message_cmd.cpp.o[0m
+[1.004s] [ 58%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message_data.cpp.o[0m
+[1.005s] [ 66%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message_request.cpp.o[0m
+[1.054s] [ 75%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Transport.cpp.o[0m
+[1.205s] [ 83%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Number.cpp.o[0m
+[1.209s] [ 91%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/linux_serial.cpp.o[0m
+[2.932s] [100%] [32m[1mLinking CXX shared library libhusky_hardware.so[0m
+[3.033s] [100%] Built target husky_hardware
+[3.039s] Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_base' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rinav/ros2_ws/src/husky/build/husky_base -- -j8 -l8
+[3.040s] Invoking command in '/home/rinav/ros2_ws/src/husky/build/husky_base': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rinav/ros2_ws/src/husky/build/husky_base
+[3.043s] -- Install configuration: ""
+[3.043s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/husky_hardware.xml
+[3.043s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/lib/libhusky_hardware.so
+[3.044s] -- Set runtime path of "/home/rinav/ros2_ws/src/husky/install/husky_base/lib/libhusky_hardware.so" to ""
+[3.044s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include
+[3.044s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base
+[3.044s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy
+[3.044s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/Message_data.h
+[3.044s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/Message.h
+[3.044s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/crc.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/Message_request.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/Logger.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/clearpath.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/serial.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/Exception.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/Message_cmd.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/Number.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy/Transport.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/husky_hardware.hpp
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/horizon_legacy_wrapper.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/include/husky_base/husky_diagnostics.h
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/launch
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/launch/base.launch.py
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/environment/library_path.sh
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/environment/library_path.dsv
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/ament_index/resource_index/package_run_dependencies/husky_base
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/ament_index/resource_index/parent_prefix_path/husky_base
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/environment/ament_prefix_path.sh
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/environment/ament_prefix_path.dsv
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/environment/path.sh
+[3.045s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/environment/path.dsv
+[3.046s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/local_setup.bash
+[3.046s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/local_setup.sh
+[3.046s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/local_setup.zsh
+[3.046s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/local_setup.dsv
+[3.046s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/package.dsv
+[3.046s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/ament_index/resource_index/packages/husky_base
+[3.046s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/husky_base
+[3.046s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.046s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/cmake/ament_cmake_export_libraries-extras.cmake
+[3.049s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.049s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/cmake/husky_baseConfig.cmake
+[3.050s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/cmake/husky_baseConfig-version.cmake
+[3.050s] -- Installing: /home/rinav/ros2_ws/src/husky/install/husky_base/share/husky_base/package.xml
+[3.050s] Invoked command in '/home/rinav/ros2_ws/src/husky/build/husky_base' returned '0': AMENT_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rinav/ros2_ws/src/husky/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rinav/ros2_ws/src/husky/build/husky_base

@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="husky_ur3">
+  
+  <!-- Arguments -->
+  <xacro:arg name="prefix" default="" />
+  <xacro:arg name="ur_type" default="ur3" />
+  <xacro:arg name="gazebo_controllers" default="$(find husky_control)/config/control.yaml" />
+  <xacro:arg name="is_sim" default="false" />
+  <xacro:arg name="urdf_extras" default="$(optenv CPR_URDF_EXTRAS empty.urdf)" />
+  
+  <!-- Include Husky -->
+  <xacro:include filename="$(find husky_description)/urdf/husky_macro.urdf.xacro" />
+  <xacro:husky prefix="$(arg prefix)" />
+  
+  <!-- Include UR arm -->
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+
+  <!-- Include the gripper -->
+  <xacro:include filename="$(find husky_description)/urdf/rh_p12_rn_gripper.xacro"/>
+  
+  <!-- Mount link for the UR arm -->
+  <link name="ur_mount_link">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.05"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.05"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+    </inertial>
+  </link>
+  
+  <!-- Mount the UR arm base on top of Husky -->
+  <joint name="ur_mount_joint" type="fixed">
+    <parent link="top_plate_link"/>
+    <child link="ur_mount_link"/>
+    <origin xyz="0.0 0.0 -0.01" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Attach UR3 arm to mount -->
+  <xacro:ur_robot
+    name="$(arg ur_type)"
+    tf_prefix="ur_"
+    parent="ur_mount_link"
+    joint_limits_parameters_file="$(find ur_description)/config/$(arg ur_type)/joint_limits.yaml"
+    kinematics_parameters_file="$(find ur_description)/config/$(arg ur_type)/default_kinematics.yaml"
+    physical_parameters_file="$(find ur_description)/config/$(arg ur_type)/physical_parameters.yaml"
+    visual_parameters_file="$(find ur_description)/config/$(arg ur_type)/visual_parameters.yaml"
+    transmission_hw_interface="hardware_interface/PositionJointInterface">
+    <origin xyz="0 0 0.0" rpy="0 0 0"/>
+  </xacro:ur_robot>
+
+  <!-- Attach gripper to UR3 tool0 -->
+  <joint name="gripper_mount_joint" type="fixed">
+    <parent link="ur_tool0"/>
+    <child link = "rh_p12_rn_base" />
+         <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- ros2_control for UR3 in simulation -->
+  <ros2_control name="ur_hardware" type="system">
+    <hardware>
+      <xacro:if value="$(arg is_sim)">
+        <plugin>ign_ros2_control/IgnitionSystem</plugin>
+      </xacro:if>
+      <xacro:unless value="$(arg is_sim)">
+        <plugin>ur_robot_driver/URPositionHardwareInterface</plugin>
+        <param name="robot_ip">192.168.56.101</param>
+      </xacro:unless>
+    </hardware>
+    
+    <joint name="ur_shoulder_pan_joint">
+      <command_interface name="position">
+        <param name="min">-6.28</param>
+        <param name="max">6.28</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    
+    <joint name="ur_shoulder_lift_joint">
+      <command_interface name="position">
+        <param name="min">-6.28</param>
+        <param name="max">6.28</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    
+    <joint name="ur_elbow_joint">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    
+    <joint name="ur_wrist_1_joint">
+      <command_interface name="position">
+        <param name="min">-6.28</param>
+        <param name="max">6.28</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    
+    <joint name="ur_wrist_2_joint">
+      <command_interface name="position">
+        <param name="min">-6.28</param>
+        <param name="max">6.28</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    
+    <joint name="ur_wrist_3_joint">
+      <command_interface name="position">
+        <param name="min">-6.28</param>
+        <param name="max">6.28</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="rh_p12_rn">
+      <command_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface   name="position"/>
+    </joint>
+    <joint name="rh_r2">
+      <command_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface   name="position"/>
+    </joint>
+    <joint name="rh_l1">
+      <command_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface   name="position"/>
+    </joint>
+    <joint name="rh_l2">
+      <command_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface   name="position"/>
+    </joint>
+  </ros2_control>
+
+  <!-- ros2_control for Robotis Gripper
+  <ros2_control name="robotis_gripper_hardware" type="system">
+    <hardware>
+      <xacro:if value="$(arg is_sim)">
+        <plugin>ign_ros2_control/IgnitionSystem</plugin>
+      </xacro:if>
+      <xacro:unless value="$(arg is_sim)">
+        <plugin>robotis_hardware_interface/RobotisPositionHardwareInterface</plugin>
+      </xacro:unless>
+    </hardware>
+    
+    <joint name="robotis_left_finger_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">0.04</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control> -->
+
+  <!-- Simulation plugins -->
+  <xacro:if value="$(arg is_sim)">
+    <gazebo>
+      <plugin filename="libign_ros2_control-system.so" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+        <parameters>$(arg gazebo_controllers)</parameters>
+      </plugin>
+    </gazebo>
+    
+      <!-- Load sensor systems first -->
+    <gazebo>
+      <plugin filename="libignition-gazebo-imu-system.so" name="ignition::gazebo::systems::Imu"/>
+      <plugin filename="libignition-gazebo-navsat-system.so" name="ignition::gazebo::systems::NavSat"/>
+    </gazebo>
+
+    <!-- IMU Sensor Configuration -->
+    <gazebo reference="imu_link">
+      <sensor name="imu_sensor" type="imu">
+        <always_on>true</always_on>
+        <update_rate>100</update_rate>
+        <visualize>true</visualize>
+        <topic>/imu/data</topic>
+        <ignition_frame_id>imu_link</ignition_frame_id>
+      </sensor>
+    </gazebo>
+    
+    <!-- GPS Sensor Configuration -->
+    <gazebo reference="gps_link">
+      <sensor name="gps_sensor" type="navsat">
+        <always_on>true</always_on>
+        <update_rate>10</update_rate>
+        <topic>/gps/data</topic>
+        <ignition_frame_id>gps_link</ignition_frame_id>
+      </sensor>
+    </gazebo>
+
+    <!-- Gripper Gazebo properties -->
+    <gazebo reference="robotis_left_finger_link">
+      <material>Gazebo/Grey</material>
+      <mu1>1.0</mu1>
+      <mu2>1.0</mu2>
+    </gazebo>
+    
+    <gazebo reference="robotis_right_finger_link">
+      <material>Gazebo/Grey</material>
+      <mu1>1.0</mu1>
+      <mu2>1.0</mu2>
+    </gazebo>
+  </xacro:if>
+  
+  <!-- Optional custom includes -->
+  <xacro:include filename="$(arg urdf_extras)" />
+  
+</robot>
