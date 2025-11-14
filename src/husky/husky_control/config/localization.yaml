@@ -3,6 +3,7 @@ ekf_node:
     odom_frame: odom
     base_link_frame: base_link
     world_frame: odom
+    map_frame: map
 
     two_d_mode: true
 
@@ -23,7 +24,31 @@ ekf_node:
                   true, true, true,
                   false, false, false,
                   true, true, true,
-                  false, false, false]
+                  true, true, false]
     imu0_differential: true
     imu0_queue_size: 10
     imu0_remove_gravitational_acceleration: true
+
+    # GPS
+    odom1: gps/data
+    odom1_config: [true, true, false,
+                  false, false, false,
+                  false, false, false,
+                  false, false, false,
+                  false, false, false]
+    odom1_queue_size: 5
+    odom1_differential: false
+
+navsat_transform:
+  ros__parameters:
+    use_sim_time: true
+    frequency: 10.0
+    delay: 3.0
+    magnetic_declination_radians: 0.093084220955  # For lat/long of Atlanta, Georgia
+    yaw_offset: 0.0  # if IMU reads 0 when facing magnetic north instead of east then set parameter to pi/2
+    zero_altitude: true
+    broadcast_utm_transform: true
+    broadcast_utm_transform_as_parent_frame: true
+    publish_filtered_gps: true
+    use_odometry_yaw: false
+    wait_for_datum: true

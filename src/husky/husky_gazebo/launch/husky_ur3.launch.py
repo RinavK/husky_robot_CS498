@@ -23,6 +23,7 @@ def generate_launch_description():
     # Set resource paths for meshes
     pkg_husky_description = get_package_share_directory('husky_description')
     pkg_ur_description = get_package_share_directory('ur_description')
+    robot_localization_file_path = os.path.join(get_package_share_directory('husky_navigation'), 'config/ekf.yaml') 
     
     ign_resource_path = SetEnvironmentVariable(
         name='IGN_GAZEBO_RESOURCE_PATH',
@@ -103,6 +104,15 @@ def generate_launch_description():
             '-z', '0.5',
         ],
         output='screen',
+    )
+
+    start_robot_localization_cmd = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
+        output='screen',
+        parameters=[robot_localization_file_path, 
+        {'use_sim_time': use_sim_time}]
     )
 
     # Bridge for clock
@@ -213,13 +223,14 @@ def generate_launch_description():
     ld.add_action(node_robot_state_publisher)
     ld.add_action(spawn_robot)
     ld.add_action(clock_bridge)
-    ld.add_action(imu_bridge)
     ld.add_action(gps_bridge)
+    ld.add_action(imu_bridge)
     ld.add_action(laser_bridge)
     ld.add_action(spawn_joint_state_broadcaster)
     ld.add_action(joint_state_callback)
     ld.add_action(husky_velocity_callback)
     ld.add_action(ur_controller_callback)
+    # ld.add_action(start_robot_localization_cmd)
     ld.add_action(launch_husky_control)
     ld.add_action(launch_husky_teleop_base)
 

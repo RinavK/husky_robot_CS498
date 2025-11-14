@@ -1,32 +1,20 @@
 <?xml version="1.0"?>
-<package>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>husky_navigation</name>
-  <version>1.0.4</version>
-  <description>Autonomous mapping and navigation demos for the Clearpath Husky</description>
+  <version>3.0.0</version>
+  <description>A basic mobile robot that uses the ROS 2 Navigation Stack Nav2</description>
+  <maintainer email="automaticaddison@automaticaddison.todo">automaticaddison</maintainer>
+  <license>MIT License</license>
 
-  <author email="pmukherj@clearpathrobotics.com">Prasenjit Mukherjee</author>
-  <author email="paul@bovbel.com">Paul Bovbel</author>
-
-  <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>
-
-  <license>BSD</license>
-
-  <url type="website">http://ros.org/wiki/husky_navigation</url>
-  <url type="bugtracker">https://github.com/husky/husky/issues</url>
-  <url type="repository">https://github.com/husky/husky</url>
-
-  <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>roslaunch</build_depend>
-  <run_depend>amcl</run_depend>
-  <!-- Disabling till package is released -->
-  <!-- <run_depend>frontier_exploration</run_depend> -->
-  <run_depend>gmapping</run_depend>
-  <run_depend>map_server</run_depend>
-  <run_depend>move_base</run_depend>
-  <run_depend>navfn</run_depend>
-  <run_depend>base_local_planner</run_depend>
-  <run_depend>dwa_local_planner</run_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_localization</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>xacro</exec_depend>
 
   <export>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>

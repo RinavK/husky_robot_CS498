@@ -39,7 +39,6 @@ gnome-terminal --tab --title="Controllers" -- bash -c "
     source /opt/ros/humble/setup.bash && \
     sleep 3 && \
     ros2 param set /move_group use_sim_time True && \
-    ros2 run controller_manager spawner gripper_controller -c /controller_manager && \
     ros2 run topic_tools relay /husky_velocity_controller/odom /odom; \
     exec bash"
 
