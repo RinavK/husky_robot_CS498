@@ -15,6 +15,15 @@
     <group name="gripper">
         <chain base_link="rh_p12_rn_base" tip_link="rh_p12_rn_r2"/>
     </group>
+    <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
+    <group_state name="init" group="arm">
+        <joint name="ur_elbow_joint" value="1.753"/>
+        <joint name="ur_shoulder_lift_joint" value="-1.7704"/>
+        <joint name="ur_shoulder_pan_joint" value="0.0347"/>
+        <joint name="ur_wrist_1_joint" value="-0.0347"/>
+        <joint name="ur_wrist_2_joint" value="1.7009"/>
+        <joint name="ur_wrist_3_joint" value="0"/>
+    </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="dih" parent_link="ur_tool0" group="gripper" parent_group="arm"/>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
@@ -35,14 +44,12 @@
     <disable_collisions link1="front_left_wheel" link2="ur_base_link_inertia" reason="Never"/>
     <disable_collisions link1="front_left_wheel" link2="ur_mount_link" reason="Never"/>
     <disable_collisions link1="front_left_wheel" link2="ur_shoulder_link" reason="Never"/>
-    <disable_collisions link1="front_left_wheel" link2="ur_upper_arm_link" reason="Never"/>
     <disable_collisions link1="front_right_wheel" link2="rear_left_wheel" reason="Never"/>
     <disable_collisions link1="front_right_wheel" link2="rear_right_wheel" reason="Never"/>
     <disable_collisions link1="front_right_wheel" link2="top_plate_link" reason="Never"/>
     <disable_collisions link1="front_right_wheel" link2="ur_base_link_inertia" reason="Never"/>
     <disable_collisions link1="front_right_wheel" link2="ur_mount_link" reason="Never"/>
     <disable_collisions link1="front_right_wheel" link2="ur_shoulder_link" reason="Never"/>
-    <disable_collisions link1="front_right_wheel" link2="ur_upper_arm_link" reason="Never"/>
     <disable_collisions link1="rear_left_wheel" link2="rear_right_wheel" reason="Never"/>
     <disable_collisions link1="rear_left_wheel" link2="top_plate_link" reason="Never"/>
     <disable_collisions link1="rear_left_wheel" link2="ur_base_link_inertia" reason="Never"/>
@@ -76,7 +83,7 @@
     <disable_collisions link1="rh_p12_rn_r2" link2="ur_wrist_1_link" reason="Never"/>
     <disable_collisions link1="rh_p12_rn_r2" link2="ur_wrist_2_link" reason="Never"/>
     <disable_collisions link1="rh_p12_rn_r2" link2="ur_wrist_3_link" reason="Never"/>
-    <disable_collisions link1="top_plate_link" link2="ur_base_link_inertia" reason="Never"/>
+    <disable_collisions link1="top_plate_link" link2="ur_base_link_inertia" reason="Default"/>
     <disable_collisions link1="top_plate_link" link2="ur_mount_link" reason="Adjacent"/>
     <disable_collisions link1="top_plate_link" link2="ur_shoulder_link" reason="Never"/>
     <disable_collisions link1="ur_base_link_inertia" link2="ur_mount_link" reason="Adjacent"/>
@@ -85,6 +92,7 @@
     <disable_collisions link1="ur_forearm_link" link2="ur_wrist_1_link" reason="Adjacent"/>
     <disable_collisions link1="ur_forearm_link" link2="ur_wrist_2_link" reason="Never"/>
     <disable_collisions link1="ur_mount_link" link2="ur_shoulder_link" reason="Never"/>
+    <disable_collisions link1="ur_mount_link" link2="ur_upper_arm_link" reason="Never"/>
     <disable_collisions link1="ur_shoulder_link" link2="ur_upper_arm_link" reason="Adjacent"/>
     <disable_collisions link1="ur_shoulder_link" link2="ur_wrist_1_link" reason="Never"/>
     <disable_collisions link1="ur_shoulder_link" link2="ur_wrist_2_link" reason="Never"/>

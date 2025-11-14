@@ -1,0 +1,315 @@
+[0.012s] Invoking command in '/home/rinav/ros2_ws/build/rviz_default_plugins': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/gz_ws/install:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/home/rinav/gz_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_default_plugins -- -j8 -l8
+[0.056s] [  1%] Built target pointcloud_messages
+[0.057s] [  1%] Built target gmock_main
+[0.057s] [  2%] Built target gmock
+[0.057s] [  4%] Built target gtest_main
+[0.057s] [  4%] Built target gtest
+[0.058s] [  5%] Built target point_cloud_common_page_object
+[0.079s] [  6%] Built target display_test_fixture
+[0.083s] [  7%] Built target depth_cloud_display_visual_test
+[0.083s] [  8%] Built target effort_display_visual_test
+[0.083s] [  9%] Built target twist_display_visual_test
+[0.083s] [  9%] Built target accel_display_visual_test
+[0.250s] [ 61%] Built target rviz_default_plugins
+[0.271s] [ 63%] Built target fps_view_controller_test
+[0.272s] [ 63%] Built target get_transport_from_topic_test
+[0.272s] [ 64%] Built target frame_view_controller_test
+[0.272s] [ 64%] Built target image_display_test
+[0.272s] [ 65%] Built target grid_cells_display_test
+[0.273s] [ 66%] Built target marker_common_test
+[0.274s] [ 66%] Built target frame_info_test
+[0.288s] [ 67%] Built target odometry_ogre_helper_test
+[0.290s] [ 70%] Built target marker_test
+[0.292s] [ 70%] Built target measure_tool_test
+[0.293s] [ 71%] Built target odometry_display_test
+[0.294s] [ 72%] Built target ortho_view_controller_test
+[0.294s] [ 72%] Built target map_display_test
+[0.294s] [ 73%] Built target palette_builder_test
+[0.295s] [ 74%] Built target orbit_view_controller_test
+[0.315s] [ 74%] Built target path_display_test
+[0.318s] [ 75%] Built target pose_array_display_test
+[0.319s] [ 75%] Built target point_cloud_common_test
+[0.319s] [ 75%] Built target point_cloud_scalar_display_test
+[0.319s] [ 77%] Built target point_cloud_transformers_test
+[0.322s] [ 77%] Built target point_cloud2_display_test
+[0.323s] [ 78%] Built target point_display_test
+[0.338s] [ 79%] Built target pose_tool_test
+[0.342s] [ 79%] Built target range_display_test
+[0.343s] [ 79%] Built target selection_tool_test
+[0.344s] [ 80%] Built target ros_image_texture_test
+[0.344s] [ 81%] Built target xy_orbit_view_controller_test
+[0.345s] [ 82%] Built target frame_transformer_tf_test
+[0.347s] [ 82%] Built target robot_test
+[0.349s] [ 82%] Built target transformer_guard_test
+[0.364s] [ 83%] Built target axes_display_visual_test
+[0.368s] [ 84%] Built target camera_display_visual_test
+[0.369s] [ 85%] Built target interactive_marker_namespace_property_test
+[0.370s] [ 85%] Built target illuminance_display_visual_test
+[0.371s] [ 85%] Built target fluid_pressure_display_visual_test
+[0.375s] [ 86%] Built target grid_cells_display_visual_test
+[0.375s] [ 86%] Built target image_display_visual_test
+[0.376s] [ 86%] Built target grid_display_visual_test
+[0.388s] [ 86%] Built target laser_scan_display_visual_test
+[0.396s] [ 87%] Built target map_display_visual_test
+[0.396s] [ 88%] Built target marker_array_display_visual_test
+[0.399s] [ 89%] Built target marker_display_visual_test
+[0.400s] [ 89%] Built target odometry_display_visual_test
+[0.400s] [ 90%] Built target point_cloud_display_visual_test
+[0.404s] [ 91%] Built target path_display_visual_test
+[0.405s] [ 91%] Built target point_display_visual_test
+[0.415s] [ 92%] Built target point_cloud2_display_visual_test
+[0.423s] [ 92%] Built target pose_display_visual_test
+[0.426s] [ 93%] Built target pose_array_display_visual_test
+[0.426s] [ 94%] Built target range_display_visual_test
+[0.426s] [ 95%] Built target relative_humidity_display_visual_test
+[0.426s] [ 96%] Built target pose_with_covariance_display_visual_test
+[0.431s] [ 97%] Built target temperature_display_visual_test
+[0.432s] [ 98%] Built target robot_model_display_visual_test
+[0.442s] [ 99%] Built target tf_display_visual_test
+[0.448s] [100%] Built target wrench_display_visual_test
+[0.456s] Invoked command in '/home/rinav/ros2_ws/build/rviz_default_plugins' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/gz_ws/install:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/home/rinav/gz_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_default_plugins -- -j8 -l8
+[0.458s] Invoking command in '/home/rinav/ros2_ws/build/rviz_default_plugins': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/gz_ws/install:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/home/rinav/gz_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_default_plugins
+[0.462s] -- Install configuration: ""
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/plugins_description.xml
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/library_path.sh
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/library_path.dsv
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/lib/librviz_default_plugins.so
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/visibility_control.hpp
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose_array
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose_array/flat_arrows_array.hpp
+[0.462s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose_array/pose_array_display.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/shape_marker.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/marker_selection_handler.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/text_view_facing_marker.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/points_marker.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/line_strip_marker.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/marker_base.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/line_marker_base.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/line_list_marker.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/marker_factory.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/arrow_marker.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/mesh_resource_marker.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/markers/triangle_list_marker.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/marker_common.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker/marker_display.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image/ros_image_texture.hpp
+[0.463s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image/image_display.hpp
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image/image_transport_display.hpp
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image/get_transport_from_topic.hpp
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/image/ros_image_texture_iface.hpp
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/laser_scan
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/laser_scan/laser_scan_display.hpp
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/path
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/path/path_display.hpp
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/accel
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/accel/accel_display.hpp
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/twist
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/twist/twist_display.hpp
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/illuminance
+[0.464s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/illuminance/illuminance_display.hpp
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/wrench
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/wrench/wrench_display.hpp
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/camera
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/camera/camera_display.hpp
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/grid_cells
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/grid_cells/grid_cells_display.hpp
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/depth_cloud
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/depth_cloud/depth_cloud_display.hpp
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/fluid_pressure
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/fluid_pressure/fluid_pressure_display.hpp
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/polygon
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/polygon/polygon_display.hpp
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/screw
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/screw/screw_display.hpp
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose_covariance
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose_covariance/pose_with_covariance_display.hpp
+[0.465s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/axes
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/axes/axes_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/point
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/point/point_stamped_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/temperature
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/temperature/temperature_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose/pose_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pose/pose_display_selection_handler.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/robot_model
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/robot_model/robot_model_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/tf
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/tf/frame_selection_handler.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/tf/tf_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/tf/frame_info.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/odometry
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/odometry/odometry_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/map
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/map/palette_builder.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/map/map_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/map/swatch.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/range
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/range/range_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/effort
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/effort/effort_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/grid
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/grid/grid_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers/interactive_marker_namespace_property.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers/interactive_marker_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers/integer_action.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers/interactive_marker_control.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/interactive_markers/interactive_marker.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker_array
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/marker_array/marker_array_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud2_display.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_to_point_cloud2.hpp
+[0.466s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_scalar_display.hpp
+[0.467s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_display.hpp
+[0.467s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_transformer_factory.hpp
+[0.467s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_selection_handler.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/axis_color_pc_transformer.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/flat_color_pc_transformer.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/xyz_pc_transformer.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/rgbf32_pc_transformer.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/rgb8_pc_transformer.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/transformers/intensity_pc_transformer.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_helpers.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_common.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/pointcloud/point_cloud_transformer.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/relative_humidity
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/displays/relative_humidity/relative_humidity_display.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/move
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/move/move_tool.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/goal_pose
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/goal_pose/goal_tool.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/measure
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/measure/measure_tool.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/point
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/point/point_tool.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/pose_estimate
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/pose_estimate/initial_pose_tool.hpp
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/pose
+[0.468s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/pose/pose_tool.hpp
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/select
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/select/selection_tool.hpp
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/focus
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/focus/focus_tool.hpp
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/interaction
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/tools/interaction/interaction_tool.hpp
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/orbit
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/orbit/orbit_view_controller.hpp
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/frame
+[0.469s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/frame/frame_view_controller.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/follower
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/follower/third_person_follower_view_controller.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/ortho
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/ortho/fixed_orientation_ortho_view_controller.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/xy_orbit
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/xy_orbit/xy_orbit_view_controller.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/fps
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/view_controllers/fps/fps_view_controller.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/robot_joint.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/link_updater.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/robot_element_base_class.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/tf_link_updater.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/robot_link.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/robot/robot.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/transformation
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/transformation/transformer_guard.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/transformation/tf_frame_transformer.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/include/rviz_default_plugins/rviz_default_plugins/transformation/tf_wrapper.hpp
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes
+[0.470s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PoseArray.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Temperature.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotLinkNoGeom.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotLink.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PointCloud.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Illuminance.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/LaserScan.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Wrench.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PoseWithCovariance.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Pose.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotJoint.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Odometry.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Grid.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/SetGoal.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Camera.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Select.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Map.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Path.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/AccelStamped.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/DepthCloud.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/TF.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PointStamped.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Effort.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PointCloud2.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Axes.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Interact.png
+[0.471s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Range.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/TwistStamped.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/MarkerArray.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RelativeHumidity.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/SetInitialPose.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotModel.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Image.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/FluidPressure.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/InteractiveMarkers.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Measure.svg
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/RobotModel.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Arrow.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Poly.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/TF.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/MarkerArray.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Map.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Axes.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Polygon.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/PoseArray.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Range.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/InteractiveMarker.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/GridCells.xcf
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/GridCells.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/MoveCamera.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Marker.png
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PublishPoint.svg
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/FocusCamera.svg
+[0.472s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Polygon.png
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/icons/visibility.svg
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/pr2-base.dae
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/base_normals.png
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/base_color.png
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/test.urdf
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/pr2-base_large.dae
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/ament_index/resource_index/package_run_dependencies/rviz_default_plugins
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/ament_index/resource_index/parent_prefix_path/rviz_default_plugins
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/ament_prefix_path.sh
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/ament_prefix_path.dsv
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/path.sh
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/environment/path.dsv
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.bash
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.sh
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.zsh
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.dsv
+[0.473s] -- Installing: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/package.dsv
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/ament_index/resource_index/packages/rviz_default_plugins
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_default_plugins
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsExport.cmake
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsExport-noconfig.cmake
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_plugins-extras.cmake
+[0.473s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.474s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[0.474s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.474s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsConfig.cmake
+[0.474s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsConfig-version.cmake
+[0.474s] -- Up-to-date: /home/rinav/ros2_ws/install/rviz_default_plugins/share/rviz_default_plugins/package.xml
+[0.474s] Invoked command in '/home/rinav/ros2_ws/build/rviz_default_plugins' returned '0': CMAKE_PREFIX_PATH=/home/rinav/ros2_ws/install/rviz_visual_testing_framework:/home/rinav/ros2_ws/install/rviz_rendering_tests:/home/rinav/ros2_ws/install/rviz_common:/home/rinav/ros2_ws/install/rviz_rendering:/home/rinav/ros2_ws/install/rviz_ogre_vendor:/home/rinav/ros2_ws/install/rviz_assimp_vendor:/home/rinav/ros2_ws/install/ur:/home/rinav/ros2_ws/install/ur_calibration:/home/rinav/ros2_ws/install/ur_robot_driver:/home/rinav/ros2_ws/install/ur_moveit_config:/home/rinav/ros2_ws/install/ur_bringup:/home/rinav/ros2_ws/install/ur_description:/home/rinav/ros2_ws/install/ur_controllers:/home/rinav/ros2_ws/install/ur_dashboard_msgs:/home/rinav/ros2_ws/install/turtlesim:/home/rinav/ros2_ws/install/srdfdom:/home/rinav/ros2_ws/install/husky_desktop:/home/rinav/ros2_ws/install/husky_viz:/home/rinav/ros2_ws/install/husky_ur3_moveit_config:/home/rinav/ros2_ws/install/rviz2:/home/rinav/ros2_ws/install/rviz_default_plugins:/home/rinav/ros2_ws/install/rosparam_shortcuts:/home/rinav/ros2_ws/install/robotis_manipulator:/home/rinav/ros2_ws/install/husky_ur3_ignition:/home/rinav/ros2_ws/install/husky_simulator:/home/rinav/ros2_ws/install/husky_robot:/home/rinav/ros2_ws/install/husky_bringup:/home/rinav/ros2_ws/install/husky_base:/home/rinav/ros2_ws/install/husky_msgs:/home/rinav/ros2_ws/install/husky_gazebo:/home/rinav/ros2_ws/install/husky_control:/home/rinav/ros2_ws/install/husky_description:/home/rinav/ros2_ws/src/rviz/install:/home/rinav/gz_ws/install:/home/rinav/ros2_ws/install/trial_package:/home/rinav/ros2_ws/install/mobile_robotics:/home/rinav/ros2_ws/install/launch_param_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/rinav/ros2_ws/install/rviz_common/lib:/home/rinav/ros2_ws/install/rviz_rendering/lib:/home/rinav/ros2_ws/install/ur_robot_driver/lib:/home/rinav/ros2_ws/install/ur_controllers/lib:/home/rinav/ros2_ws/install/ur_dashboard_msgs/lib:/home/rinav/ros2_ws/install/turtlesim/lib:/home/rinav/ros2_ws/install/srdfdom/lib:/home/rinav/ros2_ws/install/rviz_default_plugins/lib:/home/rinav/ros2_ws/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/install/rosparam_shortcuts/lib:/home/rinav/ros2_ws/install/robotis_manipulator/lib:/home/rinav/ros2_ws/install/husky_base/lib:/home/rinav/ros2_ws/install/husky_msgs/lib:/home/rinav/ros2_ws/src/rviz/install/opt/rviz_ogre_vendor/lib:/home/rinav/ros2_ws/src/rviz/install/lib:/home/rinav/gz_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_default_plugins

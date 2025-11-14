@@ -22,7 +22,7 @@
   <xacro:include filename="$(find husky_description)/urdf/wheel.urdf.xacro" />
 
   <xacro:include filename="$(find husky_description)/urdf/accessories/intel_realsense.urdf.xacro"/>
-  <!-- <xacro:include filename="$(find husky_description)/urdf/accessories/sick_lms1xx_mount.urdf.xacro"/> -->
+  <xacro:include filename="$(find husky_description)/urdf/accessories/sick_tim571.urdf.xacro"/>
   <xacro:include filename="$(find husky_description)/urdf/accessories/sensor_arch.urdf.xacro"/>
 
   <xacro:property name="M_PI" value="3.14159"/>
@@ -107,6 +107,9 @@
       <child link="${prefix}gps_link" />
     </joint>
 
+    <xacro:sensor_sick_tim571 prefix="front_laser" parent="top_plate_link" prefix_topic="front_laser">
+      <origin xyz="0.35 0.0 0.0" rpy="$(arg laser_rpy)"/>
+    </xacro:sensor_sick_tim571>
 
     <!-- Husky wheel macros -->
     <xacro:husky_wheel wheel_prefix="${prefix}front_left">
@@ -123,20 +126,6 @@
     </xacro:husky_wheel>
 
     <xacro:husky_decorate />
-
-    <!-- <xacro:if value="$(arg laser_enabled)">
-
-      <xacro:sick_lms1xx_mount prefix="base"/>
-
-      <xacro:sick_lms1xx frame="base_laser" topic="scan" robot_namespace="$(arg robot_namespace)"/>
-
-      <joint name="laser_mount_joint" type="fixed">
-        <origin xyz="$(arg laser_xyz)" rpy="$(arg laser_rpy)" />
-        <parent link="top_plate_link" />
-        <child link="base_laser_mount" />
-      </joint>
-
-    </xacro:if> -->
 
     <!--
       top sensor arch; include this if we have realsense enabled

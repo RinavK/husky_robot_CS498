@@ -61,6 +61,8 @@ def generate_launch_description():
             " ",
             "is_sim:=true",
             " ",
+            "laser_enabled:=true",
+            " ",
             "gazebo_controllers:=",
             config_husky_ur3_controller,
         ]
@@ -131,6 +133,14 @@ def generate_launch_description():
         output='screen'
     )
 
+    # Bridge for Laser Scan
+    laser_bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=['/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan'],
+        output='screen'
+    )
+
     # Joint state broadcaster
     spawn_joint_state_broadcaster = Node(
         package='controller_manager',
@@ -145,6 +155,7 @@ def generate_launch_description():
         executable='spawner',
         arguments=['husky_velocity_controller', '-c', '/controller_manager'],
         output='screen',
+        remappings=[('/husky_velocity_controller/odom', '/odom')],
     )
 
     # UR3 arm controller
@@ -152,6 +163,13 @@ def generate_launch_description():
         package='controller_manager',
         executable='spawner',
         arguments=['ur_joint_trajectory_controller', '-c', '/controller_manager'],
+        output='screen',
+    )
+
+    spawn_gripper_controller = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=['gripper_controller', '-c', '/controller_manager'],
         output='screen',
     )
 
@@ -167,6 +185,13 @@ def generate_launch_description():
         event_handler=OnProcessExit(
             target_action=spawn_husky_velocity_controller,
             on_exit=[spawn_ur_controller],
+        )
+    )
+
+    ur_controller_callback = RegisterEventHandler(
+        event_handler=OnProcessExit(
+            target_action=spawn_ur_controller,
+            on_exit=[spawn_gripper_controller],
         )
     )
 
@@ -188,11 +213,13 @@ def generate_launch_description():
     ld.add_action(node_robot_state_publisher)
     ld.add_action(spawn_robot)
     ld.add_action(clock_bridge)
-    ld.add_action(imu_bridge)  # Added IMU bridge
-    ld.add_action(gps_bridge)  # Added GPS bridge
+    ld.add_action(imu_bridge)
+    ld.add_action(gps_bridge)
+    ld.add_action(laser_bridge)
     ld.add_action(spawn_joint_state_broadcaster)
     ld.add_action(joint_state_callback)
     ld.add_action(husky_velocity_callback)
+    ld.add_action(ur_controller_callback)
     ld.add_action(launch_husky_control)
     ld.add_action(launch_husky_teleop_base)
 

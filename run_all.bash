@@ -39,15 +39,16 @@ gnome-terminal --tab --title="Controllers" -- bash -c "
     source /opt/ros/humble/setup.bash && \
     sleep 3 && \
     ros2 param set /move_group use_sim_time True && \
-    ros2 run controller_manager spawner gripper_controller -c /controller_manager; \
+    ros2 run controller_manager spawner gripper_controller -c /controller_manager && \
+    ros2 run topic_tools relay /husky_velocity_controller/odom /odom; \
     exec bash"
 
 gnome-terminal --tab --title="ROSBAG" -- bash -c "
     source /opt/ros/humble/setup.bash && \
-    rm -rf le_bag2 && \
+    rm -rf le_bag3 && \
     sleep 5 && \
     ros2 bag record -a -x "/clock" \
-    -o le_bag2; \
+    -o le_bag3; \
     exec bash"
 
 echo "All terminals launched!"
