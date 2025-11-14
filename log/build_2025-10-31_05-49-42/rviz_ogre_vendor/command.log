@@ -1,4 +1,0 @@
-Invoking command in '/home/rinav/ros2_ws/build/rviz_ogre_vendor': /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_ogre_vendor -- -j8 -l8
-Invoked command in '/home/rinav/ros2_ws/build/rviz_ogre_vendor' returned '0': /usr/bin/cmake --build /home/rinav/ros2_ws/build/rviz_ogre_vendor -- -j8 -l8
-Invoking command in '/home/rinav/ros2_ws/build/rviz_ogre_vendor': /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_ogre_vendor
-Invoked command in '/home/rinav/ros2_ws/build/rviz_ogre_vendor' returned '0': /usr/bin/cmake --install /home/rinav/ros2_ws/build/rviz_ogre_vendor

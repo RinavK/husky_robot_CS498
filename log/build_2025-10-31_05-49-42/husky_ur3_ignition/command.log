@@ -1,4 +1,0 @@
-Invoking command in '/home/rinav/ros2_ws/build/husky_ur3_ignition': /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_ur3_ignition -- -j8 -l8
-Invoked command in '/home/rinav/ros2_ws/build/husky_ur3_ignition' returned '0': /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_ur3_ignition -- -j8 -l8
-Invoking command in '/home/rinav/ros2_ws/build/husky_ur3_ignition': /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_ur3_ignition
-Invoked command in '/home/rinav/ros2_ws/build/husky_ur3_ignition' returned '0': /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_ur3_ignition

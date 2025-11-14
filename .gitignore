@@ -6,3 +6,4 @@ src/launch_param_builder
 src/ros_tutorials
 src/rosparam_shortcuts
 src/srdfdom
+log/

@@ -1,2 +1,0 @@
-Invoking command in '/home/rinav/ros2_ws/build/husky_ur3_moveit_config': /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_ur3_moveit_config -- -j8 -l8
-Invoked command in '/home/rinav/ros2_ws/build/husky_ur3_moveit_config' returned '2': /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_ur3_moveit_config -- -j8 -l8

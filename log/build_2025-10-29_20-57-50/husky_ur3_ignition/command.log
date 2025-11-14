@@ -1,6 +1,0 @@
-Invoking command in '/home/rinav/ros2_ws/build/husky_ur3_ignition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/husky_ur3_ignition -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/husky_ur3_ignition
-Invoked command in '/home/rinav/ros2_ws/build/husky_ur3_ignition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rinav/ros2_ws/src/husky_ur3_ignition -DCMAKE_INSTALL_PREFIX=/home/rinav/ros2_ws/install/husky_ur3_ignition
-Invoking command in '/home/rinav/ros2_ws/build/husky_ur3_ignition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_ur3_ignition -- -j8 -l8
-Invoked command in '/home/rinav/ros2_ws/build/husky_ur3_ignition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rinav/ros2_ws/build/husky_ur3_ignition -- -j8 -l8
-Invoking command in '/home/rinav/ros2_ws/build/husky_ur3_ignition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_ur3_ignition
-Invoked command in '/home/rinav/ros2_ws/build/husky_ur3_ignition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rinav/ros2_ws/build/husky_ur3_ignition
