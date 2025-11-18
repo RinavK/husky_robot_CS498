@@ -7,3 +7,4 @@ src/ros_tutorials
 src/rosparam_shortcuts
 src/srdfdom
 log/
+src/husky/husky_gazebo/meshes/terrain/D*
